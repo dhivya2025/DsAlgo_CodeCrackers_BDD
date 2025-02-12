@@ -1,0 +1,1965 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 52 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Default_suite" class="navigator-link">
+              <span class="suite-name border-failed">Default suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
+                    <span>C:\Users\rinuh\AppData\Local\Temp\testng-eclipse-2030152267\testng-customsuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Default_suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Default_suite" class="navigator-link ">
+                    <span>1 group</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Default_suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Default_suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Default_suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Default_suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">52 methods, 52 failed,   </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods failed suite-Default_suite"> (hide)</a> <!-- hide-methods failed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods failed suite-Default_suite"> (show)</a> <!-- show-methods failed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Default_suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="dsAlgo_TestRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify warning message when selecting Arrays without signing in&quot;, &quot;Home Page&quot;)">runScenario("Verify warning message when selecting Arrays without signing in", "Home Page")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="dsAlgo_TestRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify that user is able to sign out successfully&quot;, &quot;Login Functionality&quot;)">runScenario("Verify that user is able to sign out successfully", "Login Functionality")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="dsAlgo_TestRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify that the user can view Data Structures dropdown options without signing in&quot;, &quot;Home Page&quot;)">runScenario("Verify that the user can view Data Structures dropdown options without signing in", "Home Page")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="dsAlgo_TestRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify warning message when selecting Tree without signing in&quot;, &quot;Home Page&quot;)">runScenario("Verify warning message when selecting Tree without signing in", "Home Page")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="dsAlgo_TestRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify warning message when selecting Graph without signing in&quot;, &quot;Home Page&quot;)">runScenario("Verify warning message when selecting Graph without signing in", "Home Page")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="dsAlgo_TestRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify that the user is able to enter password in the field&quot;, &quot;Register Page&quot;)">runScenario("Verify that the user is able to enter password in the field", "Register Page")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="dsAlgo_TestRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify that the user is able to get an error message when username (with special characters other t...)">runScenario("Verify that the user is able to get an error message when username (with special characters other t...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="dsAlgo_TestRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify that the user is able to get an error message when username (with special characters other t...)">runScenario("Verify that the user is able to get an error message when username (with special characters other t...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="dsAlgo_TestRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify warning message when selecting Linked List without signing in&quot;, &quot;Home Page&quot;)">runScenario("Verify warning message when selecting Linked List without signing in", "Home Page")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="dsAlgo_TestRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify that the user is able to see output for valid, invalid and incorrect syntax Python code is e...)">runScenario("Verify that the user is able to see output for valid, invalid and incorrect syntax Python code is e...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="dsAlgo_TestRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify user enters username and password for SignIn&quot;, &quot;Login Functionality&quot;)">runScenario("Verify user enters username and password for SignIn", "Login Functionality")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="dsAlgo_TestRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify that the user is able to enter password in the field&quot;, &quot;Register Page&quot;)">runScenario("Verify that the user is able to enter password in the field", "Register Page")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="dsAlgo_TestRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify that the user is able to enter username in the username field&quot;, &quot;Register Page&quot;)">runScenario("Verify that the user is able to enter username in the username field", "Register Page")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="dsAlgo_TestRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify that the user is able to get an error message&quot;, &quot;Register Page&quot;)">runScenario("Verify that the user is able to get an error message", "Register Page")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="dsAlgo_TestRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify that the Implement Linked List in Python link is enabled in the Linked List page&quot;, &quot;Linked L...)">runScenario("Verify that the Implement Linked List in Python link is enabled in the Linked List page", "Linked L...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="dsAlgo_TestRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify that the user is able to enter username in the username field&quot;, &quot;Register Page&quot;)">runScenario("Verify that the user is able to enter username in the username field", "Register Page")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="dsAlgo_TestRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify that the Traversal link is enabled in the Linked List page&quot;, &quot;Linked List Functionality&quot;)">runScenario("Verify that the Traversal link is enabled in the Linked List page", "Linked List Functionality")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="dsAlgo_TestRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify warning message when selecting Stack without signing in&quot;, &quot;Home Page&quot;)">runScenario("Verify warning message when selecting Stack without signing in", "Home Page")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="dsAlgo_TestRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify that the user is able to click on Get Started button under Linked List section&quot;, &quot;Linked Lis...)">runScenario("Verify that the user is able to click on Get Started button under Linked List section", "Linked Lis...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="dsAlgo_TestRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify warning message when selecting Queue without signing in&quot;, &quot;Home Page&quot;)">runScenario("Verify warning message when selecting Queue without signing in", "Home Page")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="dsAlgo_TestRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify that the user is able to navigate to the home page&quot;, &quot;Login Functionality&quot;)">runScenario("Verify that the user is able to navigate to the home page", "Login Functionality")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="dsAlgo_TestRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify that the user is able to naviagte to home page with the message&quot;, &quot;Register Page&quot;)">runScenario("Verify that the user is able to naviagte to home page with the message", "Register Page")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="dsAlgo_TestRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify user enters username and password fields&quot;, &quot;Home Page&quot;)">runScenario("Verify user enters username and password fields", "Home Page")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="dsAlgo_TestRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify that the user is able to get an error message&quot;, &quot;Register Page&quot;)">runScenario("Verify that the user is able to get an error message", "Register Page")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="dsAlgo_TestRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify that the user is able to enter username in the username field&quot;, &quot;Register Page&quot;)">runScenario("Verify that the user is able to enter username in the username field", "Register Page")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="dsAlgo_TestRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify that the Types of Linked List link is enabled in the Linked List page&quot;, &quot;Linked List Functio...)">runScenario("Verify that the Types of Linked List link is enabled in the Linked List page", "Linked List Functio...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="dsAlgo_TestRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify that the user is able to enter username in the username field&quot;, &quot;Register Page&quot;)">runScenario("Verify that the user is able to enter username in the username field", "Register Page")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="dsAlgo_TestRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify that the user is able to get an error message&quot;, &quot;Register Page&quot;)">runScenario("Verify that the user is able to get an error message", "Register Page")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="dsAlgo_TestRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify that the Creating Linked List link is enabled in the Linked List page&quot;, &quot;Linked List Functio...)">runScenario("Verify that the Creating Linked List link is enabled in the Linked List page", "Linked List Functio...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="dsAlgo_TestRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify that the user is able to navigate to Try Here &gt;&gt;&gt; page for Introduction page&quot;, &quot;Linked List ...)">runScenario("Verify that the user is able to navigate to Try Here >>> page for Introduction page", "Linked List ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="dsAlgo_TestRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify that the user is able to get a pop-up message when username, password and password confirmat...)">runScenario("Verify that the user is able to get a pop-up message when username, password and password confirmat...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="dsAlgo_TestRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify that the user is able to get a pop-up message when username, password and password confirmat...)">runScenario("Verify that the user is able to get a pop-up message when username, password and password confirmat...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="dsAlgo_TestRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify that the Introduction link is enabled in the Linked List page&quot;, &quot;Linked List Functionality&quot;)">runScenario("Verify that the Introduction link is enabled in the Linked List page", "Linked List Functionality")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="dsAlgo_TestRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify that the user is restricted from navigating to the home page&quot;, &quot;Home Page&quot;)">runScenario("Verify that the user is restricted from navigating to the home page", "Home Page")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="dsAlgo_TestRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify that the user is able to enter password in the field&quot;, &quot;Register Page&quot;)">runScenario("Verify that the user is able to enter password in the field", "Register Page")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="dsAlgo_TestRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify that the user is able to navigate to Introduction page&quot;, &quot;Linked List Functionality&quot;)">runScenario("Verify that the user is able to navigate to Introduction page", "Linked List Functionality")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="dsAlgo_TestRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify that the user stays on the same page when clicking elsewhere&quot;, &quot;Home Page&quot;)">runScenario("Verify that the user stays on the same page when clicking elsewhere", "Home Page")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="dsAlgo_TestRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify user receives error message for Invalid Username and Password during Login&quot;, &quot;Login Function...)">runScenario("Verify user receives error message for Invalid Username and Password during Login", "Login Function...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="dsAlgo_TestRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify that the user is able to see output for valid, invalid and incorrect syntax Python code is e...)">runScenario("Verify that the user is able to see output for valid, invalid and incorrect syntax Python code is e...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="dsAlgo_TestRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify that the user is able to get a pop-up message when username, password and password confirmat...)">runScenario("Verify that the user is able to get a pop-up message when username, password and password confirmat...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="dsAlgo_TestRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify that the Insertion link is enabled in the Linked List page&quot;, &quot;Linked List Functionality&quot;)">runScenario("Verify that the Insertion link is enabled in the Linked List page", "Linked List Functionality")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="dsAlgo_TestRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify user receives error message when username and password fields are blank during Login&quot;, &quot;Logi...)">runScenario("Verify user receives error message when username and password fields are blank during Login", "Logi...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="dsAlgo_TestRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify that the user is able to see output for valid, invalid and incorrect syntax Python code is e...)">runScenario("Verify that the user is able to see output for valid, invalid and incorrect syntax Python code is e...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="dsAlgo_TestRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify user receives error message for Invalid Username and Password during Login&quot;, &quot;Login Function...)">runScenario("Verify user receives error message for Invalid Username and Password during Login", "Login Function...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="dsAlgo_TestRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify user enters username and password for SignIn&quot;, &quot;Linked List Functionality&quot;)">runScenario("Verify user enters username and password for SignIn", "Linked List Functionality")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="dsAlgo_TestRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify user enters username and password fields&quot;, &quot;Login Functionality&quot;)">runScenario("Verify user enters username and password fields", "Login Functionality")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="dsAlgo_TestRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify that the user is able to navigate to the home page&quot;, &quot;Register Page&quot;)">runScenario("Verify that the user is able to navigate to the home page", "Register Page")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="dsAlgo_TestRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify that the user is able to enter password in the field&quot;, &quot;Register Page&quot;)">runScenario("Verify that the user is able to enter password in the field", "Register Page")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="dsAlgo_TestRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify that User is able to launch ds-algo portal&quot;, &quot;Register Page&quot;)">runScenario("Verify that User is able to launch ds-algo portal", "Register Page")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="dsAlgo_TestRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify user receives error message when username and password fields are blank during Login&quot;, &quot;Logi...)">runScenario("Verify user receives error message when username and password fields are blank during Login", "Logi...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="dsAlgo_TestRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify that the Deletion link is enabled in the Linked List page&quot;, &quot;Linked List Functionality&quot;)">runScenario("Verify that the Deletion link is enabled in the Linked List page", "Linked List Functionality")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="dsAlgo_TestRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify that the user is able to navigate to the home page&quot;, &quot;Home Page&quot;)">runScenario("Verify that the user is able to navigate to the home page", "Home Page")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Default_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">dsAlgo_TestRunner.TestRunner</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify warning message when selecting Arrays without signing in&quot;, &quot;Home Page&quot;)">
+                  </a> <!-- runScenario("Verify warning message when selecting Arrays without signing in", "Home Page") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify warning message when selecting Arrays without signing in","Home Page")</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy25.click(Unknown Source)
+	at dsAlgo_PageFactory.Home_PageFactory.arraysBtnClick(Home_PageFactory.java:65)
+	at dsAlgo_StepDefinition.Home.user_selects_arrays_from_the_dropdown_without_signing_in(Home.java:60)
+	at ✽.User selects Arrays from the dropdown without signing in(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/A_Home.feature:13)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify that user is able to sign out successfully&quot;, &quot;Login Functionality&quot;)">
+                  </a> <!-- runScenario("Verify that user is able to sign out successfully", "Login Functionality") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify that user is able to sign out successfully","Login Functionality")</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy25.isDisplayed(Unknown Source)
+	at dsAlgo_PageFactory.Login_PageFactory.signOutBtnDisplayed(Login_PageFactory.java:46)
+	at dsAlgo_StepDefinition.Login.the_user_is_in_the_home_page_after_sign_in(Login.java:98)
+	at ✽.The user is in the Home page after Sign In(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/C_Login.feature:18)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify that the user can view Data Structures dropdown options without signing in&quot;, &quot;Home Page&quot;)">
+                  </a> <!-- runScenario("Verify that the user can view Data Structures dropdown options without signing in", "Home Page") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify that the user can view Data Structures dropdown options without signing in","Home Page")</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy25.click(Unknown Source)
+	at dsAlgo_PageFactory.Home_PageFactory.dataStructureDropDownClick(Home_PageFactory.java:61)
+	at dsAlgo_StepDefinition.Home.user_clicks_on_the_data_structures_dropdown(Home.java:49)
+	at ✽.User clicks on the Data Structures dropdown(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/A_Home.feature:9)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify warning message when selecting Tree without signing in&quot;, &quot;Home Page&quot;)">
+                  </a> <!-- runScenario("Verify warning message when selecting Tree without signing in", "Home Page") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify warning message when selecting Tree without signing in","Home Page")</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy25.click(Unknown Source)
+	at dsAlgo_PageFactory.Home_PageFactory.dataStructureDropDownClick(Home_PageFactory.java:61)
+	at dsAlgo_StepDefinition.Home.user_selects_tree_from_the_dropdown_without_signing_in(Home.java:90)
+	at ✽.User selects Tree from the dropdown without signing in(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/A_Home.feature:29)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify warning message when selecting Graph without signing in&quot;, &quot;Home Page&quot;)">
+                  </a> <!-- runScenario("Verify warning message when selecting Graph without signing in", "Home Page") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify warning message when selecting Graph without signing in","Home Page")</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy25.click(Unknown Source)
+	at dsAlgo_PageFactory.Home_PageFactory.dataStructureDropDownClick(Home_PageFactory.java:61)
+	at dsAlgo_StepDefinition.Home.user_selects_graph_from_the_dropdown_without_signing_in(Home.java:96)
+	at ✽.User selects Graph from the dropdown without signing in(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/A_Home.feature:33)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify that the user is able to enter password in the field&quot;, &quot;Register Page&quot;)">
+                  </a> <!-- runScenario("Verify that the user is able to enter password in the field", "Register Page") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify that the user is able to enter password in the field","Register Page")</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy25.isDisplayed(Unknown Source)
+	at dsAlgo_PageFactory.Register_PageFactory.registerBtnDisplayed(Register_PageFactory.java:37)
+	at dsAlgo_StepDefinition.Register.user_is_in_the_register_page_after_clicking_register_link_in_the_home_page(Register.java:60)
+	at ✽.User is in the Register page after clicking Register link in the home page(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/B_Register.feature:38)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify that the user is able to get an error message when username (with special characters other t...)">
+                  </a> <!-- runScenario("Verify that the user is able to get an error message when username (with special characters other t...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify that the user is able to get an error message when username (with special characters other than @) in the username field in the Register page is entered","Register Page")</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy25.isDisplayed(Unknown Source)
+	at dsAlgo_PageFactory.Register_PageFactory.registerBtnDisplayed(Register_PageFactory.java:37)
+	at dsAlgo_StepDefinition.Register.user_is_in_the_register_page_after_clicking_register_link_in_the_home_page(Register.java:60)
+	at ✽.User is in the Register page after clicking Register link in the home page(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/B_Register.feature:26)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify that the user is able to get an error message when username (with special characters other t...)">
+                  </a> <!-- runScenario("Verify that the user is able to get an error message when username (with special characters other t...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify that the user is able to get an error message when username (with special characters other than @) in the username field in the Register page is entered","Register Page")</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy25.isDisplayed(Unknown Source)
+	at dsAlgo_PageFactory.Register_PageFactory.registerBtnDisplayed(Register_PageFactory.java:37)
+	at dsAlgo_StepDefinition.Register.user_is_in_the_register_page_after_clicking_register_link_in_the_home_page(Register.java:60)
+	at ✽.User is in the Register page after clicking Register link in the home page(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/B_Register.feature:26)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify warning message when selecting Linked List without signing in&quot;, &quot;Home Page&quot;)">
+                  </a> <!-- runScenario("Verify warning message when selecting Linked List without signing in", "Home Page") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify warning message when selecting Linked List without signing in","Home Page")</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy25.click(Unknown Source)
+	at dsAlgo_PageFactory.Home_PageFactory.dataStructureDropDownClick(Home_PageFactory.java:61)
+	at dsAlgo_StepDefinition.Home.user_selects_linked_list_from_the_dropdown_without_signing_in(Home.java:72)
+	at ✽.User selects Linked List from the dropdown without signing in(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/A_Home.feature:17)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify that the user is able to see output for valid, invalid and incorrect syntax Python code is e...)">
+                  </a> <!-- runScenario("Verify that the user is able to see output for valid, invalid and incorrect syntax Python code is e...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify that the user is able to see output for valid, invalid and incorrect syntax Python code is entered for the Introduction page","Linked List Functionality")</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy25.isDisplayed(Unknown Source)
+	at dsAlgo_PageFactory.LinkedList_PageFactory.runBtnDisplayed(LinkedList_PageFactory.java:129)
+	at dsAlgo_StepDefinition.LinkedList.the_user_is_in_the_try_editor_page_for_the_introduction_page(LinkedList.java:172)
+	at ✽.The user is in the Try Editor page for the Introduction page(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/D_LinkedList.feature:56)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify user enters username and password for SignIn&quot;, &quot;Login Functionality&quot;)">
+                  </a> <!-- runScenario("Verify user enters username and password for SignIn", "Login Functionality") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify user enters username and password for SignIn","Login Functionality")</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.get(String)&quot; because &quot;this.driver&quot; is null
+	at dsAlgo_PageFactory.Home_PageFactory.launchURL(Home_PageFactory.java:45)
+	at dsAlgo_StepDefinition.Login.the_user_clicks_the_sign_in_link_from_the_portal(Login.java:118)
+	at ✽.The user clicks the Sign In link from the portal(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/C_Login.feature:42)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify that the user is able to enter password in the field&quot;, &quot;Register Page&quot;)">
+                  </a> <!-- runScenario("Verify that the user is able to enter password in the field", "Register Page") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify that the user is able to enter password in the field","Register Page")</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy25.isDisplayed(Unknown Source)
+	at dsAlgo_PageFactory.Register_PageFactory.registerBtnDisplayed(Register_PageFactory.java:37)
+	at dsAlgo_StepDefinition.Register.user_is_in_the_register_page_after_clicking_register_link_in_the_home_page(Register.java:60)
+	at ✽.User is in the Register page after clicking Register link in the home page(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/B_Register.feature:38)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify that the user is able to enter username in the username field&quot;, &quot;Register Page&quot;)">
+                  </a> <!-- runScenario("Verify that the user is able to enter username in the username field", "Register Page") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify that the user is able to enter username in the username field","Register Page")</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy25.isDisplayed(Unknown Source)
+	at dsAlgo_PageFactory.Register_PageFactory.registerBtnDisplayed(Register_PageFactory.java:37)
+	at dsAlgo_StepDefinition.Register.user_is_in_the_register_page_after_clicking_register_link_in_the_home_page(Register.java:60)
+	at ✽.User is in the Register page after clicking Register link in the home page(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/B_Register.feature:14)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify that the user is able to get an error message&quot;, &quot;Register Page&quot;)">
+                  </a> <!-- runScenario("Verify that the user is able to get an error message", "Register Page") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify that the user is able to get an error message","Register Page")</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy25.isDisplayed(Unknown Source)
+	at dsAlgo_PageFactory.Register_PageFactory.registerBtnDisplayed(Register_PageFactory.java:37)
+	at dsAlgo_StepDefinition.Register.user_is_in_the_register_page_after_clicking_register_link_in_the_home_page(Register.java:60)
+	at ✽.User is in the Register page after clicking Register link in the home page(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/B_Register.feature:50)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify that the Implement Linked List in Python link is enabled in the Linked List page&quot;, &quot;Linked L...)">
+                  </a> <!-- runScenario("Verify that the Implement Linked List in Python link is enabled in the Linked List page", "Linked L...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify that the Implement Linked List in Python link is enabled in the Linked List page","Linked List Functionality")</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy25.isEnabled(Unknown Source)
+	at dsAlgo_PageFactory.LinkedList_PageFactory.implementLinkedListLinkEnabled(LinkedList_PageFactory.java:69)
+	at dsAlgo_StepDefinition.LinkedList.the_user_checks_whether_the_implement_linked_list_in_python_link_is_enabled(LinkedList.java:120)
+	at ✽.The user checks whether the Implement Linked List in Python link is enabled(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/D_LinkedList.feature:31)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify that the user is able to enter username in the username field&quot;, &quot;Register Page&quot;)">
+                  </a> <!-- runScenario("Verify that the user is able to enter username in the username field", "Register Page") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify that the user is able to enter username in the username field","Register Page")</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy25.isDisplayed(Unknown Source)
+	at dsAlgo_PageFactory.Register_PageFactory.registerBtnDisplayed(Register_PageFactory.java:37)
+	at dsAlgo_StepDefinition.Register.user_is_in_the_register_page_after_clicking_register_link_in_the_home_page(Register.java:60)
+	at ✽.User is in the Register page after clicking Register link in the home page(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/B_Register.feature:14)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify that the Traversal link is enabled in the Linked List page&quot;, &quot;Linked List Functionality&quot;)">
+                  </a> <!-- runScenario("Verify that the Traversal link is enabled in the Linked List page", "Linked List Functionality") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify that the Traversal link is enabled in the Linked List page","Linked List Functionality")</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy25.isEnabled(Unknown Source)
+	at dsAlgo_PageFactory.LinkedList_PageFactory.traversalLinkEnabled(LinkedList_PageFactory.java:72)
+	at dsAlgo_StepDefinition.LinkedList.the_user_checks_whether_the_traversal_link_is_enabled(LinkedList.java:128)
+	at ✽.The user checks whether the Traversal link is enabled(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/D_LinkedList.feature:35)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify warning message when selecting Stack without signing in&quot;, &quot;Home Page&quot;)">
+                  </a> <!-- runScenario("Verify warning message when selecting Stack without signing in", "Home Page") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify warning message when selecting Stack without signing in","Home Page")</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy25.click(Unknown Source)
+	at dsAlgo_PageFactory.Home_PageFactory.dataStructureDropDownClick(Home_PageFactory.java:61)
+	at dsAlgo_StepDefinition.Home.user_selects_stack_from_the_dropdown_without_signing_in(Home.java:78)
+	at ✽.User selects Stack from the dropdown without signing in(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/A_Home.feature:21)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify that the user is able to click on Get Started button under Linked List section&quot;, &quot;Linked Lis...)">
+                  </a> <!-- runScenario("Verify that the user is able to click on Get Started button under Linked List section", "Linked Lis...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify that the user is able to click on Get Started button under Linked List section","Linked List Functionality")</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.getCurrentUrl()&quot; because &quot;this.driver&quot; is null
+	at dsAlgo_StepDefinition.LinkedList.user_clicks_on_the_get_started_button_under_linked_list_section(LinkedList.java:73)
+	at ✽.User clicks on the Get Started button under Linked List section(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/D_LinkedList.feature:14)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify warning message when selecting Queue without signing in&quot;, &quot;Home Page&quot;)">
+                  </a> <!-- runScenario("Verify warning message when selecting Queue without signing in", "Home Page") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify warning message when selecting Queue without signing in","Home Page")</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy25.click(Unknown Source)
+	at dsAlgo_PageFactory.Home_PageFactory.dataStructureDropDownClick(Home_PageFactory.java:61)
+	at dsAlgo_StepDefinition.Home.user_selects_queue_from_the_dropdown_without_signing_in(Home.java:84)
+	at ✽.User selects Queue from the dropdown without signing in(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/A_Home.feature:25)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify that the user is able to navigate to the home page&quot;, &quot;Login Functionality&quot;)">
+                  </a> <!-- runScenario("Verify that the user is able to navigate to the home page", "Login Functionality") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify that the user is able to navigate to the home page","Login Functionality")</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.get(String)&quot; because &quot;this.driver&quot; is null
+	at dsAlgo_PageFactory.Home_PageFactory.launchURL(Home_PageFactory.java:45)
+	at dsAlgo_StepDefinition.Home.user_is_in_the_ds_algo_launch_page(Home.java:26)
+	at ✽.User is in the ds-algo launch page(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/C_Login.feature:4)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify that the user is able to naviagte to home page with the message&quot;, &quot;Register Page&quot;)">
+                  </a> <!-- runScenario("Verify that the user is able to naviagte to home page with the message", "Register Page") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify that the user is able to naviagte to home page with the message","Register Page")</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.manage()&quot; because &quot;this.driver&quot; is null
+	at dsAlgo_StepDefinition.Register.user_is_in_the_register_page_to_enter_username_password_and_password_confirmation(Register.java:162)
+	at ✽.User is in the Register page to enter username, password and password confirmation(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/B_Register.feature:73)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify user enters username and password fields&quot;, &quot;Home Page&quot;)">
+                  </a> <!-- runScenario("Verify user enters username and password fields", "Home Page") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify user enters username and password fields","Home Page")</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy25.click(Unknown Source)
+	at dsAlgo_PageFactory.Home_PageFactory.getStartedHomeBtnClick(Home_PageFactory.java:49)
+	at dsAlgo_StepDefinition.Home.the_user_is_on_the_sign_in_page(Home.java:123)
+	at ✽.The user is on the Sign In page(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/A_Home.feature:46)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify that the user is able to get an error message&quot;, &quot;Register Page&quot;)">
+                  </a> <!-- runScenario("Verify that the user is able to get an error message", "Register Page") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify that the user is able to get an error message","Register Page")</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy25.isDisplayed(Unknown Source)
+	at dsAlgo_PageFactory.Register_PageFactory.registerBtnDisplayed(Register_PageFactory.java:37)
+	at dsAlgo_StepDefinition.Register.user_is_in_the_register_page_after_clicking_register_link_in_the_home_page(Register.java:60)
+	at ✽.User is in the Register page after clicking Register link in the home page(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/B_Register.feature:50)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify that the user is able to enter username in the username field&quot;, &quot;Register Page&quot;)">
+                  </a> <!-- runScenario("Verify that the user is able to enter username in the username field", "Register Page") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify that the user is able to enter username in the username field","Register Page")</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy25.isDisplayed(Unknown Source)
+	at dsAlgo_PageFactory.Register_PageFactory.registerBtnDisplayed(Register_PageFactory.java:37)
+	at dsAlgo_StepDefinition.Register.user_is_in_the_register_page_after_clicking_register_link_in_the_home_page(Register.java:60)
+	at ✽.User is in the Register page after clicking Register link in the home page(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/B_Register.feature:14)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify that the Types of Linked List link is enabled in the Linked List page&quot;, &quot;Linked List Functio...)">
+                  </a> <!-- runScenario("Verify that the Types of Linked List link is enabled in the Linked List page", "Linked List Functio...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify that the Types of Linked List link is enabled in the Linked List page","Linked List Functionality")</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy25.isEnabled(Unknown Source)
+	at dsAlgo_PageFactory.LinkedList_PageFactory.typesOfLinkedListLinkEnabled(LinkedList_PageFactory.java:66)
+	at dsAlgo_StepDefinition.LinkedList.the_user_checks_whether_the_types_of_linked_list_link_is_enabled(LinkedList.java:112)
+	at ✽.The user checks whether the Types of Linked List link is enabled(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/D_LinkedList.feature:27)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify that the user is able to enter username in the username field&quot;, &quot;Register Page&quot;)">
+                  </a> <!-- runScenario("Verify that the user is able to enter username in the username field", "Register Page") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify that the user is able to enter username in the username field","Register Page")</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy25.isDisplayed(Unknown Source)
+	at dsAlgo_PageFactory.Register_PageFactory.registerBtnDisplayed(Register_PageFactory.java:37)
+	at dsAlgo_StepDefinition.Register.user_is_in_the_register_page_after_clicking_register_link_in_the_home_page(Register.java:60)
+	at ✽.User is in the Register page after clicking Register link in the home page(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/B_Register.feature:14)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify that the user is able to get an error message&quot;, &quot;Register Page&quot;)">
+                  </a> <!-- runScenario("Verify that the user is able to get an error message", "Register Page") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify that the user is able to get an error message","Register Page")</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy25.isDisplayed(Unknown Source)
+	at dsAlgo_PageFactory.Register_PageFactory.registerBtnDisplayed(Register_PageFactory.java:37)
+	at dsAlgo_StepDefinition.Register.user_is_in_the_register_page_after_clicking_register_link_in_the_home_page(Register.java:60)
+	at ✽.User is in the Register page after clicking Register link in the home page(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/B_Register.feature:50)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify that the Creating Linked List link is enabled in the Linked List page&quot;, &quot;Linked List Functio...)">
+                  </a> <!-- runScenario("Verify that the Creating Linked List link is enabled in the Linked List page", "Linked List Functio...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify that the Creating Linked List link is enabled in the Linked List page","Linked List Functionality")</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy25.isEnabled(Unknown Source)
+	at dsAlgo_PageFactory.LinkedList_PageFactory.creatingLinkedListLinkEnabled(LinkedList_PageFactory.java:63)
+	at dsAlgo_StepDefinition.LinkedList.the_user_checks_whether_the_creating_linked_list_link_is_enabled(LinkedList.java:104)
+	at ✽.The user checks whether the Creating Linked List link is enabled(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/D_LinkedList.feature:23)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify that the user is able to navigate to Try Here &gt;&gt;&gt; page for Introduction page&quot;, &quot;Linked List ...)">
+                  </a> <!-- runScenario("Verify that the user is able to navigate to Try Here >>> page for Introduction page", "Linked List ...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify that the user is able to navigate to Try Here >>> page for Introduction page","Linked List Functionality")</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy25.isDisplayed(Unknown Source)
+	at dsAlgo_PageFactory.LinkedList_PageFactory.introductionTitleDisplayed(LinkedList_PageFactory.java:102)
+	at dsAlgo_StepDefinition.LinkedList.the_user_is_in_the_introduction_page(LinkedList.java:160)
+	at ✽.The user is in the Introduction page(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/D_LinkedList.feature:51)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify that the user is able to get a pop-up message when username, password and password confirmat...)">
+                  </a> <!-- runScenario("Verify that the user is able to get a pop-up message when username, password and password confirmat...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify that the user is able to get a pop-up message when username, password and password confirmation field are left blank","Register Page")</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy25.clear(Unknown Source)
+	at dsAlgo_StepDefinition.Register.the_user_enters_data_from_excel_sheet_and_for_all_the_fields_to_be_left_blank(Register.java:141)
+	at ✽.The user enters data from excel sheet &apos;Register&apos; and 14 for all the fields to be left blank(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/B_Register.feature:62)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify that the user is able to get a pop-up message when username, password and password confirmat...)">
+                  </a> <!-- runScenario("Verify that the user is able to get a pop-up message when username, password and password confirmat...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify that the user is able to get a pop-up message when username, password and password confirmation field are left blank","Register Page")</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy25.clear(Unknown Source)
+	at dsAlgo_StepDefinition.Register.the_user_enters_data_from_excel_sheet_and_for_all_the_fields_to_be_left_blank(Register.java:141)
+	at ✽.The user enters data from excel sheet &apos;Register&apos; and 16 for all the fields to be left blank(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/B_Register.feature:62)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify that the Introduction link is enabled in the Linked List page&quot;, &quot;Linked List Functionality&quot;)">
+                  </a> <!-- runScenario("Verify that the Introduction link is enabled in the Linked List page", "Linked List Functionality") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify that the Introduction link is enabled in the Linked List page","Linked List Functionality")</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy25.isDisplayed(Unknown Source)
+	at dsAlgo_PageFactory.LinkedList_PageFactory.linkedListTitleDisplayed(LinkedList_PageFactory.java:57)
+	at dsAlgo_StepDefinition.LinkedList.the_user_is_in_the_linked_list_page_after_sign_in(LinkedList.java:92)
+	at ✽.The user is in the Linked List page after Sign-In(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/D_LinkedList.feature:18)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify that the user is restricted from navigating to the home page&quot;, &quot;Home Page&quot;)">
+                  </a> <!-- runScenario("Verify that the user is restricted from navigating to the home page", "Home Page") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify that the user is restricted from navigating to the home page","Home Page")</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy25.click(Unknown Source)
+	at dsAlgo_PageFactory.Home_PageFactory.randomClickMethod(Home_PageFactory.java:89)
+	at dsAlgo_StepDefinition.Home.user_clicks_on_the_launch_page_other_than_the_get_started_button(Home.java:112)
+	at ✽.User clicks on the launch page other than the Get Started button(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/A_Home.feature:42)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify that the user is able to enter password in the field&quot;, &quot;Register Page&quot;)">
+                  </a> <!-- runScenario("Verify that the user is able to enter password in the field", "Register Page") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify that the user is able to enter password in the field","Register Page")</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy25.isDisplayed(Unknown Source)
+	at dsAlgo_PageFactory.Register_PageFactory.registerBtnDisplayed(Register_PageFactory.java:37)
+	at dsAlgo_StepDefinition.Register.user_is_in_the_register_page_after_clicking_register_link_in_the_home_page(Register.java:60)
+	at ✽.User is in the Register page after clicking Register link in the home page(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/B_Register.feature:38)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify that the user is able to navigate to Introduction page&quot;, &quot;Linked List Functionality&quot;)">
+                  </a> <!-- runScenario("Verify that the user is able to navigate to Introduction page", "Linked List Functionality") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify that the user is able to navigate to Introduction page","Linked List Functionality")</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy25.click(Unknown Source)
+	at dsAlgo_PageFactory.LinkedList_PageFactory.introductionLinkClick(LinkedList_PageFactory.java:81)
+	at dsAlgo_StepDefinition.LinkedList.the_user_clicks_introduction_link_in_the_linked_list_page(LinkedList.java:152)
+	at ✽.The user clicks Introduction link in the Linked List page(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/D_LinkedList.feature:47)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify that the user stays on the same page when clicking elsewhere&quot;, &quot;Home Page&quot;)">
+                  </a> <!-- runScenario("Verify that the user stays on the same page when clicking elsewhere", "Home Page") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify that the user stays on the same page when clicking elsewhere","Home Page")</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.get(String)&quot; because &quot;this.driver&quot; is null
+	at dsAlgo_PageFactory.Home_PageFactory.launchURL(Home_PageFactory.java:45)
+	at dsAlgo_StepDefinition.Home.user_is_in_the_ds_algo_launch_page(Home.java:26)
+	at ✽.User is in the ds-algo launch page(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/A_Home.feature:37)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify user receives error message for Invalid Username and Password during Login&quot;, &quot;Login Function...)">
+                  </a> <!-- runScenario("Verify user receives error message for Invalid Username and Password during Login", "Login Function...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify user receives error message for Invalid Username and Password during Login","Login Functionality")</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy25.click(Unknown Source)
+	at dsAlgo_PageFactory.Login_PageFactory.signInClick(Login_PageFactory.java:30)
+	at dsAlgo_StepDefinition.Login.the_user_gets_invalid_data_from_excel_sheet_and_for_the_login_page(Login.java:75)
+	at ✽.The user gets invalid data from excel sheet &apos;Login&apos; and 4 for the login page(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/C_Login.feature:33)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify that the user is able to see output for valid, invalid and incorrect syntax Python code is e...)">
+                  </a> <!-- runScenario("Verify that the user is able to see output for valid, invalid and incorrect syntax Python code is e...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify that the user is able to see output for valid, invalid and incorrect syntax Python code is entered for the Introduction page","Linked List Functionality")</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy25.isDisplayed(Unknown Source)
+	at dsAlgo_PageFactory.LinkedList_PageFactory.runBtnDisplayed(LinkedList_PageFactory.java:129)
+	at dsAlgo_StepDefinition.LinkedList.the_user_is_in_the_try_editor_page_for_the_introduction_page(LinkedList.java:172)
+	at ✽.The user is in the Try Editor page for the Introduction page(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/D_LinkedList.feature:56)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify that the user is able to get a pop-up message when username, password and password confirmat...)">
+                  </a> <!-- runScenario("Verify that the user is able to get a pop-up message when username, password and password confirmat...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify that the user is able to get a pop-up message when username, password and password confirmation field are left blank","Register Page")</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy25.clear(Unknown Source)
+	at dsAlgo_StepDefinition.Register.the_user_enters_data_from_excel_sheet_and_for_all_the_fields_to_be_left_blank(Register.java:141)
+	at ✽.The user enters data from excel sheet &apos;Register&apos; and 15 for all the fields to be left blank(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/B_Register.feature:62)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify that the Insertion link is enabled in the Linked List page&quot;, &quot;Linked List Functionality&quot;)">
+                  </a> <!-- runScenario("Verify that the Insertion link is enabled in the Linked List page", "Linked List Functionality") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify that the Insertion link is enabled in the Linked List page","Linked List Functionality")</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy25.isEnabled(Unknown Source)
+	at dsAlgo_PageFactory.LinkedList_PageFactory.insertionLinkEnabled(LinkedList_PageFactory.java:75)
+	at dsAlgo_StepDefinition.LinkedList.the_user_checks_whether_the_insertion_link_is_enabled(LinkedList.java:136)
+	at ✽.The user checks whether the Insertion link is enabled(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/D_LinkedList.feature:39)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify user receives error message when username and password fields are blank during Login&quot;, &quot;Logi...)">
+                  </a> <!-- runScenario("Verify user receives error message when username and password fields are blank during Login", "Logi...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify user receives error message when username and password fields are blank during Login","Login Functionality")</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy25.isDisplayed(Unknown Source)
+	at dsAlgo_PageFactory.Login_PageFactory.signInLoginBtnDisplayed(Login_PageFactory.java:34)
+	at dsAlgo_StepDefinition.Login.the_user_is_on_the_ds_algo_sign_in_page(Login.java:53)
+	at ✽.The user is on the DS Algo Sign In page(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/C_Login.feature:23)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify that the user is able to see output for valid, invalid and incorrect syntax Python code is e...)">
+                  </a> <!-- runScenario("Verify that the user is able to see output for valid, invalid and incorrect syntax Python code is e...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify that the user is able to see output for valid, invalid and incorrect syntax Python code is entered for the Introduction page","Linked List Functionality")</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy25.isDisplayed(Unknown Source)
+	at dsAlgo_PageFactory.LinkedList_PageFactory.runBtnDisplayed(LinkedList_PageFactory.java:129)
+	at dsAlgo_StepDefinition.LinkedList.the_user_is_in_the_try_editor_page_for_the_introduction_page(LinkedList.java:172)
+	at ✽.The user is in the Try Editor page for the Introduction page(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/D_LinkedList.feature:56)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify user receives error message for Invalid Username and Password during Login&quot;, &quot;Login Function...)">
+                  </a> <!-- runScenario("Verify user receives error message for Invalid Username and Password during Login", "Login Function...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify user receives error message for Invalid Username and Password during Login","Login Functionality")</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy25.click(Unknown Source)
+	at dsAlgo_PageFactory.Login_PageFactory.signInClick(Login_PageFactory.java:30)
+	at dsAlgo_StepDefinition.Login.the_user_gets_invalid_data_from_excel_sheet_and_for_the_login_page(Login.java:75)
+	at ✽.The user gets invalid data from excel sheet &apos;Login&apos; and 3 for the login page(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/C_Login.feature:33)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify user enters username and password for SignIn&quot;, &quot;Linked List Functionality&quot;)">
+                  </a> <!-- runScenario("Verify user enters username and password for SignIn", "Linked List Functionality") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify user enters username and password for SignIn","Linked List Functionality")</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.get(String)&quot; because &quot;this.driver&quot; is null
+	at dsAlgo_PageFactory.Home_PageFactory.launchURL(Home_PageFactory.java:45)
+	at dsAlgo_StepDefinition.Login.the_user_clicks_the_sign_in_link_from_the_portal(Login.java:118)
+	at ✽.The user clicks the Sign In link from the portal(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/D_LinkedList.feature:4)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify user enters username and password fields&quot;, &quot;Login Functionality&quot;)">
+                  </a> <!-- runScenario("Verify user enters username and password fields", "Login Functionality") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify user enters username and password fields","Login Functionality")</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy25.click(Unknown Source)
+	at dsAlgo_PageFactory.Login_PageFactory.signInClick(Login_PageFactory.java:30)
+	at dsAlgo_StepDefinition.Login.the_user_clicks_the_sign_in_link(Login.java:43)
+	at ✽.The user clicks the Sign In link(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/C_Login.feature:9)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify that the user is able to navigate to the home page&quot;, &quot;Register Page&quot;)">
+                  </a> <!-- runScenario("Verify that the user is able to navigate to the home page", "Register Page") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify that the user is able to navigate to the home page","Register Page")</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.get(String)&quot; because &quot;this.driver&quot; is null
+	at dsAlgo_PageFactory.Home_PageFactory.launchURL(Home_PageFactory.java:45)
+	at dsAlgo_StepDefinition.Home.user_is_in_the_ds_algo_launch_page(Home.java:26)
+	at ✽.User is in the ds-algo launch page(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/B_Register.feature:4)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify that the user is able to enter password in the field&quot;, &quot;Register Page&quot;)">
+                  </a> <!-- runScenario("Verify that the user is able to enter password in the field", "Register Page") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify that the user is able to enter password in the field","Register Page")</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy25.isDisplayed(Unknown Source)
+	at dsAlgo_PageFactory.Register_PageFactory.registerBtnDisplayed(Register_PageFactory.java:37)
+	at dsAlgo_StepDefinition.Register.user_is_in_the_register_page_after_clicking_register_link_in_the_home_page(Register.java:60)
+	at ✽.User is in the Register page after clicking Register link in the home page(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/B_Register.feature:38)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify that User is able to launch ds-algo portal&quot;, &quot;Register Page&quot;)">
+                  </a> <!-- runScenario("Verify that User is able to launch ds-algo portal", "Register Page") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify that User is able to launch ds-algo portal","Register Page")</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.manage()&quot; because &quot;this.driver&quot; is null
+	at dsAlgo_StepDefinition.Register.user_is_in_the_home_page_after_launching_ds_algo_portal_page(Register.java:37)
+	at ✽.User is in the home page after launching ds-algo portal page(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/B_Register.feature:9)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify user receives error message when username and password fields are blank during Login&quot;, &quot;Logi...)">
+                  </a> <!-- runScenario("Verify user receives error message when username and password fields are blank during Login", "Logi...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify user receives error message when username and password fields are blank during Login","Login Functionality")</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy25.isDisplayed(Unknown Source)
+	at dsAlgo_PageFactory.Login_PageFactory.signInLoginBtnDisplayed(Login_PageFactory.java:34)
+	at dsAlgo_StepDefinition.Login.the_user_is_on_the_ds_algo_sign_in_page(Login.java:53)
+	at ✽.The user is on the DS Algo Sign In page(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/C_Login.feature:23)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify that the Deletion link is enabled in the Linked List page&quot;, &quot;Linked List Functionality&quot;)">
+                  </a> <!-- runScenario("Verify that the Deletion link is enabled in the Linked List page", "Linked List Functionality") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify that the Deletion link is enabled in the Linked List page","Linked List Functionality")</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy25.isEnabled(Unknown Source)
+	at dsAlgo_PageFactory.LinkedList_PageFactory.deletionLinkEnabled(LinkedList_PageFactory.java:78)
+	at dsAlgo_StepDefinition.LinkedList.the_user_checks_whether_the_deletion_link_is_enabled(LinkedList.java:144)
+	at ✽.The user checks whether the Deletion link is enabled(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/D_LinkedList.feature:43)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify that the user is able to navigate to the home page&quot;, &quot;Home Page&quot;)">
+                  </a> <!-- runScenario("Verify that the user is able to navigate to the home page", "Home Page") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify that the user is able to navigate to the home page","Home Page")</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.get(String)&quot; because &quot;this.driver&quot; is null
+	at dsAlgo_PageFactory.Home_PageFactory.launchURL(Home_PageFactory.java:45)
+	at dsAlgo_StepDefinition.Home.user_is_in_the_ds_algo_launch_page(Home.java:26)
+	at ✽.User is in the ds-algo launch page(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/A_Home.feature:4)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-failed -->
+        </div> <!-- panel Default_suite -->
+        <div panel-name="test-xml-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\rinuh\AppData\Local\Temp\testng-eclipse-2030152267\testng-customsuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;dsAlgo_TestRunner.TestRunner&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Default test --&gt;
+&lt;/suite&gt; &lt;!-- Default suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Default test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">cucumber</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">runScenario</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Default_suite');
+function tableData_Default_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(52);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'runScenario')
+data.setCell(0, 2, 'dsAlgo_TestRunner.TestRunner')
+data.setCell(0, 3, 3050);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'runScenario')
+data.setCell(1, 2, 'dsAlgo_TestRunner.TestRunner')
+data.setCell(1, 3, 858);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'runScenario')
+data.setCell(2, 2, 'dsAlgo_TestRunner.TestRunner')
+data.setCell(2, 3, 270);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'runScenario')
+data.setCell(3, 2, 'dsAlgo_TestRunner.TestRunner')
+data.setCell(3, 3, 99);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'runScenario')
+data.setCell(4, 2, 'dsAlgo_TestRunner.TestRunner')
+data.setCell(4, 3, 67);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'runScenario')
+data.setCell(5, 2, 'dsAlgo_TestRunner.TestRunner')
+data.setCell(5, 3, 61);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'runScenario')
+data.setCell(6, 2, 'dsAlgo_TestRunner.TestRunner')
+data.setCell(6, 3, 60);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'runScenario')
+data.setCell(7, 2, 'dsAlgo_TestRunner.TestRunner')
+data.setCell(7, 3, 52);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'runScenario')
+data.setCell(8, 2, 'dsAlgo_TestRunner.TestRunner')
+data.setCell(8, 3, 51);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'runScenario')
+data.setCell(9, 2, 'dsAlgo_TestRunner.TestRunner')
+data.setCell(9, 3, 50);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'runScenario')
+data.setCell(10, 2, 'dsAlgo_TestRunner.TestRunner')
+data.setCell(10, 3, 49);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'runScenario')
+data.setCell(11, 2, 'dsAlgo_TestRunner.TestRunner')
+data.setCell(11, 3, 47);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'runScenario')
+data.setCell(12, 2, 'dsAlgo_TestRunner.TestRunner')
+data.setCell(12, 3, 45);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'runScenario')
+data.setCell(13, 2, 'dsAlgo_TestRunner.TestRunner')
+data.setCell(13, 3, 40);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'runScenario')
+data.setCell(14, 2, 'dsAlgo_TestRunner.TestRunner')
+data.setCell(14, 3, 38);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'runScenario')
+data.setCell(15, 2, 'dsAlgo_TestRunner.TestRunner')
+data.setCell(15, 3, 31);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'runScenario')
+data.setCell(16, 2, 'dsAlgo_TestRunner.TestRunner')
+data.setCell(16, 3, 31);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'runScenario')
+data.setCell(17, 2, 'dsAlgo_TestRunner.TestRunner')
+data.setCell(17, 3, 30);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'runScenario')
+data.setCell(18, 2, 'dsAlgo_TestRunner.TestRunner')
+data.setCell(18, 3, 28);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'runScenario')
+data.setCell(19, 2, 'dsAlgo_TestRunner.TestRunner')
+data.setCell(19, 3, 26);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'runScenario')
+data.setCell(20, 2, 'dsAlgo_TestRunner.TestRunner')
+data.setCell(20, 3, 25);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'runScenario')
+data.setCell(21, 2, 'dsAlgo_TestRunner.TestRunner')
+data.setCell(21, 3, 25);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'runScenario')
+data.setCell(22, 2, 'dsAlgo_TestRunner.TestRunner')
+data.setCell(22, 3, 24);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'runScenario')
+data.setCell(23, 2, 'dsAlgo_TestRunner.TestRunner')
+data.setCell(23, 3, 24);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'runScenario')
+data.setCell(24, 2, 'dsAlgo_TestRunner.TestRunner')
+data.setCell(24, 3, 23);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'runScenario')
+data.setCell(25, 2, 'dsAlgo_TestRunner.TestRunner')
+data.setCell(25, 3, 22);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'runScenario')
+data.setCell(26, 2, 'dsAlgo_TestRunner.TestRunner')
+data.setCell(26, 3, 22);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'runScenario')
+data.setCell(27, 2, 'dsAlgo_TestRunner.TestRunner')
+data.setCell(27, 3, 22);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'runScenario')
+data.setCell(28, 2, 'dsAlgo_TestRunner.TestRunner')
+data.setCell(28, 3, 22);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'runScenario')
+data.setCell(29, 2, 'dsAlgo_TestRunner.TestRunner')
+data.setCell(29, 3, 21);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'runScenario')
+data.setCell(30, 2, 'dsAlgo_TestRunner.TestRunner')
+data.setCell(30, 3, 21);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'runScenario')
+data.setCell(31, 2, 'dsAlgo_TestRunner.TestRunner')
+data.setCell(31, 3, 20);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'runScenario')
+data.setCell(32, 2, 'dsAlgo_TestRunner.TestRunner')
+data.setCell(32, 3, 17);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'runScenario')
+data.setCell(33, 2, 'dsAlgo_TestRunner.TestRunner')
+data.setCell(33, 3, 16);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'runScenario')
+data.setCell(34, 2, 'dsAlgo_TestRunner.TestRunner')
+data.setCell(34, 3, 16);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'runScenario')
+data.setCell(35, 2, 'dsAlgo_TestRunner.TestRunner')
+data.setCell(35, 3, 15);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'runScenario')
+data.setCell(36, 2, 'dsAlgo_TestRunner.TestRunner')
+data.setCell(36, 3, 15);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'runScenario')
+data.setCell(37, 2, 'dsAlgo_TestRunner.TestRunner')
+data.setCell(37, 3, 15);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'runScenario')
+data.setCell(38, 2, 'dsAlgo_TestRunner.TestRunner')
+data.setCell(38, 3, 13);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'runScenario')
+data.setCell(39, 2, 'dsAlgo_TestRunner.TestRunner')
+data.setCell(39, 3, 13);
+data.setCell(40, 0, 40)
+data.setCell(40, 1, 'runScenario')
+data.setCell(40, 2, 'dsAlgo_TestRunner.TestRunner')
+data.setCell(40, 3, 13);
+data.setCell(41, 0, 41)
+data.setCell(41, 1, 'runScenario')
+data.setCell(41, 2, 'dsAlgo_TestRunner.TestRunner')
+data.setCell(41, 3, 13);
+data.setCell(42, 0, 42)
+data.setCell(42, 1, 'runScenario')
+data.setCell(42, 2, 'dsAlgo_TestRunner.TestRunner')
+data.setCell(42, 3, 13);
+data.setCell(43, 0, 43)
+data.setCell(43, 1, 'runScenario')
+data.setCell(43, 2, 'dsAlgo_TestRunner.TestRunner')
+data.setCell(43, 3, 13);
+data.setCell(44, 0, 44)
+data.setCell(44, 1, 'runScenario')
+data.setCell(44, 2, 'dsAlgo_TestRunner.TestRunner')
+data.setCell(44, 3, 13);
+data.setCell(45, 0, 45)
+data.setCell(45, 1, 'runScenario')
+data.setCell(45, 2, 'dsAlgo_TestRunner.TestRunner')
+data.setCell(45, 3, 12);
+data.setCell(46, 0, 46)
+data.setCell(46, 1, 'runScenario')
+data.setCell(46, 2, 'dsAlgo_TestRunner.TestRunner')
+data.setCell(46, 3, 12);
+data.setCell(47, 0, 47)
+data.setCell(47, 1, 'runScenario')
+data.setCell(47, 2, 'dsAlgo_TestRunner.TestRunner')
+data.setCell(47, 3, 12);
+data.setCell(48, 0, 48)
+data.setCell(48, 1, 'runScenario')
+data.setCell(48, 2, 'dsAlgo_TestRunner.TestRunner')
+data.setCell(48, 3, 12);
+data.setCell(49, 0, 49)
+data.setCell(49, 1, 'runScenario')
+data.setCell(49, 2, 'dsAlgo_TestRunner.TestRunner')
+data.setCell(49, 3, 11);
+data.setCell(50, 0, 50)
+data.setCell(50, 1, 'runScenario')
+data.setCell(50, 2, 'dsAlgo_TestRunner.TestRunner')
+data.setCell(50, 3, 11);
+data.setCell(51, 0, 51)
+data.setCell(51, 1, 'runScenario')
+data.setCell(51, 2, 'dsAlgo_TestRunner.TestRunner')
+data.setCell(51, 3, 10);
+window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 5 seconds</span>
+              <div id="times-div-Default_suite">
+              </div> <!-- times-div-Default_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">dsAlgo_TestRunner.TestRunner</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpClass(org.testng.TestRunner@76464795)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Verify that the user is able to navigate to the home page", "Home Page")</span>
+                <span class="method-start">809 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Verify that the user can view Data Structures dropdown options without signing in", "Home Page")</span>
+                <span class="method-start">1085 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Verify warning message when selecting Arrays without signing in", "Home Page")</span>
+                <span class="method-start">1137 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Verify warning message when selecting Linked List without signing in", "Home Page")</span>
+                <span class="method-start">1170 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Verify warning message when selecting Stack without signing in", "Home Page")</span>
+                <span class="method-start">1234 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Verify warning message when selecting Queue without signing in", "Home Page")</span>
+                <span class="method-start">1307 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Verify warning message when selecting Tree without signing in", "Home Page")</span>
+                <span class="method-start">1358 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Verify warning message when selecting Graph without signing in", "Home Page")</span>
+                <span class="method-start">1399 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Verify that the user stays on the same page when clicking elsewhere", "Home Page")</span>
+                <span class="method-start">1429 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Verify that the user is restricted from navigating to the home page", "Home Page")</span>
+                <span class="method-start">1477 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Verify user enters username and password fields", "Home Page")</span>
+                <span class="method-start">1505 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Verify that the user is able to navigate to the home page", "Register Page")</span>
+                <span class="method-start">4562 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Verify that User is able to launch ds-algo portal", "Register Page")</span>
+                <span class="method-start">4588 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Verify that the user is able to enter username in the username field", "Register Page")</span>
+                <span class="method-start">4632 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Verify that the user is able to enter username in the username field", "Register Page")</span>
+                <span class="method-start">4664 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Verify that the user is able to enter username in the username field", "Register Page")</span>
+                <span class="method-start">4694 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Verify that the user is able to enter username in the username field", "Register Page")</span>
+                <span class="method-start">4758 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Verify that the user is able to get an error message when username (with special characters other t...)</span>
+                <span class="method-start">4774 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Verify that the user is able to get an error message when username (with special characters other t...)</span>
+                <span class="method-start">4791 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Verify that the user is able to enter password in the field", "Register Page")</span>
+                <span class="method-start">4818 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Verify that the user is able to enter password in the field", "Register Page")</span>
+                <span class="method-start">4845 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Verify that the user is able to enter password in the field", "Register Page")</span>
+                <span class="method-start">4870 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Verify that the user is able to enter password in the field", "Register Page")</span>
+                <span class="method-start">4885 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Verify that the user is able to get an error message", "Register Page")</span>
+                <span class="method-start">4900 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Verify that the user is able to get an error message", "Register Page")</span>
+                <span class="method-start">4925 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Verify that the user is able to get an error message", "Register Page")</span>
+                <span class="method-start">4944 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Verify that the user is able to get a pop-up message when username, password and password confirmat...)</span>
+                <span class="method-start">4960 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Verify that the user is able to get a pop-up message when username, password and password confirmat...)</span>
+                <span class="method-start">5822 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Verify that the user is able to get a pop-up message when username, password and password confirmat...)</span>
+                <span class="method-start">5922 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Verify that the user is able to naviagte to home page with the message", "Register Page")</span>
+                <span class="method-start">5975 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Verify that the user is able to navigate to the home page", "Login Functionality")</span>
+                <span class="method-start">5986 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Verify user enters username and password fields", "Login Functionality")</span>
+                <span class="method-start">6000 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Verify that user is able to sign out successfully", "Login Functionality")</span>
+                <span class="method-start">6014 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Verify user receives error message when username and password fields are blank during Login", "Logi...)</span>
+                <span class="method-start">6029 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Verify user receives error message when username and password fields are blank during Login", "Logi...)</span>
+                <span class="method-start">6052 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Verify user receives error message for Invalid Username and Password during Login", "Login Function...)</span>
+                <span class="method-start">6085 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Verify user receives error message for Invalid Username and Password during Login", "Login Function...)</span>
+                <span class="method-start">6109 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Verify user enters username and password for SignIn", "Login Functionality")</span>
+                <span class="method-start">6125 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Verify user enters username and password for SignIn", "Linked List Functionality")</span>
+                <span class="method-start">6144 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Verify that the user is able to click on Get Started button under Linked List section", "Linked Lis...)</span>
+                <span class="method-start">6167 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Verify that the Introduction link is enabled in the Linked List page", "Linked List Functionality")</span>
+                <span class="method-start">6223 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Verify that the Creating Linked List link is enabled in the Linked List page", "Linked List Functio...)</span>
+                <span class="method-start">6251 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Verify that the Types of Linked List link is enabled in the Linked List page", "Linked List Functio...)</span>
+                <span class="method-start">6268 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Verify that the Implement Linked List in Python link is enabled in the Linked List page", "Linked L...)</span>
+                <span class="method-start">6284 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Verify that the Traversal link is enabled in the Linked List page", "Linked List Functionality")</span>
+                <span class="method-start">6299 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Verify that the Insertion link is enabled in the Linked List page", "Linked List Functionality")</span>
+                <span class="method-start">6317 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Verify that the Deletion link is enabled in the Linked List page", "Linked List Functionality")</span>
+                <span class="method-start">6330 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Verify that the user is able to navigate to Introduction page", "Linked List Functionality")</span>
+                <span class="method-start">6345 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Verify that the user is able to navigate to Try Here >>> page for Introduction page", "Linked List ...)</span>
+                <span class="method-start">6372 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Verify that the user is able to see output for valid, invalid and incorrect syntax Python code is e...)</span>
+                <span class="method-start">6385 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Verify that the user is able to see output for valid, invalid and incorrect syntax Python code is e...)</span>
+                <span class="method-start">6439 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Verify that the user is able to see output for valid, invalid and incorrect syntax Python code is e...)</span>
+                <span class="method-start">6453 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDownClass</span>
+                <span class="method-start">6487 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
