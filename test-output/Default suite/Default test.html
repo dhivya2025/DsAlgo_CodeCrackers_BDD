@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/52/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>86/2/0</td>
 </tr><tr>
-<td>Started on:</td><td>Wed Feb 12 12:21:21 EST 2025</td>
+<td>Started on:</td><td>Thu Feb 13 21:15:26 EST 2025</td>
 </tr>
-<tr><td>Total time:</td><td>6 seconds (6585 ms)</td>
+<tr><td>Total time:</td><td>54 seconds (54937 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,979 +76,572 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='dsAlgo_TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsAlgo_TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify warning message when selecting Arrays without signing in", "Home Page"</td>
-<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null
+<td title='dsAlgo_TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsAlgo_TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify user enters username and password fields", "Login Functionality"</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;Sign in&quot;}
+  (Session info: chrome=131.0.6778.265)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.28.0&apos;, revision: &apos;ac342546e9&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [aff08d1338e1eeab4183e223f150be86, findElement {using=link text, value=Sign in}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.265, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\rinuh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54484}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54484/devtoo..., se:cdpVersion: 131.0.6778.265, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: aff08d1338e1eeab4183e223f150be86
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy25.click(Unknown Source)
-	at dsAlgo_PageFactory.Home_PageFactory.arraysBtnClick(Home_PageFactory.java:65)
-	at dsAlgo_StepDefinition.Home.user_selects_arrays_from_the_dropdown_without_signing_in(Home.java:60)
-	at ✽.User selects Arrays from the dropdown without signing in(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/A_Home.feature:13)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1247348185", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1247348185'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null
+	at jdk.proxy2/jdk.proxy2.$Proxy41.click(Unknown Source)
+	at dsAlgo_PageFactory.Login_PageFactory.signInClick(Login_PageFactory.java:30)
+	at dsAlgo_StepDefinition.Login.the_user_clicks_the_sign_in_link(Login.java:43)
+	at ✽.The user clicks the Sign In link(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/Login.feature:9)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1342723482", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1342723482'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;Sign in&quot;}
+  (Session info: chrome=131.0.6778.265)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.28.0&apos;, revision: &apos;ac342546e9&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [aff08d1338e1eeab4183e223f150be86, findElement {using=link text, value=Sign in}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.265, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\rinuh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54484}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54484/devtoo..., se:cdpVersion: 131.0.6778.265, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: aff08d1338e1eeab4183e223f150be86
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy25.click(Unknown Source)
-	at dsAlgo_PageFactory.Home_PageFactory.arraysBtnClick(Home_PageFactory.java:65)
-	at dsAlgo_StepDefinition.Home.user_selects_arrays_from_the_dropdown_without_signing_in(Home.java:60)
-	at ✽.User selects Arrays from the dropdown without signing in(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/A_Home.feature:13)
+	at jdk.proxy2/jdk.proxy2.$Proxy41.click(Unknown Source)
+	at dsAlgo_PageFactory.Login_PageFactory.signInClick(Login_PageFactory.java:30)
+	at dsAlgo_StepDefinition.Login.the_user_clicks_the_sign_in_link(Login.java:43)
+	at ✽.The user clicks the Sign In link(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/Login.feature:9)
 </pre></div></td>
-<td>0</td>
-<td>dsAlgo_TestRunner.TestRunner@5a18cd76</td></tr>
-<tr>
-<td title='dsAlgo_TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsAlgo_TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to sign out successfully", "Login Functionality"</td>
-<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy25.isDisplayed(Unknown Source)
-	at dsAlgo_PageFactory.Login_PageFactory.signOutBtnDisplayed(Login_PageFactory.java:46)
-	at dsAlgo_StepDefinition.Login.the_user_is_in_the_home_page_after_sign_in(Login.java:98)
-	at ✽.The user is in the Home page after Sign In(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/C_Login.feature:18)
-</pre></div><a href='#' onClick='toggleBox("stack-trace871153004", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace871153004'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy25.isDisplayed(Unknown Source)
-	at dsAlgo_PageFactory.Login_PageFactory.signOutBtnDisplayed(Login_PageFactory.java:46)
-	at dsAlgo_StepDefinition.Login.the_user_is_in_the_home_page_after_sign_in(Login.java:98)
-	at ✽.The user is in the Home page after Sign In(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/C_Login.feature:18)
-</pre></div></td>
-<td>0</td>
-<td>dsAlgo_TestRunner.TestRunner@5a18cd76</td></tr>
-<tr>
-<td title='dsAlgo_TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsAlgo_TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that the user can view Data Structures dropdown options without signing in", "Home Page"</td>
-<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy25.click(Unknown Source)
-	at dsAlgo_PageFactory.Home_PageFactory.dataStructureDropDownClick(Home_PageFactory.java:61)
-	at dsAlgo_StepDefinition.Home.user_clicks_on_the_data_structures_dropdown(Home.java:49)
-	at ✽.User clicks on the Data Structures dropdown(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/A_Home.feature:9)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1929476736", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1929476736'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy25.click(Unknown Source)
-	at dsAlgo_PageFactory.Home_PageFactory.dataStructureDropDownClick(Home_PageFactory.java:61)
-	at dsAlgo_StepDefinition.Home.user_clicks_on_the_data_structures_dropdown(Home.java:49)
-	at ✽.User clicks on the Data Structures dropdown(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/A_Home.feature:9)
-</pre></div></td>
-<td>0</td>
-<td>dsAlgo_TestRunner.TestRunner@5a18cd76</td></tr>
-<tr>
-<td title='dsAlgo_TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsAlgo_TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify warning message when selecting Tree without signing in", "Home Page"</td>
-<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy25.click(Unknown Source)
-	at dsAlgo_PageFactory.Home_PageFactory.dataStructureDropDownClick(Home_PageFactory.java:61)
-	at dsAlgo_StepDefinition.Home.user_selects_tree_from_the_dropdown_without_signing_in(Home.java:90)
-	at ✽.User selects Tree from the dropdown without signing in(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/A_Home.feature:29)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1742900195", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1742900195'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy25.click(Unknown Source)
-	at dsAlgo_PageFactory.Home_PageFactory.dataStructureDropDownClick(Home_PageFactory.java:61)
-	at dsAlgo_StepDefinition.Home.user_selects_tree_from_the_dropdown_without_signing_in(Home.java:90)
-	at ✽.User selects Tree from the dropdown without signing in(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/A_Home.feature:29)
-</pre></div></td>
-<td>0</td>
-<td>dsAlgo_TestRunner.TestRunner@5a18cd76</td></tr>
-<tr>
-<td title='dsAlgo_TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsAlgo_TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify warning message when selecting Graph without signing in", "Home Page"</td>
-<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy25.click(Unknown Source)
-	at dsAlgo_PageFactory.Home_PageFactory.dataStructureDropDownClick(Home_PageFactory.java:61)
-	at dsAlgo_StepDefinition.Home.user_selects_graph_from_the_dropdown_without_signing_in(Home.java:96)
-	at ✽.User selects Graph from the dropdown without signing in(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/A_Home.feature:33)
-</pre></div><a href='#' onClick='toggleBox("stack-trace232886115", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace232886115'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy25.click(Unknown Source)
-	at dsAlgo_PageFactory.Home_PageFactory.dataStructureDropDownClick(Home_PageFactory.java:61)
-	at dsAlgo_StepDefinition.Home.user_selects_graph_from_the_dropdown_without_signing_in(Home.java:96)
-	at ✽.User selects Graph from the dropdown without signing in(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/A_Home.feature:33)
-</pre></div></td>
-<td>0</td>
-<td>dsAlgo_TestRunner.TestRunner@5a18cd76</td></tr>
-<tr>
-<td title='dsAlgo_TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsAlgo_TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that the user is able to enter password in the field", "Register Page"</td>
-<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy25.isDisplayed(Unknown Source)
-	at dsAlgo_PageFactory.Register_PageFactory.registerBtnDisplayed(Register_PageFactory.java:37)
-	at dsAlgo_StepDefinition.Register.user_is_in_the_register_page_after_clicking_register_link_in_the_home_page(Register.java:60)
-	at ✽.User is in the Register page after clicking Register link in the home page(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/B_Register.feature:38)
-</pre></div><a href='#' onClick='toggleBox("stack-trace529949842", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace529949842'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy25.isDisplayed(Unknown Source)
-	at dsAlgo_PageFactory.Register_PageFactory.registerBtnDisplayed(Register_PageFactory.java:37)
-	at dsAlgo_StepDefinition.Register.user_is_in_the_register_page_after_clicking_register_link_in_the_home_page(Register.java:60)
-	at ✽.User is in the Register page after clicking Register link in the home page(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/B_Register.feature:38)
-</pre></div></td>
-<td>0</td>
-<td>dsAlgo_TestRunner.TestRunner@5a18cd76</td></tr>
-<tr>
-<td title='dsAlgo_TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsAlgo_TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that the user is able to get an error message when username (with special characters other than @) in the username field in the Register page is entered", "Register Page"</td>
-<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy25.isDisplayed(Unknown Source)
-	at dsAlgo_PageFactory.Register_PageFactory.registerBtnDisplayed(Register_PageFactory.java:37)
-	at dsAlgo_StepDefinition.Register.user_is_in_the_register_page_after_clicking_register_link_in_the_home_page(Register.java:60)
-	at ✽.User is in the Register page after clicking Register link in the home page(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/B_Register.feature:26)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1700078557", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1700078557'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy25.isDisplayed(Unknown Source)
-	at dsAlgo_PageFactory.Register_PageFactory.registerBtnDisplayed(Register_PageFactory.java:37)
-	at dsAlgo_StepDefinition.Register.user_is_in_the_register_page_after_clicking_register_link_in_the_home_page(Register.java:60)
-	at ✽.User is in the Register page after clicking Register link in the home page(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/B_Register.feature:26)
-</pre></div></td>
-<td>0</td>
-<td>dsAlgo_TestRunner.TestRunner@5a18cd76</td></tr>
-<tr>
-<td title='dsAlgo_TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsAlgo_TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that the user is able to get an error message when username (with special characters other than @) in the username field in the Register page is entered", "Register Page"</td>
-<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy25.isDisplayed(Unknown Source)
-	at dsAlgo_PageFactory.Register_PageFactory.registerBtnDisplayed(Register_PageFactory.java:37)
-	at dsAlgo_StepDefinition.Register.user_is_in_the_register_page_after_clicking_register_link_in_the_home_page(Register.java:60)
-	at ✽.User is in the Register page after clicking Register link in the home page(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/B_Register.feature:26)
-</pre></div><a href='#' onClick='toggleBox("stack-trace975905570", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace975905570'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy25.isDisplayed(Unknown Source)
-	at dsAlgo_PageFactory.Register_PageFactory.registerBtnDisplayed(Register_PageFactory.java:37)
-	at dsAlgo_StepDefinition.Register.user_is_in_the_register_page_after_clicking_register_link_in_the_home_page(Register.java:60)
-	at ✽.User is in the Register page after clicking Register link in the home page(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/B_Register.feature:26)
-</pre></div></td>
-<td>0</td>
-<td>dsAlgo_TestRunner.TestRunner@5a18cd76</td></tr>
-<tr>
-<td title='dsAlgo_TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsAlgo_TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify warning message when selecting Linked List without signing in", "Home Page"</td>
-<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy25.click(Unknown Source)
-	at dsAlgo_PageFactory.Home_PageFactory.dataStructureDropDownClick(Home_PageFactory.java:61)
-	at dsAlgo_StepDefinition.Home.user_selects_linked_list_from_the_dropdown_without_signing_in(Home.java:72)
-	at ✽.User selects Linked List from the dropdown without signing in(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/A_Home.feature:17)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1653859230", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1653859230'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy25.click(Unknown Source)
-	at dsAlgo_PageFactory.Home_PageFactory.dataStructureDropDownClick(Home_PageFactory.java:61)
-	at dsAlgo_StepDefinition.Home.user_selects_linked_list_from_the_dropdown_without_signing_in(Home.java:72)
-	at ✽.User selects Linked List from the dropdown without signing in(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/A_Home.feature:17)
-</pre></div></td>
-<td>0</td>
-<td>dsAlgo_TestRunner.TestRunner@5a18cd76</td></tr>
-<tr>
-<td title='dsAlgo_TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsAlgo_TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that the user is able to see output for valid, invalid and incorrect syntax Python code is entered for the Introduction page", "Linked List Functionality"</td>
-<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy25.isDisplayed(Unknown Source)
-	at dsAlgo_PageFactory.LinkedList_PageFactory.runBtnDisplayed(LinkedList_PageFactory.java:129)
-	at dsAlgo_StepDefinition.LinkedList.the_user_is_in_the_try_editor_page_for_the_introduction_page(LinkedList.java:172)
-	at ✽.The user is in the Try Editor page for the Introduction page(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/D_LinkedList.feature:56)
-</pre></div><a href='#' onClick='toggleBox("stack-trace773708944", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace773708944'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy25.isDisplayed(Unknown Source)
-	at dsAlgo_PageFactory.LinkedList_PageFactory.runBtnDisplayed(LinkedList_PageFactory.java:129)
-	at dsAlgo_StepDefinition.LinkedList.the_user_is_in_the_try_editor_page_for_the_introduction_page(LinkedList.java:172)
-	at ✽.The user is in the Try Editor page for the Introduction page(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/D_LinkedList.feature:56)
-</pre></div></td>
-<td>0</td>
-<td>dsAlgo_TestRunner.TestRunner@5a18cd76</td></tr>
-<tr>
-<td title='dsAlgo_TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsAlgo_TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify user enters username and password for SignIn", "Login Functionality"</td>
-<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.get(String)&quot; because &quot;this.driver&quot; is null
-	at dsAlgo_PageFactory.Home_PageFactory.launchURL(Home_PageFactory.java:45)
-	at dsAlgo_StepDefinition.Login.the_user_clicks_the_sign_in_link_from_the_portal(Login.java:118)
-	at ✽.The user clicks the Sign In link from the portal(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/C_Login.feature:42)
-</pre></div><a href='#' onClick='toggleBox("stack-trace821513849", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace821513849'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.get(String)&quot; because &quot;this.driver&quot; is null
-	at dsAlgo_PageFactory.Home_PageFactory.launchURL(Home_PageFactory.java:45)
-	at dsAlgo_StepDefinition.Login.the_user_clicks_the_sign_in_link_from_the_portal(Login.java:118)
-	at ✽.The user clicks the Sign In link from the portal(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/C_Login.feature:42)
-</pre></div></td>
-<td>0</td>
-<td>dsAlgo_TestRunner.TestRunner@5a18cd76</td></tr>
-<tr>
-<td title='dsAlgo_TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsAlgo_TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that the user is able to enter password in the field", "Register Page"</td>
-<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy25.isDisplayed(Unknown Source)
-	at dsAlgo_PageFactory.Register_PageFactory.registerBtnDisplayed(Register_PageFactory.java:37)
-	at dsAlgo_StepDefinition.Register.user_is_in_the_register_page_after_clicking_register_link_in_the_home_page(Register.java:60)
-	at ✽.User is in the Register page after clicking Register link in the home page(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/B_Register.feature:38)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1866403758", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1866403758'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy25.isDisplayed(Unknown Source)
-	at dsAlgo_PageFactory.Register_PageFactory.registerBtnDisplayed(Register_PageFactory.java:37)
-	at dsAlgo_StepDefinition.Register.user_is_in_the_register_page_after_clicking_register_link_in_the_home_page(Register.java:60)
-	at ✽.User is in the Register page after clicking Register link in the home page(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/B_Register.feature:38)
-</pre></div></td>
-<td>0</td>
-<td>dsAlgo_TestRunner.TestRunner@5a18cd76</td></tr>
-<tr>
-<td title='dsAlgo_TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsAlgo_TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that the user is able to enter username in the username field", "Register Page"</td>
-<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy25.isDisplayed(Unknown Source)
-	at dsAlgo_PageFactory.Register_PageFactory.registerBtnDisplayed(Register_PageFactory.java:37)
-	at dsAlgo_StepDefinition.Register.user_is_in_the_register_page_after_clicking_register_link_in_the_home_page(Register.java:60)
-	at ✽.User is in the Register page after clicking Register link in the home page(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/B_Register.feature:14)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1726519676", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1726519676'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy25.isDisplayed(Unknown Source)
-	at dsAlgo_PageFactory.Register_PageFactory.registerBtnDisplayed(Register_PageFactory.java:37)
-	at dsAlgo_StepDefinition.Register.user_is_in_the_register_page_after_clicking_register_link_in_the_home_page(Register.java:60)
-	at ✽.User is in the Register page after clicking Register link in the home page(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/B_Register.feature:14)
-</pre></div></td>
-<td>0</td>
-<td>dsAlgo_TestRunner.TestRunner@5a18cd76</td></tr>
-<tr>
-<td title='dsAlgo_TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsAlgo_TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that the user is able to get an error message", "Register Page"</td>
-<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy25.isDisplayed(Unknown Source)
-	at dsAlgo_PageFactory.Register_PageFactory.registerBtnDisplayed(Register_PageFactory.java:37)
-	at dsAlgo_StepDefinition.Register.user_is_in_the_register_page_after_clicking_register_link_in_the_home_page(Register.java:60)
-	at ✽.User is in the Register page after clicking Register link in the home page(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/B_Register.feature:50)
-</pre></div><a href='#' onClick='toggleBox("stack-trace714850447", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace714850447'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy25.isDisplayed(Unknown Source)
-	at dsAlgo_PageFactory.Register_PageFactory.registerBtnDisplayed(Register_PageFactory.java:37)
-	at dsAlgo_StepDefinition.Register.user_is_in_the_register_page_after_clicking_register_link_in_the_home_page(Register.java:60)
-	at ✽.User is in the Register page after clicking Register link in the home page(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/B_Register.feature:50)
-</pre></div></td>
-<td>0</td>
-<td>dsAlgo_TestRunner.TestRunner@5a18cd76</td></tr>
-<tr>
-<td title='dsAlgo_TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsAlgo_TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that the Implement Linked List in Python link is enabled in the Linked List page", "Linked List Functionality"</td>
-<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy25.isEnabled(Unknown Source)
-	at dsAlgo_PageFactory.LinkedList_PageFactory.implementLinkedListLinkEnabled(LinkedList_PageFactory.java:69)
-	at dsAlgo_StepDefinition.LinkedList.the_user_checks_whether_the_implement_linked_list_in_python_link_is_enabled(LinkedList.java:120)
-	at ✽.The user checks whether the Implement Linked List in Python link is enabled(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/D_LinkedList.feature:31)
-</pre></div><a href='#' onClick='toggleBox("stack-trace14838518", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace14838518'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy25.isEnabled(Unknown Source)
-	at dsAlgo_PageFactory.LinkedList_PageFactory.implementLinkedListLinkEnabled(LinkedList_PageFactory.java:69)
-	at dsAlgo_StepDefinition.LinkedList.the_user_checks_whether_the_implement_linked_list_in_python_link_is_enabled(LinkedList.java:120)
-	at ✽.The user checks whether the Implement Linked List in Python link is enabled(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/D_LinkedList.feature:31)
-</pre></div></td>
-<td>0</td>
-<td>dsAlgo_TestRunner.TestRunner@5a18cd76</td></tr>
-<tr>
-<td title='dsAlgo_TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsAlgo_TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that the user is able to enter username in the username field", "Register Page"</td>
-<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy25.isDisplayed(Unknown Source)
-	at dsAlgo_PageFactory.Register_PageFactory.registerBtnDisplayed(Register_PageFactory.java:37)
-	at dsAlgo_StepDefinition.Register.user_is_in_the_register_page_after_clicking_register_link_in_the_home_page(Register.java:60)
-	at ✽.User is in the Register page after clicking Register link in the home page(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/B_Register.feature:14)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1775675341", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1775675341'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy25.isDisplayed(Unknown Source)
-	at dsAlgo_PageFactory.Register_PageFactory.registerBtnDisplayed(Register_PageFactory.java:37)
-	at dsAlgo_StepDefinition.Register.user_is_in_the_register_page_after_clicking_register_link_in_the_home_page(Register.java:60)
-	at ✽.User is in the Register page after clicking Register link in the home page(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/B_Register.feature:14)
-</pre></div></td>
-<td>0</td>
-<td>dsAlgo_TestRunner.TestRunner@5a18cd76</td></tr>
-<tr>
-<td title='dsAlgo_TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsAlgo_TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that the Traversal link is enabled in the Linked List page", "Linked List Functionality"</td>
-<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy25.isEnabled(Unknown Source)
-	at dsAlgo_PageFactory.LinkedList_PageFactory.traversalLinkEnabled(LinkedList_PageFactory.java:72)
-	at dsAlgo_StepDefinition.LinkedList.the_user_checks_whether_the_traversal_link_is_enabled(LinkedList.java:128)
-	at ✽.The user checks whether the Traversal link is enabled(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/D_LinkedList.feature:35)
-</pre></div><a href='#' onClick='toggleBox("stack-trace932312334", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace932312334'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy25.isEnabled(Unknown Source)
-	at dsAlgo_PageFactory.LinkedList_PageFactory.traversalLinkEnabled(LinkedList_PageFactory.java:72)
-	at dsAlgo_StepDefinition.LinkedList.the_user_checks_whether_the_traversal_link_is_enabled(LinkedList.java:128)
-	at ✽.The user checks whether the Traversal link is enabled(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/D_LinkedList.feature:35)
-</pre></div></td>
-<td>0</td>
-<td>dsAlgo_TestRunner.TestRunner@5a18cd76</td></tr>
-<tr>
-<td title='dsAlgo_TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsAlgo_TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify warning message when selecting Stack without signing in", "Home Page"</td>
-<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy25.click(Unknown Source)
-	at dsAlgo_PageFactory.Home_PageFactory.dataStructureDropDownClick(Home_PageFactory.java:61)
-	at dsAlgo_StepDefinition.Home.user_selects_stack_from_the_dropdown_without_signing_in(Home.java:78)
-	at ✽.User selects Stack from the dropdown without signing in(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/A_Home.feature:21)
-</pre></div><a href='#' onClick='toggleBox("stack-trace882962176", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace882962176'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy25.click(Unknown Source)
-	at dsAlgo_PageFactory.Home_PageFactory.dataStructureDropDownClick(Home_PageFactory.java:61)
-	at dsAlgo_StepDefinition.Home.user_selects_stack_from_the_dropdown_without_signing_in(Home.java:78)
-	at ✽.User selects Stack from the dropdown without signing in(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/A_Home.feature:21)
-</pre></div></td>
-<td>0</td>
-<td>dsAlgo_TestRunner.TestRunner@5a18cd76</td></tr>
-<tr>
-<td title='dsAlgo_TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsAlgo_TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that the user is able to click on Get Started button under Linked List section", "Linked List Functionality"</td>
-<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.getCurrentUrl()&quot; because &quot;this.driver&quot; is null
-	at dsAlgo_StepDefinition.LinkedList.user_clicks_on_the_get_started_button_under_linked_list_section(LinkedList.java:73)
-	at ✽.User clicks on the Get Started button under Linked List section(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/D_LinkedList.feature:14)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1688918025", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1688918025'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.getCurrentUrl()&quot; because &quot;this.driver&quot; is null
-	at dsAlgo_StepDefinition.LinkedList.user_clicks_on_the_get_started_button_under_linked_list_section(LinkedList.java:73)
-	at ✽.User clicks on the Get Started button under Linked List section(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/D_LinkedList.feature:14)
-</pre></div></td>
-<td>0</td>
-<td>dsAlgo_TestRunner.TestRunner@5a18cd76</td></tr>
-<tr>
-<td title='dsAlgo_TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsAlgo_TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify warning message when selecting Queue without signing in", "Home Page"</td>
-<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy25.click(Unknown Source)
-	at dsAlgo_PageFactory.Home_PageFactory.dataStructureDropDownClick(Home_PageFactory.java:61)
-	at dsAlgo_StepDefinition.Home.user_selects_queue_from_the_dropdown_without_signing_in(Home.java:84)
-	at ✽.User selects Queue from the dropdown without signing in(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/A_Home.feature:25)
-</pre></div><a href='#' onClick='toggleBox("stack-trace247575268", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace247575268'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy25.click(Unknown Source)
-	at dsAlgo_PageFactory.Home_PageFactory.dataStructureDropDownClick(Home_PageFactory.java:61)
-	at dsAlgo_StepDefinition.Home.user_selects_queue_from_the_dropdown_without_signing_in(Home.java:84)
-	at ✽.User selects Queue from the dropdown without signing in(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/A_Home.feature:25)
-</pre></div></td>
-<td>0</td>
-<td>dsAlgo_TestRunner.TestRunner@5a18cd76</td></tr>
-<tr>
-<td title='dsAlgo_TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsAlgo_TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that the user is able to navigate to the home page", "Login Functionality"</td>
-<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.get(String)&quot; because &quot;this.driver&quot; is null
-	at dsAlgo_PageFactory.Home_PageFactory.launchURL(Home_PageFactory.java:45)
-	at dsAlgo_StepDefinition.Home.user_is_in_the_ds_algo_launch_page(Home.java:26)
-	at ✽.User is in the ds-algo launch page(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/C_Login.feature:4)
-</pre></div><a href='#' onClick='toggleBox("stack-trace745604825", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace745604825'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.get(String)&quot; because &quot;this.driver&quot; is null
-	at dsAlgo_PageFactory.Home_PageFactory.launchURL(Home_PageFactory.java:45)
-	at dsAlgo_StepDefinition.Home.user_is_in_the_ds_algo_launch_page(Home.java:26)
-	at ✽.User is in the ds-algo launch page(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/C_Login.feature:4)
-</pre></div></td>
-<td>0</td>
-<td>dsAlgo_TestRunner.TestRunner@5a18cd76</td></tr>
+<td>2</td>
+<td>dsAlgo_TestRunner.TestRunner@59e505b2</td></tr>
 <tr>
 <td title='dsAlgo_TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsAlgo_TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that the user is able to naviagte to home page with the message", "Register Page"</td>
-<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.manage()&quot; because &quot;this.driver&quot; is null
-	at dsAlgo_StepDefinition.Register.user_is_in_the_register_page_to_enter_username_password_and_password_confirmation(Register.java:162)
-	at ✽.User is in the Register page to enter username, password and password confirmation(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/B_Register.feature:73)
-</pre></div><a href='#' onClick='toggleBox("stack-trace86506638", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace86506638'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.manage()&quot; because &quot;this.driver&quot; is null
-	at dsAlgo_StepDefinition.Register.user_is_in_the_register_page_to_enter_username_password_and_password_confirmation(Register.java:162)
-	at ✽.User is in the Register page to enter username, password and password confirmation(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/B_Register.feature:73)
-</pre></div></td>
-<td>0</td>
-<td>dsAlgo_TestRunner.TestRunner@5a18cd76</td></tr>
-<tr>
-<td title='dsAlgo_TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsAlgo_TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify user enters username and password fields", "Home Page"</td>
-<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[contains(text(),&apos;Account Created&apos;)]&quot;}
+  (Session info: chrome=131.0.6778.265)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.28.0&apos;, revision: &apos;ac342546e9&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [aff08d1338e1eeab4183e223f150be86, findElement {using=xpath, value=//div[contains(text(),&apos;Account Created&apos;)]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.265, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\rinuh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54484}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54484/devtoo..., se:cdpVersion: 131.0.6778.265, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: aff08d1338e1eeab4183e223f150be86
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy25.click(Unknown Source)
-	at dsAlgo_PageFactory.Home_PageFactory.getStartedHomeBtnClick(Home_PageFactory.java:49)
-	at dsAlgo_StepDefinition.Home.the_user_is_on_the_sign_in_page(Home.java:123)
-	at ✽.The user is on the Sign In page(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/A_Home.feature:46)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1778801068", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1778801068'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null
+	at jdk.proxy2/jdk.proxy2.$Proxy41.getText(Unknown Source)
+	at dsAlgo_PageFactory.Register_PageFactory.successMessageDisplayed(Register_PageFactory.java:57)
+	at dsAlgo_StepDefinition.Register.user_should_be_able_to_naviagte_to_home_page_and_get_the_success_message(Register.java:180)
+	at ✽.User should be able to naviagte to home page and get the success message(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/Register.feature:75)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1082705382", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1082705382'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[contains(text(),&apos;Account Created&apos;)]&quot;}
+  (Session info: chrome=131.0.6778.265)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.28.0&apos;, revision: &apos;ac342546e9&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [aff08d1338e1eeab4183e223f150be86, findElement {using=xpath, value=//div[contains(text(),&apos;Account Created&apos;)]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.265, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\rinuh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54484}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54484/devtoo..., se:cdpVersion: 131.0.6778.265, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: aff08d1338e1eeab4183e223f150be86
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy25.click(Unknown Source)
-	at dsAlgo_PageFactory.Home_PageFactory.getStartedHomeBtnClick(Home_PageFactory.java:49)
-	at dsAlgo_StepDefinition.Home.the_user_is_on_the_sign_in_page(Home.java:123)
-	at ✽.The user is on the Sign In page(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/A_Home.feature:46)
+	at jdk.proxy2/jdk.proxy2.$Proxy41.getText(Unknown Source)
+	at dsAlgo_PageFactory.Register_PageFactory.successMessageDisplayed(Register_PageFactory.java:57)
+	at dsAlgo_StepDefinition.Register.user_should_be_able_to_naviagte_to_home_page_and_get_the_success_message(Register.java:180)
+	at ✽.User should be able to naviagte to home page and get the success message(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/Register.feature:75)
 </pre></div></td>
 <td>3</td>
-<td>dsAlgo_TestRunner.TestRunner@5a18cd76</td></tr>
+<td>dsAlgo_TestRunner.TestRunner@59e505b2</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='dsAlgo_TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsAlgo_TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that the user is able to navigate to Try Here >>> page for Insertion page", "Linked List Functionality"</td>
+<td></td>
+<td>0</td>
+<td>dsAlgo_TestRunner.TestRunner@59e505b2</td></tr>
+<tr>
+<td title='dsAlgo_TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsAlgo_TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify user receives error message for Invalid Username and Password during Login", "Login Functionality"</td>
+<td></td>
+<td>0</td>
+<td>dsAlgo_TestRunner.TestRunner@59e505b2</td></tr>
 <tr>
 <td title='dsAlgo_TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsAlgo_TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that the user is able to get an error message", "Register Page"</td>
-<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy25.isDisplayed(Unknown Source)
-	at dsAlgo_PageFactory.Register_PageFactory.registerBtnDisplayed(Register_PageFactory.java:37)
-	at dsAlgo_StepDefinition.Register.user_is_in_the_register_page_after_clicking_register_link_in_the_home_page(Register.java:60)
-	at ✽.User is in the Register page after clicking Register link in the home page(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/B_Register.feature:50)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1955502880", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1955502880'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy25.isDisplayed(Unknown Source)
-	at dsAlgo_PageFactory.Register_PageFactory.registerBtnDisplayed(Register_PageFactory.java:37)
-	at dsAlgo_StepDefinition.Register.user_is_in_the_register_page_after_clicking_register_link_in_the_home_page(Register.java:60)
-	at ✽.User is in the Register page after clicking Register link in the home page(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/B_Register.feature:50)
-</pre></div></td>
+<td></td>
 <td>0</td>
-<td>dsAlgo_TestRunner.TestRunner@5a18cd76</td></tr>
+<td>dsAlgo_TestRunner.TestRunner@59e505b2</td></tr>
+<tr>
+<td title='dsAlgo_TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsAlgo_TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that the user is able to click on Get Started button under Linked List section", "Linked List Functionality"</td>
+<td></td>
+<td>2</td>
+<td>dsAlgo_TestRunner.TestRunner@59e505b2</td></tr>
+<tr>
+<td title='dsAlgo_TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsAlgo_TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that the user is able to see output for valid, invalid and incorrect syntax Python code is entered for the Traversal page", "Linked List Functionality"</td>
+<td></td>
+<td>0</td>
+<td>dsAlgo_TestRunner.TestRunner@59e505b2</td></tr>
 <tr>
 <td title='dsAlgo_TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsAlgo_TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that the user is able to enter username in the username field", "Register Page"</td>
-<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy25.isDisplayed(Unknown Source)
-	at dsAlgo_PageFactory.Register_PageFactory.registerBtnDisplayed(Register_PageFactory.java:37)
-	at dsAlgo_StepDefinition.Register.user_is_in_the_register_page_after_clicking_register_link_in_the_home_page(Register.java:60)
-	at ✽.User is in the Register page after clicking Register link in the home page(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/B_Register.feature:14)
-</pre></div><a href='#' onClick='toggleBox("stack-trace745571392", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace745571392'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy25.isDisplayed(Unknown Source)
-	at dsAlgo_PageFactory.Register_PageFactory.registerBtnDisplayed(Register_PageFactory.java:37)
-	at dsAlgo_StepDefinition.Register.user_is_in_the_register_page_after_clicking_register_link_in_the_home_page(Register.java:60)
-	at ✽.User is in the Register page after clicking Register link in the home page(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/B_Register.feature:14)
-</pre></div></td>
+<td></td>
 <td>0</td>
-<td>dsAlgo_TestRunner.TestRunner@5a18cd76</td></tr>
+<td>dsAlgo_TestRunner.TestRunner@59e505b2</td></tr>
 <tr>
-<td title='dsAlgo_TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsAlgo_TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that the Types of Linked List link is enabled in the Linked List page", "Linked List Functionality"</td>
-<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy25.isEnabled(Unknown Source)
-	at dsAlgo_PageFactory.LinkedList_PageFactory.typesOfLinkedListLinkEnabled(LinkedList_PageFactory.java:66)
-	at dsAlgo_StepDefinition.LinkedList.the_user_checks_whether_the_types_of_linked_list_link_is_enabled(LinkedList.java:112)
-	at ✽.The user checks whether the Types of Linked List link is enabled(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/D_LinkedList.feature:27)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1973471376", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1973471376'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy25.isEnabled(Unknown Source)
-	at dsAlgo_PageFactory.LinkedList_PageFactory.typesOfLinkedListLinkEnabled(LinkedList_PageFactory.java:66)
-	at dsAlgo_StepDefinition.LinkedList.the_user_checks_whether_the_types_of_linked_list_link_is_enabled(LinkedList.java:112)
-	at ✽.The user checks whether the Types of Linked List link is enabled(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/D_LinkedList.feature:27)
-</pre></div></td>
+<td title='dsAlgo_TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsAlgo_TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that the user is able to navigate to Traversal page after clicking <- in the Try Editor window", "Linked List Functionality"</td>
+<td></td>
 <td>0</td>
-<td>dsAlgo_TestRunner.TestRunner@5a18cd76</td></tr>
-<tr>
-<td title='dsAlgo_TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsAlgo_TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that the user is able to enter username in the username field", "Register Page"</td>
-<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy25.isDisplayed(Unknown Source)
-	at dsAlgo_PageFactory.Register_PageFactory.registerBtnDisplayed(Register_PageFactory.java:37)
-	at dsAlgo_StepDefinition.Register.user_is_in_the_register_page_after_clicking_register_link_in_the_home_page(Register.java:60)
-	at ✽.User is in the Register page after clicking Register link in the home page(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/B_Register.feature:14)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1827869767", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1827869767'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy25.isDisplayed(Unknown Source)
-	at dsAlgo_PageFactory.Register_PageFactory.registerBtnDisplayed(Register_PageFactory.java:37)
-	at dsAlgo_StepDefinition.Register.user_is_in_the_register_page_after_clicking_register_link_in_the_home_page(Register.java:60)
-	at ✽.User is in the Register page after clicking Register link in the home page(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/B_Register.feature:14)
-</pre></div></td>
-<td>0</td>
-<td>dsAlgo_TestRunner.TestRunner@5a18cd76</td></tr>
-<tr>
-<td title='dsAlgo_TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsAlgo_TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that the user is able to get an error message", "Register Page"</td>
-<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy25.isDisplayed(Unknown Source)
-	at dsAlgo_PageFactory.Register_PageFactory.registerBtnDisplayed(Register_PageFactory.java:37)
-	at dsAlgo_StepDefinition.Register.user_is_in_the_register_page_after_clicking_register_link_in_the_home_page(Register.java:60)
-	at ✽.User is in the Register page after clicking Register link in the home page(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/B_Register.feature:50)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1248334686", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1248334686'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy25.isDisplayed(Unknown Source)
-	at dsAlgo_PageFactory.Register_PageFactory.registerBtnDisplayed(Register_PageFactory.java:37)
-	at dsAlgo_StepDefinition.Register.user_is_in_the_register_page_after_clicking_register_link_in_the_home_page(Register.java:60)
-	at ✽.User is in the Register page after clicking Register link in the home page(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/B_Register.feature:50)
-</pre></div></td>
-<td>0</td>
-<td>dsAlgo_TestRunner.TestRunner@5a18cd76</td></tr>
-<tr>
-<td title='dsAlgo_TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsAlgo_TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that the Creating Linked List link is enabled in the Linked List page", "Linked List Functionality"</td>
-<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy25.isEnabled(Unknown Source)
-	at dsAlgo_PageFactory.LinkedList_PageFactory.creatingLinkedListLinkEnabled(LinkedList_PageFactory.java:63)
-	at dsAlgo_StepDefinition.LinkedList.the_user_checks_whether_the_creating_linked_list_link_is_enabled(LinkedList.java:104)
-	at ✽.The user checks whether the Creating Linked List link is enabled(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/D_LinkedList.feature:23)
-</pre></div><a href='#' onClick='toggleBox("stack-trace157783888", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace157783888'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy25.isEnabled(Unknown Source)
-	at dsAlgo_PageFactory.LinkedList_PageFactory.creatingLinkedListLinkEnabled(LinkedList_PageFactory.java:63)
-	at dsAlgo_StepDefinition.LinkedList.the_user_checks_whether_the_creating_linked_list_link_is_enabled(LinkedList.java:104)
-	at ✽.The user checks whether the Creating Linked List link is enabled(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/D_LinkedList.feature:23)
-</pre></div></td>
-<td>0</td>
-<td>dsAlgo_TestRunner.TestRunner@5a18cd76</td></tr>
-<tr>
-<td title='dsAlgo_TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsAlgo_TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that the user is able to navigate to Try Here >>> page for Introduction page", "Linked List Functionality"</td>
-<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy25.isDisplayed(Unknown Source)
-	at dsAlgo_PageFactory.LinkedList_PageFactory.introductionTitleDisplayed(LinkedList_PageFactory.java:102)
-	at dsAlgo_StepDefinition.LinkedList.the_user_is_in_the_introduction_page(LinkedList.java:160)
-	at ✽.The user is in the Introduction page(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/D_LinkedList.feature:51)
-</pre></div><a href='#' onClick='toggleBox("stack-trace534553956", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace534553956'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy25.isDisplayed(Unknown Source)
-	at dsAlgo_PageFactory.LinkedList_PageFactory.introductionTitleDisplayed(LinkedList_PageFactory.java:102)
-	at dsAlgo_StepDefinition.LinkedList.the_user_is_in_the_introduction_page(LinkedList.java:160)
-	at ✽.The user is in the Introduction page(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/D_LinkedList.feature:51)
-</pre></div></td>
-<td>0</td>
-<td>dsAlgo_TestRunner.TestRunner@5a18cd76</td></tr>
-<tr>
-<td title='dsAlgo_TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsAlgo_TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that the user is able to get a pop-up message when username, password and password confirmation field are left blank", "Register Page"</td>
-<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy25.clear(Unknown Source)
-	at dsAlgo_StepDefinition.Register.the_user_enters_data_from_excel_sheet_and_for_all_the_fields_to_be_left_blank(Register.java:141)
-	at ✽.The user enters data from excel sheet &apos;Register&apos; and 14 for all the fields to be left blank(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/B_Register.feature:62)
-</pre></div><a href='#' onClick='toggleBox("stack-trace649848324", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace649848324'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy25.clear(Unknown Source)
-	at dsAlgo_StepDefinition.Register.the_user_enters_data_from_excel_sheet_and_for_all_the_fields_to_be_left_blank(Register.java:141)
-	at ✽.The user enters data from excel sheet &apos;Register&apos; and 14 for all the fields to be left blank(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/B_Register.feature:62)
-</pre></div></td>
-<td>0</td>
-<td>dsAlgo_TestRunner.TestRunner@5a18cd76</td></tr>
-<tr>
-<td title='dsAlgo_TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsAlgo_TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that the user is able to get a pop-up message when username, password and password confirmation field are left blank", "Register Page"</td>
-<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy25.clear(Unknown Source)
-	at dsAlgo_StepDefinition.Register.the_user_enters_data_from_excel_sheet_and_for_all_the_fields_to_be_left_blank(Register.java:141)
-	at ✽.The user enters data from excel sheet &apos;Register&apos; and 16 for all the fields to be left blank(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/B_Register.feature:62)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1464031233", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1464031233'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy25.clear(Unknown Source)
-	at dsAlgo_StepDefinition.Register.the_user_enters_data_from_excel_sheet_and_for_all_the_fields_to_be_left_blank(Register.java:141)
-	at ✽.The user enters data from excel sheet &apos;Register&apos; and 16 for all the fields to be left blank(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/B_Register.feature:62)
-</pre></div></td>
-<td>0</td>
-<td>dsAlgo_TestRunner.TestRunner@5a18cd76</td></tr>
-<tr>
-<td title='dsAlgo_TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsAlgo_TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that the Introduction link is enabled in the Linked List page", "Linked List Functionality"</td>
-<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy25.isDisplayed(Unknown Source)
-	at dsAlgo_PageFactory.LinkedList_PageFactory.linkedListTitleDisplayed(LinkedList_PageFactory.java:57)
-	at dsAlgo_StepDefinition.LinkedList.the_user_is_in_the_linked_list_page_after_sign_in(LinkedList.java:92)
-	at ✽.The user is in the Linked List page after Sign-In(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/D_LinkedList.feature:18)
-</pre></div><a href='#' onClick='toggleBox("stack-trace400385823", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace400385823'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy25.isDisplayed(Unknown Source)
-	at dsAlgo_PageFactory.LinkedList_PageFactory.linkedListTitleDisplayed(LinkedList_PageFactory.java:57)
-	at dsAlgo_StepDefinition.LinkedList.the_user_is_in_the_linked_list_page_after_sign_in(LinkedList.java:92)
-	at ✽.The user is in the Linked List page after Sign-In(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/D_LinkedList.feature:18)
-</pre></div></td>
-<td>0</td>
-<td>dsAlgo_TestRunner.TestRunner@5a18cd76</td></tr>
+<td>dsAlgo_TestRunner.TestRunner@59e505b2</td></tr>
 <tr>
 <td title='dsAlgo_TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsAlgo_TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that the user is restricted from navigating to the home page", "Home Page"</td>
-<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy25.click(Unknown Source)
-	at dsAlgo_PageFactory.Home_PageFactory.randomClickMethod(Home_PageFactory.java:89)
-	at dsAlgo_StepDefinition.Home.user_clicks_on_the_launch_page_other_than_the_get_started_button(Home.java:112)
-	at ✽.User clicks on the launch page other than the Get Started button(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/A_Home.feature:42)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1055800875", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1055800875'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy25.click(Unknown Source)
-	at dsAlgo_PageFactory.Home_PageFactory.randomClickMethod(Home_PageFactory.java:89)
-	at dsAlgo_StepDefinition.Home.user_clicks_on_the_launch_page_other_than_the_get_started_button(Home.java:112)
-	at ✽.User clicks on the launch page other than the Get Started button(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/A_Home.feature:42)
-</pre></div></td>
+<td></td>
 <td>0</td>
-<td>dsAlgo_TestRunner.TestRunner@5a18cd76</td></tr>
+<td>dsAlgo_TestRunner.TestRunner@59e505b2</td></tr>
+<tr>
+<td title='dsAlgo_TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsAlgo_TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that the user is able to navigate to Insertion page", "Linked List Functionality"</td>
+<td></td>
+<td>0</td>
+<td>dsAlgo_TestRunner.TestRunner@59e505b2</td></tr>
 <tr>
 <td title='dsAlgo_TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsAlgo_TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that the user is able to enter password in the field", "Register Page"</td>
-<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy25.isDisplayed(Unknown Source)
-	at dsAlgo_PageFactory.Register_PageFactory.registerBtnDisplayed(Register_PageFactory.java:37)
-	at dsAlgo_StepDefinition.Register.user_is_in_the_register_page_after_clicking_register_link_in_the_home_page(Register.java:60)
-	at ✽.User is in the Register page after clicking Register link in the home page(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/B_Register.feature:38)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1948835427", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1948835427'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy25.isDisplayed(Unknown Source)
-	at dsAlgo_PageFactory.Register_PageFactory.registerBtnDisplayed(Register_PageFactory.java:37)
-	at dsAlgo_StepDefinition.Register.user_is_in_the_register_page_after_clicking_register_link_in_the_home_page(Register.java:60)
-	at ✽.User is in the Register page after clicking Register link in the home page(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/B_Register.feature:38)
-</pre></div></td>
+<td></td>
 <td>0</td>
-<td>dsAlgo_TestRunner.TestRunner@5a18cd76</td></tr>
+<td>dsAlgo_TestRunner.TestRunner@59e505b2</td></tr>
 <tr>
-<td title='dsAlgo_TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsAlgo_TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that the user is able to navigate to Introduction page", "Linked List Functionality"</td>
-<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy25.click(Unknown Source)
-	at dsAlgo_PageFactory.LinkedList_PageFactory.introductionLinkClick(LinkedList_PageFactory.java:81)
-	at dsAlgo_StepDefinition.LinkedList.the_user_clicks_introduction_link_in_the_linked_list_page(LinkedList.java:152)
-	at ✽.The user clicks Introduction link in the Linked List page(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/D_LinkedList.feature:47)
-</pre></div><a href='#' onClick='toggleBox("stack-trace717132147", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace717132147'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy25.click(Unknown Source)
-	at dsAlgo_PageFactory.LinkedList_PageFactory.introductionLinkClick(LinkedList_PageFactory.java:81)
-	at dsAlgo_StepDefinition.LinkedList.the_user_clicks_introduction_link_in_the_linked_list_page(LinkedList.java:152)
-	at ✽.The user clicks Introduction link in the Linked List page(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/D_LinkedList.feature:47)
-</pre></div></td>
+<td title='dsAlgo_TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsAlgo_TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that the user is able to navigate to Implement Linked List in Python page after clicking <- in the Try Editor window", "Linked List Functionality"</td>
+<td></td>
 <td>0</td>
-<td>dsAlgo_TestRunner.TestRunner@5a18cd76</td></tr>
+<td>dsAlgo_TestRunner.TestRunner@59e505b2</td></tr>
 <tr>
 <td title='dsAlgo_TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsAlgo_TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that the user stays on the same page when clicking elsewhere", "Home Page"</td>
-<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.get(String)&quot; because &quot;this.driver&quot; is null
-	at dsAlgo_PageFactory.Home_PageFactory.launchURL(Home_PageFactory.java:45)
-	at dsAlgo_StepDefinition.Home.user_is_in_the_ds_algo_launch_page(Home.java:26)
-	at ✽.User is in the ds-algo launch page(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/A_Home.feature:37)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1215023524", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1215023524'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.get(String)&quot; because &quot;this.driver&quot; is null
-	at dsAlgo_PageFactory.Home_PageFactory.launchURL(Home_PageFactory.java:45)
-	at dsAlgo_StepDefinition.Home.user_is_in_the_ds_algo_launch_page(Home.java:26)
-	at ✽.User is in the ds-algo launch page(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/A_Home.feature:37)
-</pre></div></td>
+<td></td>
 <td>0</td>
-<td>dsAlgo_TestRunner.TestRunner@5a18cd76</td></tr>
+<td>dsAlgo_TestRunner.TestRunner@59e505b2</td></tr>
 <tr>
-<td title='dsAlgo_TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsAlgo_TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify user receives error message for Invalid Username and Password during Login", "Login Functionality"</td>
-<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy25.click(Unknown Source)
-	at dsAlgo_PageFactory.Login_PageFactory.signInClick(Login_PageFactory.java:30)
-	at dsAlgo_StepDefinition.Login.the_user_gets_invalid_data_from_excel_sheet_and_for_the_login_page(Login.java:75)
-	at ✽.The user gets invalid data from excel sheet &apos;Login&apos; and 4 for the login page(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/C_Login.feature:33)
-</pre></div><a href='#' onClick='toggleBox("stack-trace2066213108", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace2066213108'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy25.click(Unknown Source)
-	at dsAlgo_PageFactory.Login_PageFactory.signInClick(Login_PageFactory.java:30)
-	at dsAlgo_StepDefinition.Login.the_user_gets_invalid_data_from_excel_sheet_and_for_the_login_page(Login.java:75)
-	at ✽.The user gets invalid data from excel sheet &apos;Login&apos; and 4 for the login page(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/C_Login.feature:33)
-</pre></div></td>
+<td title='dsAlgo_TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsAlgo_TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that the user is able to navigate to Try Here >>> page for Deletion page", "Linked List Functionality"</td>
+<td></td>
 <td>0</td>
-<td>dsAlgo_TestRunner.TestRunner@5a18cd76</td></tr>
+<td>dsAlgo_TestRunner.TestRunner@59e505b2</td></tr>
 <tr>
-<td title='dsAlgo_TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsAlgo_TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that the user is able to see output for valid, invalid and incorrect syntax Python code is entered for the Introduction page", "Linked List Functionality"</td>
-<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy25.isDisplayed(Unknown Source)
-	at dsAlgo_PageFactory.LinkedList_PageFactory.runBtnDisplayed(LinkedList_PageFactory.java:129)
-	at dsAlgo_StepDefinition.LinkedList.the_user_is_in_the_try_editor_page_for_the_introduction_page(LinkedList.java:172)
-	at ✽.The user is in the Try Editor page for the Introduction page(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/D_LinkedList.feature:56)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1485208789", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1485208789'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy25.isDisplayed(Unknown Source)
-	at dsAlgo_PageFactory.LinkedList_PageFactory.runBtnDisplayed(LinkedList_PageFactory.java:129)
-	at dsAlgo_StepDefinition.LinkedList.the_user_is_in_the_try_editor_page_for_the_introduction_page(LinkedList.java:172)
-	at ✽.The user is in the Try Editor page for the Introduction page(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/D_LinkedList.feature:56)
-</pre></div></td>
+<td title='dsAlgo_TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsAlgo_TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify warning message when selecting Queue without signing in", "Home Page"</td>
+<td></td>
 <td>0</td>
-<td>dsAlgo_TestRunner.TestRunner@5a18cd76</td></tr>
-<tr>
-<td title='dsAlgo_TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsAlgo_TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that the user is able to get a pop-up message when username, password and password confirmation field are left blank", "Register Page"</td>
-<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy25.clear(Unknown Source)
-	at dsAlgo_StepDefinition.Register.the_user_enters_data_from_excel_sheet_and_for_all_the_fields_to_be_left_blank(Register.java:141)
-	at ✽.The user enters data from excel sheet &apos;Register&apos; and 15 for all the fields to be left blank(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/B_Register.feature:62)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1350395050", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1350395050'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy25.clear(Unknown Source)
-	at dsAlgo_StepDefinition.Register.the_user_enters_data_from_excel_sheet_and_for_all_the_fields_to_be_left_blank(Register.java:141)
-	at ✽.The user enters data from excel sheet &apos;Register&apos; and 15 for all the fields to be left blank(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/B_Register.feature:62)
-</pre></div></td>
-<td>0</td>
-<td>dsAlgo_TestRunner.TestRunner@5a18cd76</td></tr>
+<td>dsAlgo_TestRunner.TestRunner@59e505b2</td></tr>
 <tr>
 <td title='dsAlgo_TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsAlgo_TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that the Insertion link is enabled in the Linked List page", "Linked List Functionality"</td>
-<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy25.isEnabled(Unknown Source)
-	at dsAlgo_PageFactory.LinkedList_PageFactory.insertionLinkEnabled(LinkedList_PageFactory.java:75)
-	at dsAlgo_StepDefinition.LinkedList.the_user_checks_whether_the_insertion_link_is_enabled(LinkedList.java:136)
-	at ✽.The user checks whether the Insertion link is enabled(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/D_LinkedList.feature:39)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1156385423", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1156385423'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy25.isEnabled(Unknown Source)
-	at dsAlgo_PageFactory.LinkedList_PageFactory.insertionLinkEnabled(LinkedList_PageFactory.java:75)
-	at dsAlgo_StepDefinition.LinkedList.the_user_checks_whether_the_insertion_link_is_enabled(LinkedList.java:136)
-	at ✽.The user checks whether the Insertion link is enabled(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/D_LinkedList.feature:39)
-</pre></div></td>
+<td></td>
 <td>0</td>
-<td>dsAlgo_TestRunner.TestRunner@5a18cd76</td></tr>
+<td>dsAlgo_TestRunner.TestRunner@59e505b2</td></tr>
 <tr>
-<td title='dsAlgo_TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsAlgo_TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify user receives error message when username and password fields are blank during Login", "Login Functionality"</td>
-<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy25.isDisplayed(Unknown Source)
-	at dsAlgo_PageFactory.Login_PageFactory.signInLoginBtnDisplayed(Login_PageFactory.java:34)
-	at dsAlgo_StepDefinition.Login.the_user_is_on_the_ds_algo_sign_in_page(Login.java:53)
-	at ✽.The user is on the DS Algo Sign In page(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/C_Login.feature:23)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1985280051", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1985280051'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy25.isDisplayed(Unknown Source)
-	at dsAlgo_PageFactory.Login_PageFactory.signInLoginBtnDisplayed(Login_PageFactory.java:34)
-	at dsAlgo_StepDefinition.Login.the_user_is_on_the_ds_algo_sign_in_page(Login.java:53)
-	at ✽.The user is on the DS Algo Sign In page(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/C_Login.feature:23)
-</pre></div></td>
+<td title='dsAlgo_TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsAlgo_TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that the user is able to navigate to Types of Linked List page after clicking <- in the Try Editor window", "Linked List Functionality"</td>
+<td></td>
 <td>0</td>
-<td>dsAlgo_TestRunner.TestRunner@5a18cd76</td></tr>
+<td>dsAlgo_TestRunner.TestRunner@59e505b2</td></tr>
 <tr>
-<td title='dsAlgo_TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsAlgo_TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that the user is able to see output for valid, invalid and incorrect syntax Python code is entered for the Introduction page", "Linked List Functionality"</td>
-<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy25.isDisplayed(Unknown Source)
-	at dsAlgo_PageFactory.LinkedList_PageFactory.runBtnDisplayed(LinkedList_PageFactory.java:129)
-	at dsAlgo_StepDefinition.LinkedList.the_user_is_in_the_try_editor_page_for_the_introduction_page(LinkedList.java:172)
-	at ✽.The user is in the Try Editor page for the Introduction page(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/D_LinkedList.feature:56)
-</pre></div><a href='#' onClick='toggleBox("stack-trace5933746", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace5933746'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy25.isDisplayed(Unknown Source)
-	at dsAlgo_PageFactory.LinkedList_PageFactory.runBtnDisplayed(LinkedList_PageFactory.java:129)
-	at dsAlgo_StepDefinition.LinkedList.the_user_is_in_the_try_editor_page_for_the_introduction_page(LinkedList.java:172)
-	at ✽.The user is in the Try Editor page for the Introduction page(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/D_LinkedList.feature:56)
-</pre></div></td>
+<td title='dsAlgo_TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsAlgo_TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that the Types of Linked List link is enabled in the Linked List page", "Linked List Functionality"</td>
+<td></td>
 <td>0</td>
-<td>dsAlgo_TestRunner.TestRunner@5a18cd76</td></tr>
+<td>dsAlgo_TestRunner.TestRunner@59e505b2</td></tr>
 <tr>
-<td title='dsAlgo_TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsAlgo_TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify user receives error message for Invalid Username and Password during Login", "Login Functionality"</td>
-<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy25.click(Unknown Source)
-	at dsAlgo_PageFactory.Login_PageFactory.signInClick(Login_PageFactory.java:30)
-	at dsAlgo_StepDefinition.Login.the_user_gets_invalid_data_from_excel_sheet_and_for_the_login_page(Login.java:75)
-	at ✽.The user gets invalid data from excel sheet &apos;Login&apos; and 3 for the login page(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/C_Login.feature:33)
-</pre></div><a href='#' onClick='toggleBox("stack-trace224473864", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace224473864'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy25.click(Unknown Source)
-	at dsAlgo_PageFactory.Login_PageFactory.signInClick(Login_PageFactory.java:30)
-	at dsAlgo_StepDefinition.Login.the_user_gets_invalid_data_from_excel_sheet_and_for_the_login_page(Login.java:75)
-	at ✽.The user gets invalid data from excel sheet &apos;Login&apos; and 3 for the login page(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/C_Login.feature:33)
-</pre></div></td>
+<td title='dsAlgo_TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsAlgo_TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that the user is able to navigate to Insertion page after clicking <- in the Try Editor window", "Linked List Functionality"</td>
+<td></td>
 <td>0</td>
-<td>dsAlgo_TestRunner.TestRunner@5a18cd76</td></tr>
+<td>dsAlgo_TestRunner.TestRunner@59e505b2</td></tr>
 <tr>
-<td title='dsAlgo_TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsAlgo_TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify user enters username and password for SignIn", "Linked List Functionality"</td>
-<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.get(String)&quot; because &quot;this.driver&quot; is null
-	at dsAlgo_PageFactory.Home_PageFactory.launchURL(Home_PageFactory.java:45)
-	at dsAlgo_StepDefinition.Login.the_user_clicks_the_sign_in_link_from_the_portal(Login.java:118)
-	at ✽.The user clicks the Sign In link from the portal(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/D_LinkedList.feature:4)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1756143301", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1756143301'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.get(String)&quot; because &quot;this.driver&quot; is null
-	at dsAlgo_PageFactory.Home_PageFactory.launchURL(Home_PageFactory.java:45)
-	at dsAlgo_StepDefinition.Login.the_user_clicks_the_sign_in_link_from_the_portal(Login.java:118)
-	at ✽.The user clicks the Sign In link from the portal(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/D_LinkedList.feature:4)
-</pre></div></td>
+<td title='dsAlgo_TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsAlgo_TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that the user is able to see output for valid, invalid and incorrect syntax Python code is entered for the Creating Linked List page", "Linked List Functionality"</td>
+<td></td>
 <td>0</td>
-<td>dsAlgo_TestRunner.TestRunner@5a18cd76</td></tr>
+<td>dsAlgo_TestRunner.TestRunner@59e505b2</td></tr>
 <tr>
-<td title='dsAlgo_TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsAlgo_TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify user enters username and password fields", "Login Functionality"</td>
-<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy25.click(Unknown Source)
-	at dsAlgo_PageFactory.Login_PageFactory.signInClick(Login_PageFactory.java:30)
-	at dsAlgo_StepDefinition.Login.the_user_clicks_the_sign_in_link(Login.java:43)
-	at ✽.The user clicks the Sign In link(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/C_Login.feature:9)
-</pre></div><a href='#' onClick='toggleBox("stack-trace140702728", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace140702728'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy25.click(Unknown Source)
-	at dsAlgo_PageFactory.Login_PageFactory.signInClick(Login_PageFactory.java:30)
-	at dsAlgo_StepDefinition.Login.the_user_clicks_the_sign_in_link(Login.java:43)
-	at ✽.The user clicks the Sign In link(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/C_Login.feature:9)
-</pre></div></td>
+<td title='dsAlgo_TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsAlgo_TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that the user is able to see output for valid, invalid and incorrect syntax Python code is entered for the Implement Linked List in Python page", "Linked List Functionality"</td>
+<td></td>
 <td>0</td>
-<td>dsAlgo_TestRunner.TestRunner@5a18cd76</td></tr>
+<td>dsAlgo_TestRunner.TestRunner@59e505b2</td></tr>
 <tr>
-<td title='dsAlgo_TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsAlgo_TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that the user is able to navigate to the home page", "Register Page"</td>
-<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.get(String)&quot; because &quot;this.driver&quot; is null
-	at dsAlgo_PageFactory.Home_PageFactory.launchURL(Home_PageFactory.java:45)
-	at dsAlgo_StepDefinition.Home.user_is_in_the_ds_algo_launch_page(Home.java:26)
-	at ✽.User is in the ds-algo launch page(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/B_Register.feature:4)
-</pre></div><a href='#' onClick='toggleBox("stack-trace2085601983", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace2085601983'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.get(String)&quot; because &quot;this.driver&quot; is null
-	at dsAlgo_PageFactory.Home_PageFactory.launchURL(Home_PageFactory.java:45)
-	at dsAlgo_StepDefinition.Home.user_is_in_the_ds_algo_launch_page(Home.java:26)
-	at ✽.User is in the ds-algo launch page(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/B_Register.feature:4)
-</pre></div></td>
+<td title='dsAlgo_TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsAlgo_TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that the user is able to navigate to Introduction page", "Linked List Functionality"</td>
+<td></td>
 <td>0</td>
-<td>dsAlgo_TestRunner.TestRunner@5a18cd76</td></tr>
+<td>dsAlgo_TestRunner.TestRunner@59e505b2</td></tr>
 <tr>
-<td title='dsAlgo_TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsAlgo_TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that the user is able to enter password in the field", "Register Page"</td>
-<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy25.isDisplayed(Unknown Source)
-	at dsAlgo_PageFactory.Register_PageFactory.registerBtnDisplayed(Register_PageFactory.java:37)
-	at dsAlgo_StepDefinition.Register.user_is_in_the_register_page_after_clicking_register_link_in_the_home_page(Register.java:60)
-	at ✽.User is in the Register page after clicking Register link in the home page(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/B_Register.feature:38)
-</pre></div><a href='#' onClick='toggleBox("stack-trace311788384", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace311788384'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy25.isDisplayed(Unknown Source)
-	at dsAlgo_PageFactory.Register_PageFactory.registerBtnDisplayed(Register_PageFactory.java:37)
-	at dsAlgo_StepDefinition.Register.user_is_in_the_register_page_after_clicking_register_link_in_the_home_page(Register.java:60)
-	at ✽.User is in the Register page after clicking Register link in the home page(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/B_Register.feature:38)
-</pre></div></td>
+<td title='dsAlgo_TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsAlgo_TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that the user is able to see output for valid, invalid and incorrect syntax Python code is entered for the Deletion page", "Linked List Functionality"</td>
+<td></td>
 <td>0</td>
-<td>dsAlgo_TestRunner.TestRunner@5a18cd76</td></tr>
+<td>dsAlgo_TestRunner.TestRunner@59e505b2</td></tr>
 <tr>
-<td title='dsAlgo_TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsAlgo_TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that User is able to launch ds-algo portal", "Register Page"</td>
-<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.manage()&quot; because &quot;this.driver&quot; is null
-	at dsAlgo_StepDefinition.Register.user_is_in_the_home_page_after_launching_ds_algo_portal_page(Register.java:37)
-	at ✽.User is in the home page after launching ds-algo portal page(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/B_Register.feature:9)
-</pre></div><a href='#' onClick='toggleBox("stack-trace214055354", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace214055354'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.manage()&quot; because &quot;this.driver&quot; is null
-	at dsAlgo_StepDefinition.Register.user_is_in_the_home_page_after_launching_ds_algo_portal_page(Register.java:37)
-	at ✽.User is in the home page after launching ds-algo portal page(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/B_Register.feature:9)
-</pre></div></td>
+<td title='dsAlgo_TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsAlgo_TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that the user is able to enter username in the username field", "Register Page"</td>
+<td></td>
 <td>0</td>
-<td>dsAlgo_TestRunner.TestRunner@5a18cd76</td></tr>
+<td>dsAlgo_TestRunner.TestRunner@59e505b2</td></tr>
 <tr>
-<td title='dsAlgo_TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsAlgo_TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify user receives error message when username and password fields are blank during Login", "Login Functionality"</td>
-<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy25.isDisplayed(Unknown Source)
-	at dsAlgo_PageFactory.Login_PageFactory.signInLoginBtnDisplayed(Login_PageFactory.java:34)
-	at dsAlgo_StepDefinition.Login.the_user_is_on_the_ds_algo_sign_in_page(Login.java:53)
-	at ✽.The user is on the DS Algo Sign In page(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/C_Login.feature:23)
-</pre></div><a href='#' onClick='toggleBox("stack-trace913148823", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace913148823'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy25.isDisplayed(Unknown Source)
-	at dsAlgo_PageFactory.Login_PageFactory.signInLoginBtnDisplayed(Login_PageFactory.java:34)
-	at dsAlgo_StepDefinition.Login.the_user_is_on_the_ds_algo_sign_in_page(Login.java:53)
-	at ✽.The user is on the DS Algo Sign In page(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/C_Login.feature:23)
-</pre></div></td>
+<td title='dsAlgo_TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsAlgo_TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that the user is able to navigate to Deletion page after clicking <- in the Try Editor window", "Linked List Functionality"</td>
+<td></td>
 <td>0</td>
-<td>dsAlgo_TestRunner.TestRunner@5a18cd76</td></tr>
+<td>dsAlgo_TestRunner.TestRunner@59e505b2</td></tr>
 <tr>
-<td title='dsAlgo_TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsAlgo_TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that the Deletion link is enabled in the Linked List page", "Linked List Functionality"</td>
-<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy25.isEnabled(Unknown Source)
-	at dsAlgo_PageFactory.LinkedList_PageFactory.deletionLinkEnabled(LinkedList_PageFactory.java:78)
-	at dsAlgo_StepDefinition.LinkedList.the_user_checks_whether_the_deletion_link_is_enabled(LinkedList.java:144)
-	at ✽.The user checks whether the Deletion link is enabled(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/D_LinkedList.feature:43)
-</pre></div><a href='#' onClick='toggleBox("stack-trace177657196", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace177657196'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy25.isEnabled(Unknown Source)
-	at dsAlgo_PageFactory.LinkedList_PageFactory.deletionLinkEnabled(LinkedList_PageFactory.java:78)
-	at dsAlgo_StepDefinition.LinkedList.the_user_checks_whether_the_deletion_link_is_enabled(LinkedList.java:144)
-	at ✽.The user checks whether the Deletion link is enabled(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/D_LinkedList.feature:43)
-</pre></div></td>
+<td title='dsAlgo_TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsAlgo_TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that the user is able to navigate to the home page", "Login Functionality"</td>
+<td></td>
 <td>0</td>
-<td>dsAlgo_TestRunner.TestRunner@5a18cd76</td></tr>
+<td>dsAlgo_TestRunner.TestRunner@59e505b2</td></tr>
+<tr>
+<td title='dsAlgo_TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsAlgo_TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify warning message when selecting Linked List without signing in", "Home Page"</td>
+<td></td>
+<td>0</td>
+<td>dsAlgo_TestRunner.TestRunner@59e505b2</td></tr>
+<tr>
+<td title='dsAlgo_TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsAlgo_TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that the user is able to get a pop-up message when username, password and password confirmation field are left blank", "Register Page"</td>
+<td></td>
+<td>0</td>
+<td>dsAlgo_TestRunner.TestRunner@59e505b2</td></tr>
 <tr>
 <td title='dsAlgo_TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsAlgo_TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that the user is able to navigate to the home page", "Home Page"</td>
-<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.get(String)&quot; because &quot;this.driver&quot; is null
-	at dsAlgo_PageFactory.Home_PageFactory.launchURL(Home_PageFactory.java:45)
-	at dsAlgo_StepDefinition.Home.user_is_in_the_ds_algo_launch_page(Home.java:26)
-	at ✽.User is in the ds-algo launch page(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/A_Home.feature:4)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1558460059", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1558460059'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.get(String)&quot; because &quot;this.driver&quot; is null
-	at dsAlgo_PageFactory.Home_PageFactory.launchURL(Home_PageFactory.java:45)
-	at dsAlgo_StepDefinition.Home.user_is_in_the_ds_algo_launch_page(Home.java:26)
-	at ✽.User is in the ds-algo launch page(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/A_Home.feature:4)
-</pre></div></td>
+<td></td>
+<td>1</td>
+<td>dsAlgo_TestRunner.TestRunner@59e505b2</td></tr>
+<tr>
+<td title='dsAlgo_TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsAlgo_TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that the user is able to see output for valid, invalid and incorrect syntax Python code is entered for the Introduction page", "Linked List Functionality"</td>
+<td></td>
 <td>0</td>
-<td>dsAlgo_TestRunner.TestRunner@5a18cd76</td></tr>
+<td>dsAlgo_TestRunner.TestRunner@59e505b2</td></tr>
+<tr>
+<td title='dsAlgo_TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsAlgo_TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that the user is able to see output for valid, invalid and incorrect syntax Python code is entered for the Traversal page", "Linked List Functionality"</td>
+<td></td>
+<td>0</td>
+<td>dsAlgo_TestRunner.TestRunner@59e505b2</td></tr>
+<tr>
+<td title='dsAlgo_TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsAlgo_TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that the user is able to see output for valid, invalid and incorrect syntax Python code is entered for the Types of Linked List page", "Linked List Functionality"</td>
+<td></td>
+<td>0</td>
+<td>dsAlgo_TestRunner.TestRunner@59e505b2</td></tr>
+<tr>
+<td title='dsAlgo_TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsAlgo_TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that the user is able to navigate to Try Here >>> page for Implement Linked List in Python page", "Linked List Functionality"</td>
+<td></td>
+<td>0</td>
+<td>dsAlgo_TestRunner.TestRunner@59e505b2</td></tr>
+<tr>
+<td title='dsAlgo_TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsAlgo_TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that the user is able to get an error message", "Register Page"</td>
+<td></td>
+<td>0</td>
+<td>dsAlgo_TestRunner.TestRunner@59e505b2</td></tr>
+<tr>
+<td title='dsAlgo_TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsAlgo_TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that the user is able to navigate to Creating Linked List page after clicking <- in the Try Editor window", "Linked List Functionality"</td>
+<td></td>
+<td>0</td>
+<td>dsAlgo_TestRunner.TestRunner@59e505b2</td></tr>
+<tr>
+<td title='dsAlgo_TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsAlgo_TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that user is able to sign out successfully", "Login Functionality"</td>
+<td></td>
+<td>0</td>
+<td>dsAlgo_TestRunner.TestRunner@59e505b2</td></tr>
+<tr>
+<td title='dsAlgo_TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsAlgo_TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify user receives error message when username and password fields are blank during Login", "Login Functionality"</td>
+<td></td>
+<td>3</td>
+<td>dsAlgo_TestRunner.TestRunner@59e505b2</td></tr>
+<tr>
+<td title='dsAlgo_TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsAlgo_TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that the user is able to enter password in the field", "Register Page"</td>
+<td></td>
+<td>0</td>
+<td>dsAlgo_TestRunner.TestRunner@59e505b2</td></tr>
+<tr>
+<td title='dsAlgo_TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsAlgo_TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify whether the user is able to navigate to Practice Questions page after clicking Practice Questions link in the Linked List page", "Linked List Functionality"</td>
+<td></td>
+<td>0</td>
+<td>dsAlgo_TestRunner.TestRunner@59e505b2</td></tr>
+<tr>
+<td title='dsAlgo_TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsAlgo_TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that the user is able to see output for valid, invalid and incorrect syntax Python code is entered for the Introduction page", "Linked List Functionality"</td>
+<td></td>
+<td>0</td>
+<td>dsAlgo_TestRunner.TestRunner@59e505b2</td></tr>
+<tr>
+<td title='dsAlgo_TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsAlgo_TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that the Introduction link is enabled in the Linked List page", "Linked List Functionality"</td>
+<td></td>
+<td>0</td>
+<td>dsAlgo_TestRunner.TestRunner@59e505b2</td></tr>
+<tr>
+<td title='dsAlgo_TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsAlgo_TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that the user is able to navigate to Introduction page after clicking <- in the Try Editor window", "Linked List Functionality"</td>
+<td></td>
+<td>0</td>
+<td>dsAlgo_TestRunner.TestRunner@59e505b2</td></tr>
+<tr>
+<td title='dsAlgo_TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsAlgo_TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that the user is able to get an error message when username (with special characters other than @) in the username field in the Register page is entered", "Register Page"</td>
+<td></td>
+<td>3</td>
+<td>dsAlgo_TestRunner.TestRunner@59e505b2</td></tr>
+<tr>
+<td title='dsAlgo_TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsAlgo_TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that User is able to launch ds-algo portal", "Register Page"</td>
+<td></td>
+<td>0</td>
+<td>dsAlgo_TestRunner.TestRunner@59e505b2</td></tr>
+<tr>
+<td title='dsAlgo_TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsAlgo_TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that the user is able to get a pop-up message when username, password and password confirmation field are left blank", "Register Page"</td>
+<td></td>
+<td>0</td>
+<td>dsAlgo_TestRunner.TestRunner@59e505b2</td></tr>
+<tr>
+<td title='dsAlgo_TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsAlgo_TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that the user is able to see output for valid, invalid and incorrect syntax Python code is entered for the Creating Linked List page", "Linked List Functionality"</td>
+<td></td>
+<td>0</td>
+<td>dsAlgo_TestRunner.TestRunner@59e505b2</td></tr>
+<tr>
+<td title='dsAlgo_TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsAlgo_TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that the user is able to see output for valid, invalid and incorrect syntax Python code is entered for the Traversal page", "Linked List Functionality"</td>
+<td></td>
+<td>0</td>
+<td>dsAlgo_TestRunner.TestRunner@59e505b2</td></tr>
+<tr>
+<td title='dsAlgo_TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsAlgo_TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify warning message when selecting Stack without signing in", "Home Page"</td>
+<td></td>
+<td>0</td>
+<td>dsAlgo_TestRunner.TestRunner@59e505b2</td></tr>
+<tr>
+<td title='dsAlgo_TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsAlgo_TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify user receives error message when username and password fields are blank during Login", "Login Functionality"</td>
+<td></td>
+<td>3</td>
+<td>dsAlgo_TestRunner.TestRunner@59e505b2</td></tr>
+<tr>
+<td title='dsAlgo_TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsAlgo_TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that the user is able to navigate to Creating Linked List page", "Linked List Functionality"</td>
+<td></td>
+<td>3</td>
+<td>dsAlgo_TestRunner.TestRunner@59e505b2</td></tr>
+<tr>
+<td title='dsAlgo_TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsAlgo_TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that the user is able to navigate to Deletion page", "Linked List Functionality"</td>
+<td></td>
+<td>0</td>
+<td>dsAlgo_TestRunner.TestRunner@59e505b2</td></tr>
+<tr>
+<td title='dsAlgo_TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsAlgo_TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that the Deletion link is enabled in the Linked List page", "Linked List Functionality"</td>
+<td></td>
+<td>0</td>
+<td>dsAlgo_TestRunner.TestRunner@59e505b2</td></tr>
+<tr>
+<td title='dsAlgo_TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsAlgo_TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that the user is able to see output for valid, invalid and incorrect syntax Python code is entered for the Creating Linked List page", "Linked List Functionality"</td>
+<td></td>
+<td>0</td>
+<td>dsAlgo_TestRunner.TestRunner@59e505b2</td></tr>
+<tr>
+<td title='dsAlgo_TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsAlgo_TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify warning message when selecting Graph without signing in", "Home Page"</td>
+<td></td>
+<td>0</td>
+<td>dsAlgo_TestRunner.TestRunner@59e505b2</td></tr>
+<tr>
+<td title='dsAlgo_TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsAlgo_TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that the user can view Data Structures dropdown options without signing in", "Home Page"</td>
+<td></td>
+<td>0</td>
+<td>dsAlgo_TestRunner.TestRunner@59e505b2</td></tr>
+<tr>
+<td title='dsAlgo_TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsAlgo_TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that the user is able to navigate to Implement Linked List in Python page", "Linked List Functionality"</td>
+<td></td>
+<td>0</td>
+<td>dsAlgo_TestRunner.TestRunner@59e505b2</td></tr>
+<tr>
+<td title='dsAlgo_TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsAlgo_TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that the user is able to navigate to Try Here >>> page for Introduction page", "Linked List Functionality"</td>
+<td></td>
+<td>0</td>
+<td>dsAlgo_TestRunner.TestRunner@59e505b2</td></tr>
+<tr>
+<td title='dsAlgo_TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsAlgo_TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that the user is able to get an error message when username (with special characters other than @) in the username field in the Register page is entered", "Register Page"</td>
+<td></td>
+<td>3</td>
+<td>dsAlgo_TestRunner.TestRunner@59e505b2</td></tr>
+<tr>
+<td title='dsAlgo_TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsAlgo_TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that the user is able to navigate to Try Here >>> page for Types of Linked List page", "Linked List Functionality"</td>
+<td></td>
+<td>0</td>
+<td>dsAlgo_TestRunner.TestRunner@59e505b2</td></tr>
+<tr>
+<td title='dsAlgo_TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsAlgo_TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that the user is able to see output for valid, invalid and incorrect syntax Python code is entered for the Implement Linked List in Python page", "Linked List Functionality"</td>
+<td></td>
+<td>0</td>
+<td>dsAlgo_TestRunner.TestRunner@59e505b2</td></tr>
+<tr>
+<td title='dsAlgo_TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsAlgo_TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that the user is able to see output for valid, invalid and incorrect syntax Python code is entered for the Deletion page", "Linked List Functionality"</td>
+<td></td>
+<td>0</td>
+<td>dsAlgo_TestRunner.TestRunner@59e505b2</td></tr>
+<tr>
+<td title='dsAlgo_TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsAlgo_TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that the user is able to enter password in the field", "Register Page"</td>
+<td></td>
+<td>0</td>
+<td>dsAlgo_TestRunner.TestRunner@59e505b2</td></tr>
+<tr>
+<td title='dsAlgo_TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsAlgo_TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that the user is able to navigate to Traversal page", "Linked List Functionality"</td>
+<td></td>
+<td>0</td>
+<td>dsAlgo_TestRunner.TestRunner@59e505b2</td></tr>
+<tr>
+<td title='dsAlgo_TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsAlgo_TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify warning message when selecting Arrays without signing in", "Home Page"</td>
+<td></td>
+<td>0</td>
+<td>dsAlgo_TestRunner.TestRunner@59e505b2</td></tr>
+<tr>
+<td title='dsAlgo_TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsAlgo_TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that the user is able to see output for valid, invalid and incorrect syntax Python code is entered for the Types of Linked List page", "Linked List Functionality"</td>
+<td></td>
+<td>0</td>
+<td>dsAlgo_TestRunner.TestRunner@59e505b2</td></tr>
+<tr>
+<td title='dsAlgo_TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsAlgo_TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that the user is able to navigate to Types of Linked List page", "Linked List Functionality"</td>
+<td></td>
+<td>0</td>
+<td>dsAlgo_TestRunner.TestRunner@59e505b2</td></tr>
+<tr>
+<td title='dsAlgo_TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsAlgo_TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that the user is able to see output for valid, invalid and incorrect syntax Python code is entered for the Insertion page", "Linked List Functionality"</td>
+<td></td>
+<td>0</td>
+<td>dsAlgo_TestRunner.TestRunner@59e505b2</td></tr>
+<tr>
+<td title='dsAlgo_TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsAlgo_TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that the user is able to navigate to Try Here >>> page for Traversal page", "Linked List Functionality"</td>
+<td></td>
+<td>0</td>
+<td>dsAlgo_TestRunner.TestRunner@59e505b2</td></tr>
+<tr>
+<td title='dsAlgo_TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsAlgo_TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that the Traversal link is enabled in the Linked List page", "Linked List Functionality"</td>
+<td></td>
+<td>0</td>
+<td>dsAlgo_TestRunner.TestRunner@59e505b2</td></tr>
+<tr>
+<td title='dsAlgo_TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsAlgo_TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that the user is able to see output for valid, invalid and incorrect syntax Python code is entered for the Introduction page", "Linked List Functionality"</td>
+<td></td>
+<td>0</td>
+<td>dsAlgo_TestRunner.TestRunner@59e505b2</td></tr>
+<tr>
+<td title='dsAlgo_TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsAlgo_TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that the user is able to get an error message", "Register Page"</td>
+<td></td>
+<td>0</td>
+<td>dsAlgo_TestRunner.TestRunner@59e505b2</td></tr>
+<tr>
+<td title='dsAlgo_TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsAlgo_TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that the user is able to enter username in the username field", "Register Page"</td>
+<td></td>
+<td>0</td>
+<td>dsAlgo_TestRunner.TestRunner@59e505b2</td></tr>
+<tr>
+<td title='dsAlgo_TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsAlgo_TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that the user is able to see output for valid, invalid and incorrect syntax Python code is entered for the Types of Linked List page", "Linked List Functionality"</td>
+<td></td>
+<td>0</td>
+<td>dsAlgo_TestRunner.TestRunner@59e505b2</td></tr>
+<tr>
+<td title='dsAlgo_TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsAlgo_TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify user enters username and password for SignIn", "Linked List Functionality"</td>
+<td></td>
+<td>1</td>
+<td>dsAlgo_TestRunner.TestRunner@59e505b2</td></tr>
+<tr>
+<td title='dsAlgo_TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsAlgo_TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that the user is able to see output for valid, invalid and incorrect syntax Python code is entered for the Insertion page", "Linked List Functionality"</td>
+<td></td>
+<td>0</td>
+<td>dsAlgo_TestRunner.TestRunner@59e505b2</td></tr>
+<tr>
+<td title='dsAlgo_TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsAlgo_TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify user receives error message for Invalid Username and Password during Login", "Login Functionality"</td>
+<td></td>
+<td>0</td>
+<td>dsAlgo_TestRunner.TestRunner@59e505b2</td></tr>
+<tr>
+<td title='dsAlgo_TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsAlgo_TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that the user is able to see output for valid, invalid and incorrect syntax Python code is entered for the Insertion page", "Linked List Functionality"</td>
+<td></td>
+<td>0</td>
+<td>dsAlgo_TestRunner.TestRunner@59e505b2</td></tr>
+<tr>
+<td title='dsAlgo_TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsAlgo_TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that the Creating Linked List link is enabled in the Linked List page", "Linked List Functionality"</td>
+<td></td>
+<td>0</td>
+<td>dsAlgo_TestRunner.TestRunner@59e505b2</td></tr>
+<tr>
+<td title='dsAlgo_TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsAlgo_TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify warning message when selecting Tree without signing in", "Home Page"</td>
+<td></td>
+<td>0</td>
+<td>dsAlgo_TestRunner.TestRunner@59e505b2</td></tr>
+<tr>
+<td title='dsAlgo_TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsAlgo_TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that the user is able to navigate to Try Here >>> page for Creating Linked List page", "Linked List Functionality"</td>
+<td></td>
+<td>0</td>
+<td>dsAlgo_TestRunner.TestRunner@59e505b2</td></tr>
+<tr>
+<td title='dsAlgo_TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsAlgo_TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that the user is able to navigate to the home page", "Register Page"</td>
+<td></td>
+<td>0</td>
+<td>dsAlgo_TestRunner.TestRunner@59e505b2</td></tr>
+<tr>
+<td title='dsAlgo_TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsAlgo_TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that the user is able to enter password in the field", "Register Page"</td>
+<td></td>
+<td>0</td>
+<td>dsAlgo_TestRunner.TestRunner@59e505b2</td></tr>
+<tr>
+<td title='dsAlgo_TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsAlgo_TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that the user is able to get a pop-up message when username, password and password confirmation field are left blank", "Register Page"</td>
+<td></td>
+<td>0</td>
+<td>dsAlgo_TestRunner.TestRunner@59e505b2</td></tr>
+<tr>
+<td title='dsAlgo_TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsAlgo_TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that the user is able to see output for valid, invalid and incorrect syntax Python code is entered for the Implement Linked List in Python page", "Linked List Functionality"</td>
+<td></td>
+<td>0</td>
+<td>dsAlgo_TestRunner.TestRunner@59e505b2</td></tr>
+<tr>
+<td title='dsAlgo_TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsAlgo_TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that the Implement Linked List in Python link is enabled in the Linked List page", "Linked List Functionality"</td>
+<td></td>
+<td>0</td>
+<td>dsAlgo_TestRunner.TestRunner@59e505b2</td></tr>
+<tr>
+<td title='dsAlgo_TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsAlgo_TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that the user is able to see output for valid, invalid and incorrect syntax Python code is entered for the Deletion page", "Linked List Functionality"</td>
+<td></td>
+<td>0</td>
+<td>dsAlgo_TestRunner.TestRunner@59e505b2</td></tr>
+<tr>
+<td title='dsAlgo_TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsAlgo_TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that the user is able to enter username in the username field", "Register Page"</td>
+<td></td>
+<td>0</td>
+<td>dsAlgo_TestRunner.TestRunner@59e505b2</td></tr>
 </table><p>
 </body>
 </html>

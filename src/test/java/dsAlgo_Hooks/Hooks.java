@@ -12,21 +12,16 @@ public class Hooks {
     private static WebDriver driver;
 
     @BeforeAll
-    public static void setup() {  // Static because @BeforeAll runs once before everything
+    public static void setup() {  
+    	System.setProperty("log4j2.configurationFile", "src/test/resources/log4j2.properties");
         String browser = System.getProperty("browser", "chrome"); 
         logger.info("Starting tests on browser: " + browser);
         Driver_Factory.initDriver(browser);
-        driver = Driver_Factory.getDriver();  // Store the WebDriver instance
+        driver = Driver_Factory.getDriver(); 
     }
 
-//    @Before
-//    public void beforeScenario(Scenario scenario) {
-//        logger.info("Running scenario: " + scenario.getName());
-//        driver.manage().deleteAllCookies();  // Clear cookies before each scenario to maintain state
-//    }
-
     @AfterAll
-    public static void teardown() {  // Static because @AfterAll runs once after everything
+    public static void teardown() {  
         if (driver != null) {
             logger.info("Closing browser after all tests");
             Driver_Factory.quitDriver();

@@ -1,0 +1,158 @@
+[INFO] 2025-02-13 19:18:12.802 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO] 2025-02-13 19:18:12.805 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO] 2025-02-13 19:18:12.807 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO] 2025-02-13 19:18:12.807 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO] 2025-02-13 19:18:12.807 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO] 2025-02-13 19:18:12.808 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO] 2025-02-13 19:18:12.808 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO] 2025-02-13 19:18:12.808 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO] 2025-02-13 19:18:12.813 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO] 2025-02-13 19:18:12.823 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 9 ms.
+[INFO] 2025-02-13 19:18:12.824 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO] 2025-02-13 19:18:12.825 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+[INFO] 2025-02-13 19:18:12.825 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO] 2025-02-13 19:18:12.825 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO] 2025-02-13 19:18:12.825 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO] 2025-02-13 19:18:12.826 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO] 2025-02-13 19:18:12.829 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO] 2025-02-13 19:18:12.829 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO] 2025-02-13 19:18:12.829 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO] 2025-02-13 19:18:12.829 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO] 2025-02-13 19:18:12.833 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO] 2025-02-13 19:18:12.834 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO] 2025-02-13 19:18:12.834 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO] 2025-02-13 19:18:12.834 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO] 2025-02-13 19:18:12.838 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 3 ms.
+[INFO] 2025-02-13 19:18:12.839 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO] 2025-02-13 19:18:12.839 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO] 2025-02-13 19:18:12.840 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+[INFO] 2025-02-13 19:18:12.840 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO] 2025-02-13 19:18:12.840 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO] 2025-02-13 19:18:12.851 [main] Utils - [TestNG] Running:
+  C:\Users\rinuh\AppData\Local\Temp\testng-eclipse-295335196\testng-customsuite.xml
+
+[INFO] 2025-02-13 19:18:12.901 [main] Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 12 ms.
+[INFO] 2025-02-13 19:18:13.954 [main] LoggerReader - Starting tests on browser: chrome
+[INFO] 2025-02-13 19:18:16.187 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-13 19:18:27.773 [main] LoggerReader - User is in Try Editor window
+[INFO] 2025-02-13 19:18:28.034 [main] LoggerReader - User is in Try Editor window
+[INFO] 2025-02-13 19:18:28.318 [main] LoggerReader - User is in Try Editor window
+[INFO] 2025-02-13 19:18:32.496 [main] LoggerReader - User is in Try Editor window
+[INFO] 2025-02-13 19:18:32.736 [main] LoggerReader - User is in Try Editor window
+[INFO] 2025-02-13 19:18:32.960 [main] LoggerReader - User is in Try Editor window
+[INFO] 2025-02-13 19:18:34.512 [main] LoggerReader - User is in Try Editor window
+[INFO] 2025-02-13 19:18:34.765 [main] LoggerReader - User is in Try Editor window
+[INFO] 2025-02-13 19:18:35.007 [main] LoggerReader - User is in Try Editor window
+[INFO] 2025-02-13 19:18:36.289 [main] LoggerReader - User is in Try Editor window
+[INFO] 2025-02-13 19:18:36.619 [main] LoggerReader - User is in Try Editor window
+[INFO] 2025-02-13 19:18:36.911 [main] LoggerReader - User is in Try Editor window
+[INFO] 2025-02-13 19:18:38.680 [main] LoggerReader - User is in Try Editor window
+[INFO] 2025-02-13 19:18:38.891 [main] LoggerReader - User is in Try Editor window
+[INFO] 2025-02-13 19:18:39.137 [main] LoggerReader - User is in Try Editor window
+[INFO] 2025-02-13 19:18:40.427 [main] LoggerReader - User is in Try Editor window
+[INFO] 2025-02-13 19:18:40.667 [main] LoggerReader - User is in Try Editor window
+[INFO] 2025-02-13 19:18:40.951 [main] LoggerReader - User is in Try Editor window
+[INFO] 2025-02-13 19:18:42.299 [main] LoggerReader - User is in Try Editor window
+[INFO] 2025-02-13 19:18:42.553 [main] LoggerReader - User is in Try Editor window
+[INFO] 2025-02-13 19:18:42.795 [main] LoggerReader - User is in Try Editor window
+[INFO] 2025-02-13 19:18:43.261 [main] LoggerReader - User is in Practice Questions Page
+[INFO] 2025-02-13 19:19:11.686 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-13 19:19:11.686 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-13 19:19:12.002 [main] Utils - [TestNG] Time taken by org.testng.reporters.jq.Main@68feca3a: 64 ms
+[INFO] 2025-02-13 19:19:12.011 [main] Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@e08d871: 9 ms
+[INFO] 2025-02-13 19:19:12.034 [main] Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@37b1218: 23 ms
+[INFO] 2025-02-13 19:19:12.047 [main] Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@23e573e: 13 ms
+[INFO] 2025-02-13 19:19:12.061 [main] Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@799206ad: 14 ms
+[INFO] 2025-02-13 19:19:12.061 [main] Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@60251ddb: 0 ms
+[INFO] 2025-02-13 19:37:29.333 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO] 2025-02-13 19:37:29.335 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO] 2025-02-13 19:37:29.336 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO] 2025-02-13 19:37:29.337 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO] 2025-02-13 19:37:29.337 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO] 2025-02-13 19:37:29.337 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO] 2025-02-13 19:37:29.338 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO] 2025-02-13 19:37:29.338 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO] 2025-02-13 19:37:29.343 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO] 2025-02-13 19:37:29.350 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 7 ms.
+[INFO] 2025-02-13 19:37:29.351 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO] 2025-02-13 19:37:29.351 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO] 2025-02-13 19:37:29.352 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO] 2025-02-13 19:37:29.352 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO] 2025-02-13 19:37:29.352 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO] 2025-02-13 19:37:29.352 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO] 2025-02-13 19:37:29.354 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO] 2025-02-13 19:37:29.354 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO] 2025-02-13 19:37:29.354 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO] 2025-02-13 19:37:29.354 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO] 2025-02-13 19:37:29.356 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO] 2025-02-13 19:37:29.356 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO] 2025-02-13 19:37:29.356 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO] 2025-02-13 19:37:29.356 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO] 2025-02-13 19:37:29.361 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 4 ms.
+[INFO] 2025-02-13 19:37:29.361 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO] 2025-02-13 19:37:29.364 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO] 2025-02-13 19:37:29.365 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO] 2025-02-13 19:37:29.365 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO] 2025-02-13 19:37:29.365 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO] 2025-02-13 19:37:29.369 [main] Utils - [TestNG] Running:
+  C:\Users\rinuh\AppData\Local\Temp\testng-eclipse-1639907243\testng-customsuite.xml
+
+[INFO] 2025-02-13 19:37:29.387 [main] Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 6 ms.
+[INFO] 2025-02-13 19:37:30.240 [main] LoggerReader - Starting tests on browser: chrome
+[INFO] 2025-02-13 19:37:31.799 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-13 19:37:40.824 [main] LoggerReader - User is in Try Editor window
+[INFO] 2025-02-13 19:37:41.004 [main] LoggerReader - User is in Try Editor window
+[INFO] 2025-02-13 19:37:41.149 [main] LoggerReader - User is in Try Editor window
+[INFO] 2025-02-13 19:37:44.997 [main] LoggerReader - User is in Try Editor window
+[INFO] 2025-02-13 19:37:45.230 [main] LoggerReader - User is in Try Editor window
+[INFO] 2025-02-13 19:37:45.416 [main] LoggerReader - User is in Try Editor window
+[INFO] 2025-02-13 19:37:46.315 [main] LoggerReader - User is in Try Editor window
+[INFO] 2025-02-13 19:37:46.501 [main] LoggerReader - User is in Try Editor window
+[INFO] 2025-02-13 19:37:46.696 [main] LoggerReader - User is in Try Editor window
+[INFO] 2025-02-13 19:37:47.552 [main] LoggerReader - User is in Try Editor window
+[INFO] 2025-02-13 19:37:47.729 [main] LoggerReader - User is in Try Editor window
+[INFO] 2025-02-13 19:37:47.944 [main] LoggerReader - User is in Try Editor window
+[INFO] 2025-02-13 19:37:48.780 [main] LoggerReader - User is in Try Editor window
+[INFO] 2025-02-13 19:37:48.939 [main] LoggerReader - User is in Try Editor window
+[INFO] 2025-02-13 19:37:49.097 [main] LoggerReader - User is in Try Editor window
+[INFO] 2025-02-13 19:37:49.911 [main] LoggerReader - User is in Try Editor window
+[INFO] 2025-02-13 19:37:50.063 [main] LoggerReader - User is in Try Editor window
+[INFO] 2025-02-13 19:37:50.255 [main] LoggerReader - User is in Try Editor window
+[INFO] 2025-02-13 19:37:51.054 [main] LoggerReader - User is in Try Editor window
+[INFO] 2025-02-13 19:37:51.202 [main] LoggerReader - User is in Try Editor window
+[INFO] 2025-02-13 19:37:51.390 [main] LoggerReader - User is in Try Editor window
+[INFO] 2025-02-13 19:37:51.769 [main] LoggerReader - User is in Practice Questions Page
+[INFO] 2025-02-13 19:38:17.742 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-13 19:38:17.743 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-13 19:38:21.944 [main] Utils - [TestNG] Time taken by org.testng.reporters.jq.Main@66464f27: 105 ms
+[INFO] 2025-02-13 19:38:21.969 [main] Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@5f6dd89c: 24 ms
+[INFO] 2025-02-13 19:38:22.012 [main] Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@537e52de: 43 ms
+[INFO] 2025-02-13 19:38:22.036 [main] Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@4d609cc3: 24 ms
+[INFO] 2025-02-13 19:38:22.053 [main] Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@16575bfe: 15 ms
+[INFO] 2025-02-13 19:38:22.053 [main] Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@60003305: 0 ms
+[INFO] 2025-02-13 21:15:28.313 [main] LoggerReader - Starting tests on browser: chrome
+[INFO] 2025-02-13 21:15:31.189 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-13 21:15:41.066 [main] LoggerReader - User is in Try Editor window
+[INFO] 2025-02-13 21:15:41.249 [main] LoggerReader - User is in Try Editor window
+[INFO] 2025-02-13 21:15:41.436 [main] LoggerReader - User is in Try Editor window
+[INFO] 2025-02-13 21:15:45.332 [main] LoggerReader - User is in Try Editor window
+[INFO] 2025-02-13 21:15:45.528 [main] LoggerReader - User is in Try Editor window
+[INFO] 2025-02-13 21:15:45.707 [main] LoggerReader - User is in Try Editor window
+[INFO] 2025-02-13 21:15:46.709 [main] LoggerReader - User is in Try Editor window
+[INFO] 2025-02-13 21:15:46.879 [main] LoggerReader - User is in Try Editor window
+[INFO] 2025-02-13 21:15:47.048 [main] LoggerReader - User is in Try Editor window
+[INFO] 2025-02-13 21:15:47.868 [main] LoggerReader - User is in Try Editor window
+[INFO] 2025-02-13 21:15:48.018 [main] LoggerReader - User is in Try Editor window
+[INFO] 2025-02-13 21:15:48.164 [main] LoggerReader - User is in Try Editor window
+[INFO] 2025-02-13 21:15:48.893 [main] LoggerReader - User is in Try Editor window
+[INFO] 2025-02-13 21:15:49.035 [main] LoggerReader - User is in Try Editor window
+[INFO] 2025-02-13 21:15:49.258 [main] LoggerReader - User is in Try Editor window
+[INFO] 2025-02-13 21:15:50.077 [main] LoggerReader - User is in Try Editor window
+[INFO] 2025-02-13 21:15:50.285 [main] LoggerReader - User is in Try Editor window
+[INFO] 2025-02-13 21:15:50.452 [main] LoggerReader - User is in Try Editor window
+[INFO] 2025-02-13 21:15:51.477 [main] LoggerReader - User is in Try Editor window
+[INFO] 2025-02-13 21:15:51.632 [main] LoggerReader - User is in Try Editor window
+[INFO] 2025-02-13 21:15:51.822 [main] LoggerReader - User is in Try Editor window
+[INFO] 2025-02-13 21:15:52.152 [main] LoggerReader - User is in Practice Questions Page
+[INFO] 2025-02-13 21:16:18.110 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-13 21:16:18.110 [main] LoggerReader - Closing WebDriver for current thread.

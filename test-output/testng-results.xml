@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="52" passed="0" failed="52" skipped="0">
+<testng-results ignored="0" total="88" passed="86" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-02-12T12:21:21 EST" name="Default suite" finished-at="2025-02-12T12:21:27 EST" duration-ms="6585">
+  <suite started-at="2025-02-13T21:15:26 EST" name="Default suite" finished-at="2025-02-13T21:16:21 EST" duration-ms="54937">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgo_TestRunner.TestRunner@5a18cd76]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgo_TestRunner.TestRunner@59e505b2]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2025-02-12T12:21:21 EST" name="Default test" finished-at="2025-02-12T12:21:27 EST" duration-ms="6585">
+    <test started-at="2025-02-13T21:15:26 EST" name="Default test" finished-at="2025-02-13T21:16:21 EST" duration-ms="54937">
       <class name="dsAlgo_TestRunner.TestRunner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:dsAlgo_TestRunner.TestRunner@5a18cd76]" started-at="2025-02-12T12:21:21 EST" name="setUpClass" finished-at="2025-02-12T12:21:22 EST" duration-ms="792" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:dsAlgo_TestRunner.TestRunner@59e505b2]" started-at="2025-02-13T21:15:26 EST" name="setUpClass" finished-at="2025-02-13T21:15:31 EST" duration-ms="4498" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@76464795]]>
+                <![CDATA[org.testng.TestRunner@395ac2e5]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgo_TestRunner.TestRunner@5a18cd76]" started-at="2025-02-12T12:21:22 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-12T12:21:22 EST" duration-ms="270" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgo_TestRunner.TestRunner@59e505b2]" started-at="2025-02-13T21:15:31 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-13T21:15:32 EST" duration-ms="1297" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -34,22 +34,10 @@
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "this.driver" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "this.driver" is null
-at dsAlgo_PageFactory.Home_PageFactory.launchURL(Home_PageFactory.java:45)
-at dsAlgo_StepDefinition.Home.user_is_in_the_ds_algo_launch_page(Home.java:26)
-at ✽.User is in the ds-algo launch page(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/A_Home.feature:4)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgo_TestRunner.TestRunner@5a18cd76]" started-at="2025-02-12T12:21:22 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-12T12:21:22 EST" duration-ms="50" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgo_TestRunner.TestRunner@59e505b2]" started-at="2025-02-13T21:15:32 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-13T21:15:32 EST" duration-ms="140" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -62,25 +50,10 @@ at ✽.User is in the ds-algo launch page(file:///C:/Users/rinuh/eclipse-workspa
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy25.click(Unknown Source)
-at dsAlgo_PageFactory.Home_PageFactory.dataStructureDropDownClick(Home_PageFactory.java:61)
-at dsAlgo_StepDefinition.Home.user_clicks_on_the_data_structures_dropdown(Home.java:49)
-at ✽.User clicks on the Data Structures dropdown(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/A_Home.feature:9)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgo_TestRunner.TestRunner@5a18cd76]" started-at="2025-02-12T12:21:22 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-12T12:21:22 EST" duration-ms="31" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgo_TestRunner.TestRunner@59e505b2]" started-at="2025-02-13T21:15:32 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-13T21:15:33 EST" duration-ms="391" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -93,25 +66,10 @@ at ✽.User clicks on the Data Structures dropdown(file:///C:/Users/rinuh/eclips
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy25.click(Unknown Source)
-at dsAlgo_PageFactory.Home_PageFactory.arraysBtnClick(Home_PageFactory.java:65)
-at dsAlgo_StepDefinition.Home.user_selects_arrays_from_the_dropdown_without_signing_in(Home.java:60)
-at ✽.User selects Arrays from the dropdown without signing in(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/A_Home.feature:13)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgo_TestRunner.TestRunner@5a18cd76]" started-at="2025-02-12T12:21:22 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-12T12:21:22 EST" duration-ms="61" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgo_TestRunner.TestRunner@59e505b2]" started-at="2025-02-13T21:15:33 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-13T21:15:33 EST" duration-ms="367" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -124,25 +82,10 @@ at ✽.User selects Arrays from the dropdown without signing in(file:///C:/Users
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy25.click(Unknown Source)
-at dsAlgo_PageFactory.Home_PageFactory.dataStructureDropDownClick(Home_PageFactory.java:61)
-at dsAlgo_StepDefinition.Home.user_selects_linked_list_from_the_dropdown_without_signing_in(Home.java:72)
-at ✽.User selects Linked List from the dropdown without signing in(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/A_Home.feature:17)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgo_TestRunner.TestRunner@5a18cd76]" started-at="2025-02-12T12:21:22 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-12T12:21:22 EST" duration-ms="67" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgo_TestRunner.TestRunner@59e505b2]" started-at="2025-02-13T21:15:33 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-13T21:15:33 EST" duration-ms="418" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -155,25 +98,10 @@ at ✽.User selects Linked List from the dropdown without signing in(file:///C:/
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy25.click(Unknown Source)
-at dsAlgo_PageFactory.Home_PageFactory.dataStructureDropDownClick(Home_PageFactory.java:61)
-at dsAlgo_StepDefinition.Home.user_selects_stack_from_the_dropdown_without_signing_in(Home.java:78)
-at ✽.User selects Stack from the dropdown without signing in(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/A_Home.feature:21)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgo_TestRunner.TestRunner@5a18cd76]" started-at="2025-02-12T12:21:22 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-12T12:21:22 EST" duration-ms="47" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgo_TestRunner.TestRunner@59e505b2]" started-at="2025-02-13T21:15:33 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-13T21:15:34 EST" duration-ms="321" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -186,25 +114,10 @@ at ✽.User selects Stack from the dropdown without signing in(file:///C:/Users/
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy25.click(Unknown Source)
-at dsAlgo_PageFactory.Home_PageFactory.dataStructureDropDownClick(Home_PageFactory.java:61)
-at dsAlgo_StepDefinition.Home.user_selects_queue_from_the_dropdown_without_signing_in(Home.java:84)
-at ✽.User selects Queue from the dropdown without signing in(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/A_Home.feature:25)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgo_TestRunner.TestRunner@5a18cd76]" started-at="2025-02-12T12:21:22 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-12T12:21:22 EST" duration-ms="38" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgo_TestRunner.TestRunner@59e505b2]" started-at="2025-02-13T21:15:34 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-13T21:15:34 EST" duration-ms="373" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -217,25 +130,10 @@ at ✽.User selects Queue from the dropdown without signing in(file:///C:/Users/
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy25.click(Unknown Source)
-at dsAlgo_PageFactory.Home_PageFactory.dataStructureDropDownClick(Home_PageFactory.java:61)
-at dsAlgo_StepDefinition.Home.user_selects_tree_from_the_dropdown_without_signing_in(Home.java:90)
-at ✽.User selects Tree from the dropdown without signing in(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/A_Home.feature:29)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgo_TestRunner.TestRunner@5a18cd76]" started-at="2025-02-12T12:21:22 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-12T12:21:22 EST" duration-ms="28" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgo_TestRunner.TestRunner@59e505b2]" started-at="2025-02-13T21:15:34 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-13T21:15:34 EST" duration-ms="316" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -248,25 +146,10 @@ at ✽.User selects Tree from the dropdown without signing in(file:///C:/Users/r
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy25.click(Unknown Source)
-at dsAlgo_PageFactory.Home_PageFactory.dataStructureDropDownClick(Home_PageFactory.java:61)
-at dsAlgo_StepDefinition.Home.user_selects_graph_from_the_dropdown_without_signing_in(Home.java:96)
-at ✽.User selects Graph from the dropdown without signing in(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/A_Home.feature:33)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgo_TestRunner.TestRunner@5a18cd76]" started-at="2025-02-12T12:21:22 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-12T12:21:22 EST" duration-ms="45" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgo_TestRunner.TestRunner@59e505b2]" started-at="2025-02-13T21:15:34 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-13T21:15:35 EST" duration-ms="180" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -279,22 +162,10 @@ at ✽.User selects Graph from the dropdown without signing in(file:///C:/Users/
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "this.driver" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "this.driver" is null
-at dsAlgo_PageFactory.Home_PageFactory.launchURL(Home_PageFactory.java:45)
-at dsAlgo_StepDefinition.Home.user_is_in_the_ds_algo_launch_page(Home.java:26)
-at ✽.User is in the ds-algo launch page(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/A_Home.feature:37)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgo_TestRunner.TestRunner@5a18cd76]" started-at="2025-02-12T12:21:22 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-12T12:21:22 EST" duration-ms="25" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgo_TestRunner.TestRunner@59e505b2]" started-at="2025-02-13T21:15:35 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-13T21:15:35 EST" duration-ms="81" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -307,873 +178,10 @@ at ✽.User is in the ds-algo launch page(file:///C:/Users/rinuh/eclipse-workspa
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy25.click(Unknown Source)
-at dsAlgo_PageFactory.Home_PageFactory.randomClickMethod(Home_PageFactory.java:89)
-at dsAlgo_StepDefinition.Home.user_clicks_on_the_launch_page_other_than_the_get_started_button(Home.java:112)
-at ✽.User clicks on the launch page other than the Get Started button(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/A_Home.feature:42)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgo_TestRunner.TestRunner@5a18cd76]" started-at="2025-02-12T12:21:22 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-12T12:21:25 EST" duration-ms="3050" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Verify user enters username and password fields"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Home Page"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy25.click(Unknown Source)
-at dsAlgo_PageFactory.Home_PageFactory.getStartedHomeBtnClick(Home_PageFactory.java:49)
-at dsAlgo_StepDefinition.Home.the_user_is_on_the_sign_in_page(Home.java:123)
-at ✽.The user is on the Sign In page(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/A_Home.feature:46)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgo_TestRunner.TestRunner@5a18cd76]" started-at="2025-02-12T12:21:25 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-12T12:21:26 EST" duration-ms="24" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Verify that the user is able to navigate to the home page"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Register Page"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "this.driver" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "this.driver" is null
-at dsAlgo_PageFactory.Home_PageFactory.launchURL(Home_PageFactory.java:45)
-at dsAlgo_StepDefinition.Home.user_is_in_the_ds_algo_launch_page(Home.java:26)
-at ✽.User is in the ds-algo launch page(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/B_Register.feature:4)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgo_TestRunner.TestRunner@5a18cd76]" started-at="2025-02-12T12:21:26 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-12T12:21:26 EST" duration-ms="40" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Verify that User is able to launch ds-algo portal"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Register Page"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.manage()" because "this.driver" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.manage()" because "this.driver" is null
-at dsAlgo_StepDefinition.Register.user_is_in_the_home_page_after_launching_ds_algo_portal_page(Register.java:37)
-at ✽.User is in the home page after launching ds-algo portal page(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/B_Register.feature:9)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgo_TestRunner.TestRunner@5a18cd76]" started-at="2025-02-12T12:21:26 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-12T12:21:26 EST" duration-ms="30" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Verify that the user is able to enter username in the username field"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Register Page"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy25.isDisplayed(Unknown Source)
-at dsAlgo_PageFactory.Register_PageFactory.registerBtnDisplayed(Register_PageFactory.java:37)
-at dsAlgo_StepDefinition.Register.user_is_in_the_register_page_after_clicking_register_link_in_the_home_page(Register.java:60)
-at ✽.User is in the Register page after clicking Register link in the home page(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/B_Register.feature:14)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgo_TestRunner.TestRunner@5a18cd76]" started-at="2025-02-12T12:21:26 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-12T12:21:26 EST" duration-ms="23" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Verify that the user is able to enter username in the username field"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Register Page"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy25.isDisplayed(Unknown Source)
-at dsAlgo_PageFactory.Register_PageFactory.registerBtnDisplayed(Register_PageFactory.java:37)
-at dsAlgo_StepDefinition.Register.user_is_in_the_register_page_after_clicking_register_link_in_the_home_page(Register.java:60)
-at ✽.User is in the Register page after clicking Register link in the home page(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/B_Register.feature:14)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgo_TestRunner.TestRunner@5a18cd76]" started-at="2025-02-12T12:21:26 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-12T12:21:26 EST" duration-ms="60" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Verify that the user is able to enter username in the username field"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Register Page"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy25.isDisplayed(Unknown Source)
-at dsAlgo_PageFactory.Register_PageFactory.registerBtnDisplayed(Register_PageFactory.java:37)
-at dsAlgo_StepDefinition.Register.user_is_in_the_register_page_after_clicking_register_link_in_the_home_page(Register.java:60)
-at ✽.User is in the Register page after clicking Register link in the home page(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/B_Register.feature:14)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgo_TestRunner.TestRunner@5a18cd76]" started-at="2025-02-12T12:21:26 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-12T12:21:26 EST" duration-ms="13" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Verify that the user is able to enter username in the username field"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Register Page"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy25.isDisplayed(Unknown Source)
-at dsAlgo_PageFactory.Register_PageFactory.registerBtnDisplayed(Register_PageFactory.java:37)
-at dsAlgo_StepDefinition.Register.user_is_in_the_register_page_after_clicking_register_link_in_the_home_page(Register.java:60)
-at ✽.User is in the Register page after clicking Register link in the home page(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/B_Register.feature:14)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgo_TestRunner.TestRunner@5a18cd76]" started-at="2025-02-12T12:21:26 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-12T12:21:26 EST" duration-ms="13" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Verify that the user is able to get an error message when username (with special characters other than @) in the username field in the Register page is entered"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Register Page"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy25.isDisplayed(Unknown Source)
-at dsAlgo_PageFactory.Register_PageFactory.registerBtnDisplayed(Register_PageFactory.java:37)
-at dsAlgo_StepDefinition.Register.user_is_in_the_register_page_after_clicking_register_link_in_the_home_page(Register.java:60)
-at ✽.User is in the Register page after clicking Register link in the home page(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/B_Register.feature:26)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgo_TestRunner.TestRunner@5a18cd76]" started-at="2025-02-12T12:21:26 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-12T12:21:26 EST" duration-ms="22" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Verify that the user is able to get an error message when username (with special characters other than @) in the username field in the Register page is entered"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Register Page"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy25.isDisplayed(Unknown Source)
-at dsAlgo_PageFactory.Register_PageFactory.registerBtnDisplayed(Register_PageFactory.java:37)
-at dsAlgo_StepDefinition.Register.user_is_in_the_register_page_after_clicking_register_link_in_the_home_page(Register.java:60)
-at ✽.User is in the Register page after clicking Register link in the home page(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/B_Register.feature:26)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgo_TestRunner.TestRunner@5a18cd76]" started-at="2025-02-12T12:21:26 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-12T12:21:26 EST" duration-ms="24" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Verify that the user is able to enter password in the field"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Register Page"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy25.isDisplayed(Unknown Source)
-at dsAlgo_PageFactory.Register_PageFactory.registerBtnDisplayed(Register_PageFactory.java:37)
-at dsAlgo_StepDefinition.Register.user_is_in_the_register_page_after_clicking_register_link_in_the_home_page(Register.java:60)
-at ✽.User is in the Register page after clicking Register link in the home page(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/B_Register.feature:38)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgo_TestRunner.TestRunner@5a18cd76]" started-at="2025-02-12T12:21:26 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-12T12:21:26 EST" duration-ms="22" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Verify that the user is able to enter password in the field"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Register Page"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy25.isDisplayed(Unknown Source)
-at dsAlgo_PageFactory.Register_PageFactory.registerBtnDisplayed(Register_PageFactory.java:37)
-at dsAlgo_StepDefinition.Register.user_is_in_the_register_page_after_clicking_register_link_in_the_home_page(Register.java:60)
-at ✽.User is in the Register page after clicking Register link in the home page(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/B_Register.feature:38)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgo_TestRunner.TestRunner@5a18cd76]" started-at="2025-02-12T12:21:26 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-12T12:21:26 EST" duration-ms="12" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Verify that the user is able to enter password in the field"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Register Page"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy25.isDisplayed(Unknown Source)
-at dsAlgo_PageFactory.Register_PageFactory.registerBtnDisplayed(Register_PageFactory.java:37)
-at dsAlgo_StepDefinition.Register.user_is_in_the_register_page_after_clicking_register_link_in_the_home_page(Register.java:60)
-at ✽.User is in the Register page after clicking Register link in the home page(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/B_Register.feature:38)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgo_TestRunner.TestRunner@5a18cd76]" started-at="2025-02-12T12:21:26 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-12T12:21:26 EST" duration-ms="12" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Verify that the user is able to enter password in the field"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Register Page"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy25.isDisplayed(Unknown Source)
-at dsAlgo_PageFactory.Register_PageFactory.registerBtnDisplayed(Register_PageFactory.java:37)
-at dsAlgo_StepDefinition.Register.user_is_in_the_register_page_after_clicking_register_link_in_the_home_page(Register.java:60)
-at ✽.User is in the Register page after clicking Register link in the home page(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/B_Register.feature:38)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgo_TestRunner.TestRunner@5a18cd76]" started-at="2025-02-12T12:21:26 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-12T12:21:26 EST" duration-ms="22" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Verify that the user is able to get an error message"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Register Page"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy25.isDisplayed(Unknown Source)
-at dsAlgo_PageFactory.Register_PageFactory.registerBtnDisplayed(Register_PageFactory.java:37)
-at dsAlgo_StepDefinition.Register.user_is_in_the_register_page_after_clicking_register_link_in_the_home_page(Register.java:60)
-at ✽.User is in the Register page after clicking Register link in the home page(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/B_Register.feature:50)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgo_TestRunner.TestRunner@5a18cd76]" started-at="2025-02-12T12:21:26 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-12T12:21:26 EST" duration-ms="16" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Verify that the user is able to get an error message"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Register Page"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy25.isDisplayed(Unknown Source)
-at dsAlgo_PageFactory.Register_PageFactory.registerBtnDisplayed(Register_PageFactory.java:37)
-at dsAlgo_StepDefinition.Register.user_is_in_the_register_page_after_clicking_register_link_in_the_home_page(Register.java:60)
-at ✽.User is in the Register page after clicking Register link in the home page(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/B_Register.feature:50)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgo_TestRunner.TestRunner@5a18cd76]" started-at="2025-02-12T12:21:26 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-12T12:21:26 EST" duration-ms="15" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Verify that the user is able to get an error message"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Register Page"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy25.isDisplayed(Unknown Source)
-at dsAlgo_PageFactory.Register_PageFactory.registerBtnDisplayed(Register_PageFactory.java:37)
-at dsAlgo_StepDefinition.Register.user_is_in_the_register_page_after_clicking_register_link_in_the_home_page(Register.java:60)
-at ✽.User is in the Register page after clicking Register link in the home page(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/B_Register.feature:50)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgo_TestRunner.TestRunner@5a18cd76]" started-at="2025-02-12T12:21:26 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-12T12:21:27 EST" duration-ms="858" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Verify that the user is able to get a pop-up message when username, password and password confirmation field are left blank"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Register Page"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy25.clear(Unknown Source)
-at dsAlgo_StepDefinition.Register.the_user_enters_data_from_excel_sheet_and_for_all_the_fields_to_be_left_blank(Register.java:141)
-at ✽.The user enters data from excel sheet 'Register' and 14 for all the fields to be left blank(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/B_Register.feature:62)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgo_TestRunner.TestRunner@5a18cd76]" started-at="2025-02-12T12:21:27 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-12T12:21:27 EST" duration-ms="99" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Verify that the user is able to get a pop-up message when username, password and password confirmation field are left blank"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Register Page"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy25.clear(Unknown Source)
-at dsAlgo_StepDefinition.Register.the_user_enters_data_from_excel_sheet_and_for_all_the_fields_to_be_left_blank(Register.java:141)
-at ✽.The user enters data from excel sheet 'Register' and 15 for all the fields to be left blank(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/B_Register.feature:62)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgo_TestRunner.TestRunner@5a18cd76]" started-at="2025-02-12T12:21:27 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-12T12:21:27 EST" duration-ms="51" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Verify that the user is able to get a pop-up message when username, password and password confirmation field are left blank"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Register Page"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy25.clear(Unknown Source)
-at dsAlgo_StepDefinition.Register.the_user_enters_data_from_excel_sheet_and_for_all_the_fields_to_be_left_blank(Register.java:141)
-at ✽.The user enters data from excel sheet 'Register' and 16 for all the fields to be left blank(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/B_Register.feature:62)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgo_TestRunner.TestRunner@5a18cd76]" started-at="2025-02-12T12:21:27 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-12T12:21:27 EST" duration-ms="10" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Verify that the user is able to naviagte to home page with the message"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Register Page"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.manage()" because "this.driver" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.manage()" because "this.driver" is null
-at dsAlgo_StepDefinition.Register.user_is_in_the_register_page_to_enter_username_password_and_password_confirmation(Register.java:162)
-at ✽.User is in the Register page to enter username, password and password confirmation(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/B_Register.feature:73)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgo_TestRunner.TestRunner@5a18cd76]" started-at="2025-02-12T12:21:27 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-12T12:21:27 EST" duration-ms="13" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Verify that the user is able to navigate to the home page"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Login Functionality"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "this.driver" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "this.driver" is null
-at dsAlgo_PageFactory.Home_PageFactory.launchURL(Home_PageFactory.java:45)
-at dsAlgo_StepDefinition.Home.user_is_in_the_ds_algo_launch_page(Home.java:26)
-at ✽.User is in the ds-algo launch page(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/C_Login.feature:4)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgo_TestRunner.TestRunner@5a18cd76]" started-at="2025-02-12T12:21:27 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-12T12:21:27 EST" duration-ms="12" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Verify user enters username and password fields"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Login Functionality"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy25.click(Unknown Source)
-at dsAlgo_PageFactory.Login_PageFactory.signInClick(Login_PageFactory.java:30)
-at dsAlgo_StepDefinition.Login.the_user_clicks_the_sign_in_link(Login.java:43)
-at ✽.The user clicks the Sign In link(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/C_Login.feature:9)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgo_TestRunner.TestRunner@5a18cd76]" started-at="2025-02-12T12:21:27 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-12T12:21:27 EST" duration-ms="12" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Verify that user is able to sign out successfully"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Login Functionality"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy25.isDisplayed(Unknown Source)
-at dsAlgo_PageFactory.Login_PageFactory.signOutBtnDisplayed(Login_PageFactory.java:46)
-at dsAlgo_StepDefinition.Login.the_user_is_in_the_home_page_after_sign_in(Login.java:98)
-at ✽.The user is in the Home page after Sign In(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/C_Login.feature:18)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgo_TestRunner.TestRunner@5a18cd76]" started-at="2025-02-12T12:21:27 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-12T12:21:27 EST" duration-ms="21" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Verify user receives error message when username and password fields are blank during Login"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Login Functionality"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy25.isDisplayed(Unknown Source)
-at dsAlgo_PageFactory.Login_PageFactory.signInLoginBtnDisplayed(Login_PageFactory.java:34)
-at dsAlgo_StepDefinition.Login.the_user_is_on_the_ds_algo_sign_in_page(Login.java:53)
-at ✽.The user is on the DS Algo Sign In page(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/C_Login.feature:23)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgo_TestRunner.TestRunner@5a18cd76]" started-at="2025-02-12T12:21:27 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-12T12:21:27 EST" duration-ms="31" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Verify user receives error message when username and password fields are blank during Login"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Login Functionality"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy25.isDisplayed(Unknown Source)
-at dsAlgo_PageFactory.Login_PageFactory.signInLoginBtnDisplayed(Login_PageFactory.java:34)
-at dsAlgo_StepDefinition.Login.the_user_is_on_the_ds_algo_sign_in_page(Login.java:53)
-at ✽.The user is on the DS Algo Sign In page(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/C_Login.feature:23)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgo_TestRunner.TestRunner@5a18cd76]" started-at="2025-02-12T12:21:27 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-12T12:21:27 EST" duration-ms="22" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Verify user receives error message for Invalid Username and Password during Login"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Login Functionality"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy25.click(Unknown Source)
-at dsAlgo_PageFactory.Login_PageFactory.signInClick(Login_PageFactory.java:30)
-at dsAlgo_StepDefinition.Login.the_user_gets_invalid_data_from_excel_sheet_and_for_the_login_page(Login.java:75)
-at ✽.The user gets invalid data from excel sheet 'Login' and 3 for the login page(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/C_Login.feature:33)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgo_TestRunner.TestRunner@5a18cd76]" started-at="2025-02-12T12:21:27 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-12T12:21:27 EST" duration-ms="13" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Verify user receives error message for Invalid Username and Password during Login"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Login Functionality"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy25.click(Unknown Source)
-at dsAlgo_PageFactory.Login_PageFactory.signInClick(Login_PageFactory.java:30)
-at dsAlgo_StepDefinition.Login.the_user_gets_invalid_data_from_excel_sheet_and_for_the_login_page(Login.java:75)
-at ✽.The user gets invalid data from excel sheet 'Login' and 4 for the login page(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/C_Login.feature:33)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgo_TestRunner.TestRunner@5a18cd76]" started-at="2025-02-12T12:21:27 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-12T12:21:27 EST" duration-ms="16" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Verify user enters username and password for SignIn"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Login Functionality"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "this.driver" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "this.driver" is null
-at dsAlgo_PageFactory.Home_PageFactory.launchURL(Home_PageFactory.java:45)
-at dsAlgo_StepDefinition.Login.the_user_clicks_the_sign_in_link_from_the_portal(Login.java:118)
-at ✽.The user clicks the Sign In link from the portal(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/C_Login.feature:42)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgo_TestRunner.TestRunner@5a18cd76]" started-at="2025-02-12T12:21:27 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-12T12:21:27 EST" duration-ms="21" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgo_TestRunner.TestRunner@59e505b2]" started-at="2025-02-13T21:15:35 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-13T21:15:37 EST" duration-ms="1908" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1186,22 +194,10 @@ at ✽.The user clicks the Sign In link from the portal(file:///C:/Users/rinuh/e
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "this.driver" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "this.driver" is null
-at dsAlgo_PageFactory.Home_PageFactory.launchURL(Home_PageFactory.java:45)
-at dsAlgo_StepDefinition.Login.the_user_clicks_the_sign_in_link_from_the_portal(Login.java:118)
-at ✽.The user clicks the Sign In link from the portal(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/D_LinkedList.feature:4)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgo_TestRunner.TestRunner@5a18cd76]" started-at="2025-02-12T12:21:27 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-12T12:21:27 EST" duration-ms="49" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgo_TestRunner.TestRunner@59e505b2]" started-at="2025-02-13T21:15:37 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-13T21:15:39 EST" duration-ms="2339" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1214,21 +210,10 @@ at ✽.The user clicks the Sign In link from the portal(file:///C:/Users/rinuh/e
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.getCurrentUrl()" because "this.driver" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.getCurrentUrl()" because "this.driver" is null
-at dsAlgo_StepDefinition.LinkedList.user_clicks_on_the_get_started_button_under_linked_list_section(LinkedList.java:73)
-at ✽.User clicks on the Get Started button under Linked List section(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/D_LinkedList.feature:14)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgo_TestRunner.TestRunner@5a18cd76]" started-at="2025-02-12T12:21:27 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-12T12:21:27 EST" duration-ms="26" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgo_TestRunner.TestRunner@59e505b2]" started-at="2025-02-13T21:15:39 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-13T21:15:39 EST" duration-ms="95" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1241,25 +226,10 @@ at ✽.User clicks on the Get Started button under Linked List section(file:///C
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy25.isDisplayed(Unknown Source)
-at dsAlgo_PageFactory.LinkedList_PageFactory.linkedListTitleDisplayed(LinkedList_PageFactory.java:57)
-at dsAlgo_StepDefinition.LinkedList.the_user_is_in_the_linked_list_page_after_sign_in(LinkedList.java:92)
-at ✽.The user is in the Linked List page after Sign-In(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/D_LinkedList.feature:18)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgo_TestRunner.TestRunner@5a18cd76]" started-at="2025-02-12T12:21:27 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-12T12:21:27 EST" duration-ms="15" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgo_TestRunner.TestRunner@59e505b2]" started-at="2025-02-13T21:15:39 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-13T21:15:39 EST" duration-ms="58" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1272,25 +242,10 @@ at ✽.The user is in the Linked List page after Sign-In(file:///C:/Users/rinuh/
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy25.isEnabled(Unknown Source)
-at dsAlgo_PageFactory.LinkedList_PageFactory.creatingLinkedListLinkEnabled(LinkedList_PageFactory.java:63)
-at dsAlgo_StepDefinition.LinkedList.the_user_checks_whether_the_creating_linked_list_link_is_enabled(LinkedList.java:104)
-at ✽.The user checks whether the Creating Linked List link is enabled(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/D_LinkedList.feature:23)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgo_TestRunner.TestRunner@5a18cd76]" started-at="2025-02-12T12:21:27 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-12T12:21:27 EST" duration-ms="15" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgo_TestRunner.TestRunner@59e505b2]" started-at="2025-02-13T21:15:39 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-13T21:15:39 EST" duration-ms="65" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1303,25 +258,10 @@ at ✽.The user checks whether the Creating Linked List link is enabled(file:///
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy25.isEnabled(Unknown Source)
-at dsAlgo_PageFactory.LinkedList_PageFactory.typesOfLinkedListLinkEnabled(LinkedList_PageFactory.java:66)
-at dsAlgo_StepDefinition.LinkedList.the_user_checks_whether_the_types_of_linked_list_link_is_enabled(LinkedList.java:112)
-at ✽.The user checks whether the Types of Linked List link is enabled(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/D_LinkedList.feature:27)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgo_TestRunner.TestRunner@5a18cd76]" started-at="2025-02-12T12:21:27 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-12T12:21:27 EST" duration-ms="13" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgo_TestRunner.TestRunner@59e505b2]" started-at="2025-02-13T21:15:39 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-13T21:15:39 EST" duration-ms="59" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1334,25 +274,10 @@ at ✽.The user checks whether the Types of Linked List link is enabled(file:///
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy25.isEnabled(Unknown Source)
-at dsAlgo_PageFactory.LinkedList_PageFactory.implementLinkedListLinkEnabled(LinkedList_PageFactory.java:69)
-at dsAlgo_StepDefinition.LinkedList.the_user_checks_whether_the_implement_linked_list_in_python_link_is_enabled(LinkedList.java:120)
-at ✽.The user checks whether the Implement Linked List in Python link is enabled(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/D_LinkedList.feature:31)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgo_TestRunner.TestRunner@5a18cd76]" started-at="2025-02-12T12:21:27 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-12T12:21:27 EST" duration-ms="17" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgo_TestRunner.TestRunner@59e505b2]" started-at="2025-02-13T21:15:39 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-13T21:15:39 EST" duration-ms="57" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1365,25 +290,10 @@ at ✽.The user checks whether the Implement Linked List in Python link is enabl
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy25.isEnabled(Unknown Source)
-at dsAlgo_PageFactory.LinkedList_PageFactory.traversalLinkEnabled(LinkedList_PageFactory.java:72)
-at dsAlgo_StepDefinition.LinkedList.the_user_checks_whether_the_traversal_link_is_enabled(LinkedList.java:128)
-at ✽.The user checks whether the Traversal link is enabled(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/D_LinkedList.feature:35)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgo_TestRunner.TestRunner@5a18cd76]" started-at="2025-02-12T12:21:27 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-12T12:21:27 EST" duration-ms="11" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgo_TestRunner.TestRunner@59e505b2]" started-at="2025-02-13T21:15:39 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-13T21:15:39 EST" duration-ms="58" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1396,25 +306,10 @@ at ✽.The user checks whether the Traversal link is enabled(file:///C:/Users/ri
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy25.isEnabled(Unknown Source)
-at dsAlgo_PageFactory.LinkedList_PageFactory.insertionLinkEnabled(LinkedList_PageFactory.java:75)
-at dsAlgo_StepDefinition.LinkedList.the_user_checks_whether_the_insertion_link_is_enabled(LinkedList.java:136)
-at ✽.The user checks whether the Insertion link is enabled(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/D_LinkedList.feature:39)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgo_TestRunner.TestRunner@5a18cd76]" started-at="2025-02-12T12:21:27 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-12T12:21:27 EST" duration-ms="13" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgo_TestRunner.TestRunner@59e505b2]" started-at="2025-02-13T21:15:39 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-13T21:15:39 EST" duration-ms="53" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1427,25 +322,10 @@ at ✽.The user checks whether the Insertion link is enabled(file:///C:/Users/ri
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy25.isEnabled(Unknown Source)
-at dsAlgo_PageFactory.LinkedList_PageFactory.deletionLinkEnabled(LinkedList_PageFactory.java:78)
-at dsAlgo_StepDefinition.LinkedList.the_user_checks_whether_the_deletion_link_is_enabled(LinkedList.java:144)
-at ✽.The user checks whether the Deletion link is enabled(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/D_LinkedList.feature:43)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgo_TestRunner.TestRunner@5a18cd76]" started-at="2025-02-12T12:21:27 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-12T12:21:27 EST" duration-ms="25" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgo_TestRunner.TestRunner@59e505b2]" started-at="2025-02-13T21:15:39 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-13T21:15:40 EST" duration-ms="373" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1458,25 +338,10 @@ at ✽.The user checks whether the Deletion link is enabled(file:///C:/Users/rin
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy25.click(Unknown Source)
-at dsAlgo_PageFactory.LinkedList_PageFactory.introductionLinkClick(LinkedList_PageFactory.java:81)
-at dsAlgo_StepDefinition.LinkedList.the_user_clicks_introduction_link_in_the_linked_list_page(LinkedList.java:152)
-at ✽.The user clicks Introduction link in the Linked List page(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/D_LinkedList.feature:47)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgo_TestRunner.TestRunner@5a18cd76]" started-at="2025-02-12T12:21:27 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-12T12:21:27 EST" duration-ms="11" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgo_TestRunner.TestRunner@59e505b2]" started-at="2025-02-13T21:15:40 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-13T21:15:40 EST" duration-ms="625" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1489,25 +354,10 @@ at ✽.The user clicks Introduction link in the Linked List page(file:///C:/User
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy25.isDisplayed(Unknown Source)
-at dsAlgo_PageFactory.LinkedList_PageFactory.introductionTitleDisplayed(LinkedList_PageFactory.java:102)
-at dsAlgo_StepDefinition.LinkedList.the_user_is_in_the_introduction_page(LinkedList.java:160)
-at ✽.The user is in the Introduction page(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/D_LinkedList.feature:51)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgo_TestRunner.TestRunner@5a18cd76]" started-at="2025-02-12T12:21:27 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-12T12:21:27 EST" duration-ms="52" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgo_TestRunner.TestRunner@59e505b2]" started-at="2025-02-13T21:15:40 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-13T21:15:41 EST" duration-ms="203" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1520,25 +370,10 @@ at ✽.The user is in the Introduction page(file:///C:/Users/rinuh/eclipse-works
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy25.isDisplayed(Unknown Source)
-at dsAlgo_PageFactory.LinkedList_PageFactory.runBtnDisplayed(LinkedList_PageFactory.java:129)
-at dsAlgo_StepDefinition.LinkedList.the_user_is_in_the_try_editor_page_for_the_introduction_page(LinkedList.java:172)
-at ✽.The user is in the Try Editor page for the Introduction page(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/D_LinkedList.feature:56)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgo_TestRunner.TestRunner@5a18cd76]" started-at="2025-02-12T12:21:27 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-12T12:21:27 EST" duration-ms="13" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgo_TestRunner.TestRunner@59e505b2]" started-at="2025-02-13T21:15:41 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-13T21:15:41 EST" duration-ms="185" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1551,25 +386,10 @@ at ✽.The user is in the Try Editor page for the Introduction page(file:///C:/U
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy25.isDisplayed(Unknown Source)
-at dsAlgo_PageFactory.LinkedList_PageFactory.runBtnDisplayed(LinkedList_PageFactory.java:129)
-at dsAlgo_StepDefinition.LinkedList.the_user_is_in_the_try_editor_page_for_the_introduction_page(LinkedList.java:172)
-at ✽.The user is in the Try Editor page for the Introduction page(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/D_LinkedList.feature:56)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgo_TestRunner.TestRunner@5a18cd76]" started-at="2025-02-12T12:21:27 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-12T12:21:27 EST" duration-ms="20" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgo_TestRunner.TestRunner@59e505b2]" started-at="2025-02-13T21:15:41 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-13T21:15:41 EST" duration-ms="184" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1582,25 +402,1124 @@ at ✽.The user is in the Try Editor page for the Introduction page(file:///C:/U
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy25.isDisplayed(Unknown Source)
-at dsAlgo_PageFactory.LinkedList_PageFactory.runBtnDisplayed(LinkedList_PageFactory.java:129)
-at dsAlgo_StepDefinition.LinkedList.the_user_is_in_the_try_editor_page_for_the_introduction_page(LinkedList.java:172)
-at ✽.The user is in the Try Editor page for the Introduction page(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/D_LinkedList.feature:56)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:dsAlgo_TestRunner.TestRunner@5a18cd76]" started-at="2025-02-12T12:21:27 EST" name="tearDownClass" finished-at="2025-02-12T12:21:27 EST" duration-ms="50" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgo_TestRunner.TestRunner@59e505b2]" started-at="2025-02-13T21:15:41 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-13T21:15:41 EST" duration-ms="112" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that the user is able to navigate to Introduction page after clicking <- in the Try Editor window"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Linked List Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgo_TestRunner.TestRunner@59e505b2]" started-at="2025-02-13T21:15:41 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-13T21:15:44 EST" duration-ms="3324" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that the user is able to navigate to Creating Linked List page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Linked List Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgo_TestRunner.TestRunner@59e505b2]" started-at="2025-02-13T21:15:44 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-13T21:15:45 EST" duration-ms="277" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that the user is able to navigate to Try Here >>> page for Creating Linked List page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Linked List Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgo_TestRunner.TestRunner@59e505b2]" started-at="2025-02-13T21:15:45 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-13T21:15:45 EST" duration-ms="180" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that the user is able to see output for valid, invalid and incorrect syntax Python code is entered for the Creating Linked List page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Linked List Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgo_TestRunner.TestRunner@59e505b2]" started-at="2025-02-13T21:15:45 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-13T21:15:45 EST" duration-ms="196" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that the user is able to see output for valid, invalid and incorrect syntax Python code is entered for the Creating Linked List page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Linked List Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgo_TestRunner.TestRunner@59e505b2]" started-at="2025-02-13T21:15:45 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-13T21:15:45 EST" duration-ms="176" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that the user is able to see output for valid, invalid and incorrect syntax Python code is entered for the Creating Linked List page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Linked List Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgo_TestRunner.TestRunner@59e505b2]" started-at="2025-02-13T21:15:45 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-13T21:15:45 EST" duration-ms="70" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that the user is able to navigate to Creating Linked List page after clicking <- in the Try Editor window"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Linked List Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgo_TestRunner.TestRunner@59e505b2]" started-at="2025-02-13T21:15:45 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-13T21:15:46 EST" duration-ms="359" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that the user is able to navigate to Types of Linked List page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Linked List Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgo_TestRunner.TestRunner@59e505b2]" started-at="2025-02-13T21:15:46 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-13T21:15:46 EST" duration-ms="359" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that the user is able to navigate to Try Here >>> page for Types of Linked List page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Linked List Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgo_TestRunner.TestRunner@59e505b2]" started-at="2025-02-13T21:15:46 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-13T21:15:46 EST" duration-ms="210" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that the user is able to see output for valid, invalid and incorrect syntax Python code is entered for the Types of Linked List page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Linked List Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgo_TestRunner.TestRunner@59e505b2]" started-at="2025-02-13T21:15:46 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-13T21:15:46 EST" duration-ms="169" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that the user is able to see output for valid, invalid and incorrect syntax Python code is entered for the Types of Linked List page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Linked List Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgo_TestRunner.TestRunner@59e505b2]" started-at="2025-02-13T21:15:46 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-13T21:15:47 EST" duration-ms="168" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that the user is able to see output for valid, invalid and incorrect syntax Python code is entered for the Types of Linked List page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Linked List Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgo_TestRunner.TestRunner@59e505b2]" started-at="2025-02-13T21:15:47 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-13T21:15:47 EST" duration-ms="50" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that the user is able to navigate to Types of Linked List page after clicking <- in the Try Editor window"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Linked List Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgo_TestRunner.TestRunner@59e505b2]" started-at="2025-02-13T21:15:47 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-13T21:15:47 EST" duration-ms="307" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that the user is able to navigate to Implement Linked List in Python page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Linked List Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgo_TestRunner.TestRunner@59e505b2]" started-at="2025-02-13T21:15:47 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-13T21:15:47 EST" duration-ms="307" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that the user is able to navigate to Try Here >>> page for Implement Linked List in Python page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Linked List Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgo_TestRunner.TestRunner@59e505b2]" started-at="2025-02-13T21:15:47 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-13T21:15:47 EST" duration-ms="153" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that the user is able to see output for valid, invalid and incorrect syntax Python code is entered for the Implement Linked List in Python page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Linked List Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgo_TestRunner.TestRunner@59e505b2]" started-at="2025-02-13T21:15:47 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-13T21:15:48 EST" duration-ms="147" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that the user is able to see output for valid, invalid and incorrect syntax Python code is entered for the Implement Linked List in Python page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Linked List Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgo_TestRunner.TestRunner@59e505b2]" started-at="2025-02-13T21:15:48 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-13T21:15:48 EST" duration-ms="147" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that the user is able to see output for valid, invalid and incorrect syntax Python code is entered for the Implement Linked List in Python page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Linked List Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgo_TestRunner.TestRunner@59e505b2]" started-at="2025-02-13T21:15:48 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-13T21:15:48 EST" duration-ms="82" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that the user is able to navigate to Implement Linked List in Python page after clicking <- in the Try Editor window"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Linked List Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgo_TestRunner.TestRunner@59e505b2]" started-at="2025-02-13T21:15:48 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-13T21:15:48 EST" duration-ms="279" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that the user is able to navigate to Traversal page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Linked List Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgo_TestRunner.TestRunner@59e505b2]" started-at="2025-02-13T21:15:48 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-13T21:15:48 EST" duration-ms="223" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that the user is able to navigate to Try Here >>> page for Traversal page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Linked List Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgo_TestRunner.TestRunner@59e505b2]" started-at="2025-02-13T21:15:48 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-13T21:15:48 EST" duration-ms="141" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that the user is able to see output for valid, invalid and incorrect syntax Python code is entered for the Traversal page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Linked List Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgo_TestRunner.TestRunner@59e505b2]" started-at="2025-02-13T21:15:48 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-13T21:15:49 EST" duration-ms="139" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that the user is able to see output for valid, invalid and incorrect syntax Python code is entered for the Traversal page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Linked List Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgo_TestRunner.TestRunner@59e505b2]" started-at="2025-02-13T21:15:49 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-13T21:15:49 EST" duration-ms="221" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that the user is able to see output for valid, invalid and incorrect syntax Python code is entered for the Traversal page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Linked List Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgo_TestRunner.TestRunner@59e505b2]" started-at="2025-02-13T21:15:49 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-13T21:15:49 EST" duration-ms="82" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that the user is able to navigate to Traversal page after clicking <- in the Try Editor window"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Linked List Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgo_TestRunner.TestRunner@59e505b2]" started-at="2025-02-13T21:15:49 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-13T21:15:49 EST" duration-ms="306" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that the user is able to navigate to Insertion page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Linked List Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgo_TestRunner.TestRunner@59e505b2]" started-at="2025-02-13T21:15:49 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-13T21:15:49 EST" duration-ms="268" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that the user is able to navigate to Try Here >>> page for Insertion page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Linked List Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgo_TestRunner.TestRunner@59e505b2]" started-at="2025-02-13T21:15:49 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-13T21:15:50 EST" duration-ms="160" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that the user is able to see output for valid, invalid and incorrect syntax Python code is entered for the Insertion page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Linked List Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgo_TestRunner.TestRunner@59e505b2]" started-at="2025-02-13T21:15:50 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-13T21:15:50 EST" duration-ms="207" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that the user is able to see output for valid, invalid and incorrect syntax Python code is entered for the Insertion page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Linked List Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgo_TestRunner.TestRunner@59e505b2]" started-at="2025-02-13T21:15:50 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-13T21:15:50 EST" duration-ms="168" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that the user is able to see output for valid, invalid and incorrect syntax Python code is entered for the Insertion page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Linked List Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgo_TestRunner.TestRunner@59e505b2]" started-at="2025-02-13T21:15:50 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-13T21:15:50 EST" duration-ms="73" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that the user is able to navigate to Insertion page after clicking <- in the Try Editor window"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Linked List Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgo_TestRunner.TestRunner@59e505b2]" started-at="2025-02-13T21:15:50 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-13T21:15:50 EST" duration-ms="306" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that the user is able to navigate to Deletion page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Linked List Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgo_TestRunner.TestRunner@59e505b2]" started-at="2025-02-13T21:15:50 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-13T21:15:51 EST" duration-ms="470" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that the user is able to navigate to Try Here >>> page for Deletion page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Linked List Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgo_TestRunner.TestRunner@59e505b2]" started-at="2025-02-13T21:15:51 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-13T21:15:51 EST" duration-ms="170" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that the user is able to see output for valid, invalid and incorrect syntax Python code is entered for the Deletion page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Linked List Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgo_TestRunner.TestRunner@59e505b2]" started-at="2025-02-13T21:15:51 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-13T21:15:51 EST" duration-ms="155" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that the user is able to see output for valid, invalid and incorrect syntax Python code is entered for the Deletion page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Linked List Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgo_TestRunner.TestRunner@59e505b2]" started-at="2025-02-13T21:15:51 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-13T21:15:51 EST" duration-ms="190" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that the user is able to see output for valid, invalid and incorrect syntax Python code is entered for the Deletion page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Linked List Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgo_TestRunner.TestRunner@59e505b2]" started-at="2025-02-13T21:15:51 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-13T21:15:51 EST" duration-ms="72" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that the user is able to navigate to Deletion page after clicking <- in the Try Editor window"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Linked List Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgo_TestRunner.TestRunner@59e505b2]" started-at="2025-02-13T21:15:51 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-13T21:15:52 EST" duration-ms="254" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify whether the user is able to navigate to Practice Questions page after clicking Practice Questions link in the Linked List page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Linked List Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgo_TestRunner.TestRunner@59e505b2]" started-at="2025-02-13T21:15:52 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-13T21:15:52 EST" duration-ms="370" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that the user is able to navigate to the home page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgo_TestRunner.TestRunner@59e505b2]" started-at="2025-02-13T21:15:52 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-13T21:15:54 EST" duration-ms="2104" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify user enters username and password fields"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"link text","selector":"Sign in"}
+  (Session info: chrome=131.0.6778.265)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.28.0', revision: 'ac342546e9'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [aff08d1338e1eeab4183e223f150be86, findElement {using=link text, value=Sign in}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.265, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\rinuh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54484}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54484/devtoo..., se:cdpVersion: 131.0.6778.265, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: aff08d1338e1eeab4183e223f150be86]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Sign in"}
+  (Session info: chrome=131.0.6778.265)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.28.0', revision: 'ac342546e9'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [aff08d1338e1eeab4183e223f150be86, findElement {using=link text, value=Sign in}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.265, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\rinuh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54484}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54484/devtoo..., se:cdpVersion: 131.0.6778.265, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: aff08d1338e1eeab4183e223f150be86
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy41.click(Unknown Source)
+at dsAlgo_PageFactory.Login_PageFactory.signInClick(Login_PageFactory.java:30)
+at dsAlgo_StepDefinition.Login.the_user_clicks_the_sign_in_link(Login.java:43)
+at ✽.The user clicks the Sign In link(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/Login.feature:9)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgo_TestRunner.TestRunner@59e505b2]" started-at="2025-02-13T21:15:54 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-13T21:15:55 EST" duration-ms="505" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that user is able to sign out successfully"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgo_TestRunner.TestRunner@59e505b2]" started-at="2025-02-13T21:15:55 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-13T21:15:58 EST" duration-ms="3519" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify user receives error message when username and password fields are blank during Login"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgo_TestRunner.TestRunner@59e505b2]" started-at="2025-02-13T21:15:58 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-13T21:16:01 EST" duration-ms="3325" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify user receives error message when username and password fields are blank during Login"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgo_TestRunner.TestRunner@59e505b2]" started-at="2025-02-13T21:16:01 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-13T21:16:02 EST" duration-ms="491" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify user receives error message for Invalid Username and Password during Login"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgo_TestRunner.TestRunner@59e505b2]" started-at="2025-02-13T21:16:02 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-13T21:16:02 EST" duration-ms="455" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify user receives error message for Invalid Username and Password during Login"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgo_TestRunner.TestRunner@59e505b2]" started-at="2025-02-13T21:16:02 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-13T21:16:03 EST" duration-ms="252" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that the user is able to navigate to the home page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Register Page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgo_TestRunner.TestRunner@59e505b2]" started-at="2025-02-13T21:16:03 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-13T21:16:03 EST" duration-ms="257" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that User is able to launch ds-algo portal"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Register Page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgo_TestRunner.TestRunner@59e505b2]" started-at="2025-02-13T21:16:03 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-13T21:16:03 EST" duration-ms="222" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that the user is able to enter username in the username field"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Register Page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgo_TestRunner.TestRunner@59e505b2]" started-at="2025-02-13T21:16:03 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-13T21:16:03 EST" duration-ms="189" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that the user is able to enter username in the username field"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Register Page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgo_TestRunner.TestRunner@59e505b2]" started-at="2025-02-13T21:16:03 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-13T21:16:04 EST" duration-ms="200" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that the user is able to enter username in the username field"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Register Page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgo_TestRunner.TestRunner@59e505b2]" started-at="2025-02-13T21:16:04 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-13T21:16:04 EST" duration-ms="179" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that the user is able to enter username in the username field"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Register Page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgo_TestRunner.TestRunner@59e505b2]" started-at="2025-02-13T21:16:04 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-13T21:16:07 EST" duration-ms="3553" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that the user is able to get an error message when username (with special characters other than @) in the username field in the Register page is entered"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Register Page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgo_TestRunner.TestRunner@59e505b2]" started-at="2025-02-13T21:16:07 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-13T21:16:11 EST" duration-ms="3403" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that the user is able to get an error message when username (with special characters other than @) in the username field in the Register page is entered"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Register Page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgo_TestRunner.TestRunner@59e505b2]" started-at="2025-02-13T21:16:11 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-13T21:16:11 EST" duration-ms="195" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that the user is able to enter password in the field"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Register Page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgo_TestRunner.TestRunner@59e505b2]" started-at="2025-02-13T21:16:11 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-13T21:16:11 EST" duration-ms="239" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that the user is able to enter password in the field"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Register Page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgo_TestRunner.TestRunner@59e505b2]" started-at="2025-02-13T21:16:11 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-13T21:16:11 EST" duration-ms="177" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that the user is able to enter password in the field"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Register Page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgo_TestRunner.TestRunner@59e505b2]" started-at="2025-02-13T21:16:11 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-13T21:16:11 EST" duration-ms="176" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that the user is able to enter password in the field"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Register Page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgo_TestRunner.TestRunner@59e505b2]" started-at="2025-02-13T21:16:11 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-13T21:16:12 EST" duration-ms="432" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that the user is able to get an error message"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Register Page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgo_TestRunner.TestRunner@59e505b2]" started-at="2025-02-13T21:16:12 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-13T21:16:12 EST" duration-ms="459" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that the user is able to get an error message"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Register Page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgo_TestRunner.TestRunner@59e505b2]" started-at="2025-02-13T21:16:12 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-13T21:16:13 EST" duration-ms="816" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that the user is able to get an error message"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Register Page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgo_TestRunner.TestRunner@59e505b2]" started-at="2025-02-13T21:16:13 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-13T21:16:13 EST" duration-ms="300" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that the user is able to get a pop-up message when username, password and password confirmation field are left blank"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Register Page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgo_TestRunner.TestRunner@59e505b2]" started-at="2025-02-13T21:16:13 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-13T21:16:14 EST" duration-ms="308" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that the user is able to get a pop-up message when username, password and password confirmation field are left blank"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Register Page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgo_TestRunner.TestRunner@59e505b2]" started-at="2025-02-13T21:16:14 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-13T21:16:14 EST" duration-ms="331" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that the user is able to get a pop-up message when username, password and password confirmation field are left blank"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Register Page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsAlgo_TestRunner.TestRunner@59e505b2]" started-at="2025-02-13T21:16:14 EST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-13T21:16:18 EST" duration-ms="3468" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that the user is able to naviagte to home page with the message"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Register Page"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(text(),'Account Created')]"}
+  (Session info: chrome=131.0.6778.265)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.28.0', revision: 'ac342546e9'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [aff08d1338e1eeab4183e223f150be86, findElement {using=xpath, value=//div[contains(text(),'Account Created')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.265, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\rinuh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54484}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54484/devtoo..., se:cdpVersion: 131.0.6778.265, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: aff08d1338e1eeab4183e223f150be86]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(text(),'Account Created')]"}
+  (Session info: chrome=131.0.6778.265)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.28.0', revision: 'ac342546e9'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [aff08d1338e1eeab4183e223f150be86, findElement {using=xpath, value=//div[contains(text(),'Account Created')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.265, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\rinuh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54484}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54484/devtoo..., se:cdpVersion: 131.0.6778.265, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: aff08d1338e1eeab4183e223f150be86
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy41.getText(Unknown Source)
+at dsAlgo_PageFactory.Register_PageFactory.successMessageDisplayed(Register_PageFactory.java:57)
+at dsAlgo_StepDefinition.Register.user_should_be_able_to_naviagte_to_home_page_and_get_the_success_message(Register.java:180)
+at ✽.User should be able to naviagte to home page and get the success message(file:///C:/Users/rinuh/eclipse-workspace/DsAlgo_CodeCrackers/src/test/resources/features/Register.feature:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:dsAlgo_TestRunner.TestRunner@59e505b2]" started-at="2025-02-13T21:16:18 EST" name="tearDownClass" finished-at="2025-02-13T21:16:21 EST" duration-ms="3557" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->

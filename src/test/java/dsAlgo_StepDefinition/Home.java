@@ -19,6 +19,7 @@ public class Home{
     public Home() {
         this.driver = Driver_Factory.getDriver(); 
         homePage = new Home_PageFactory(driver); 
+        System.out.println("Driver instance: " + Driver_Factory.getDriver());
     }
     
     @Given("User is in the ds-algo launch page")

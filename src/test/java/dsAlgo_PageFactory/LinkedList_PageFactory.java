@@ -15,7 +15,7 @@ public class LinkedList_PageFactory {
 	@FindBy ( xpath = "//div[h5[text()='Linked List']]//a[text()='Get Started']") WebElement getStartedLinkedListBtn;
 	@FindBy ( xpath = "//h4[text()='Linked List']") WebElement linkedListTitle;
 	@FindBy ( linkText = "Introduction") WebElement introductionLink;
-	@FindBy ( linkText = "Creating Linked LIst") WebElement creatingLinkedListLink;
+	@FindBy ( xpath = "//a[text()='Creating Linked LIst']") WebElement creatingLinkedListLink;
 	@FindBy ( linkText = "Types of Linked List") WebElement typesOfLinkedListLink;
 	@FindBy ( linkText = "Implement Linked List in Python") WebElement implementLinkedListLink;
 	@FindBy ( linkText = "Traversal") WebElement traversalLink;

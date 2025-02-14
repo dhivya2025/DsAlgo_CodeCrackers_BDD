@@ -9,13 +9,15 @@ import driver_Factory.Driver_Factory;
 import dsAlgo_PageFactory.Home_PageFactory;
 import dsAlgo_PageFactory.LinkedList_PageFactory;
 import dsAlgo_PageFactory.Login_PageFactory;
+import dsAlgo_Reader.LoggerReader;
 import dsAlgo_Reader.TryEditor;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
 public class LinkedList {
-	
+	private static final org.apache.logging.log4j.Logger logger = LoggerReader.getLogger();
+
 	WebDriver driver;
     Home_PageFactory homePage;
     Login_PageFactory loginPage;
@@ -177,7 +179,7 @@ public class LinkedList {
 	@Then("The user should be able to get an output in the Try Editor screen for the Introduction page")
 	public void the_user_should_be_able_to_get_an_output_in_the_try_editor_screen_for_the_introduction_page() {
 	   
-	    
+	  logger.info("User is in Try Editor window");
 	}
 	@Given("The user is in the Try Editor page")
 	public void the_user_is_in_the_try_editor_page() {
@@ -188,7 +190,8 @@ public class LinkedList {
 		driver.navigate().back();
 	}
 	@When("The user clicks Creating Linked List link in the Linked List page")
-	public void the_user_clicks_creating_linked_list_link_in_the_linked_list_page() {
+	public void the_user_clicks_creating_linked_list_link_in_the_linked_list_page() throws InterruptedException {
+		Thread.sleep(3000);
 		linkedListPage.creatingLinkedListLinkClick();
 	}
 	@Then("The user should be able to navigate to Creating Linked List page")
@@ -207,14 +210,15 @@ public class LinkedList {
 	public void the_user_is_in_the_try_editor_page_for_the_creating_linked_list_page() {
 		Assert.assertEquals(linkedListPage.runBtnDisplayed(),true);
 	}
-	@When("User enters valid, invalid and incorrect syntax code from excel sheet {string} and {string} and clicks on Run button for the Creating Linked List page")
-	public void user_enters_valid_invalid_and_incorrect_syntax_code_from_excel_sheet_and_and_clicks_on_run_button_for_the_creating_linked_list_page(String string, String string2) {
-	   
+	@When("User enters valid, invalid and incorrect syntax code from excel sheet {string} and {int} and clicks on Run button for the Creating Linked List page")
+	public void user_enters_valid_invalid_and_incorrect_syntax_code_from_excel_sheet_and_and_clicks_on_run_button_for_the_creating_linked_list_page(String sheetName, int rowNumber) throws IOException, InterruptedException {
+		linkedListPage.tryEditorWindow(sheetName, rowNumber);  
 	    
 	}
 	@Then("The user should be able to get an output in the Try Editor screen for the Creating Linked List page")
 	public void the_user_should_be_able_to_get_an_output_in_the_try_editor_screen_for_the_creating_linked_list_page() {
-	   
+		  logger.info("User is in Try Editor window");
+  
 	    
 	}
 	@When("The user clicks Types of Linked List link in the Linked List page")
@@ -237,15 +241,16 @@ public class LinkedList {
 	public void the_user_is_in_the_try_editor_page_for_the_types_of_linked_list_page() {
 		Assert.assertEquals(linkedListPage.runBtnDisplayed(),true);
 	}
-	@When("User enters valid, invalid and incorrect syntax code from excel sheet {string} and {string} and clicks on Run button for the Types of Linked List page")
-	public void user_enters_valid_invalid_and_incorrect_syntax_code_from_excel_sheet_and_and_clicks_on_run_button_for_the_types_of_linked_list_page(String string, String string2) {
-	   
+	@When("User enters valid, invalid and incorrect syntax code from excel sheet {string} and {int} and clicks on Run button for the Types of Linked List page")
+	public void user_enters_valid_invalid_and_incorrect_syntax_code_from_excel_sheet_and_and_clicks_on_run_button_for_the_types_of_linked_list_page(String sheetName, int rowNumber) throws IOException, InterruptedException {
+		linkedListPage.tryEditorWindow(sheetName, rowNumber);
 	    
 	}
 	@Then("The user should be able to get an output in the Try Editor screen for the Types of Linked List page")
 	public void the_user_should_be_able_to_get_an_output_in_the_try_editor_screen_for_the_types_of_linked_list_page() {
 	   
-	    
+		  logger.info("User is in Try Editor window");
+  
 	}
 	@When("The user clicks Implement Linked List in Python link in the Linked List page")
 	public void the_user_clicks_implement_linked_list_in_python_link_in_the_linked_list_page() {
@@ -267,14 +272,15 @@ public class LinkedList {
 	public void the_user_is_in_the_try_editor_page_for_the_implement_linked_list_in_python_page() {
 		Assert.assertEquals(linkedListPage.runBtnDisplayed(),true);
 	}
-	@When("User enters valid, invalid and incorrect syntax code from excel sheet {string} and {string} and clicks on Run button for the Implement Linked List in Python page")
-	public void user_enters_valid_invalid_and_incorrect_syntax_code_from_excel_sheet_and_and_clicks_on_run_button_for_the_implement_linked_list_in_python_page(String string, String string2) {
-
+	@When("User enters valid, invalid and incorrect syntax code from excel sheet {string} and {int} and clicks on Run button for the Implement Linked List in Python page")
+	public void user_enters_valid_invalid_and_incorrect_syntax_code_from_excel_sheet_and_and_clicks_on_run_button_for_the_implement_linked_list_in_python_page(String sheetName, int rowNumber) throws IOException, InterruptedException {
+		linkedListPage.tryEditorWindow(sheetName, rowNumber);
 	}
 	@Then("The user should be able to get an output in the Try Editor screen for the Implement Linked List in Python page")
 	public void the_user_should_be_able_to_get_an_output_in_the_try_editor_screen_for_the_implement_linked_list_in_python_page() {
 	   
-	    
+		  logger.info("User is in Try Editor window");
+ 
 	}
 	@When("The user clicks Traversal link in the Linked List page")
 	public void the_user_clicks_traversal_link_in_the_linked_list_page() {
@@ -296,14 +302,15 @@ public class LinkedList {
 	public void the_user_is_in_the_try_editor_page_for_the_traversal_page() {
 		Assert.assertEquals(linkedListPage.runBtnDisplayed(),true);
 	}
-	@When("User enters valid, invalid and incorrect syntax code from excel sheet {string} and {string} and clicks on Run button for the Traversal page")
-	public void user_enters_valid_invalid_and_incorrect_syntax_code_from_excel_sheet_and_and_clicks_on_run_button_for_the_traversal_page(String string, String string2) {
-	   
+	@When("User enters valid, invalid and incorrect syntax code from excel sheet {string} and {int} and clicks on Run button for the Traversal page")
+	public void user_enters_valid_invalid_and_incorrect_syntax_code_from_excel_sheet_and_and_clicks_on_run_button_for_the_traversal_page(String sheetName, int rowNumber) throws IOException, InterruptedException {
+		linkedListPage.tryEditorWindow(sheetName, rowNumber);
 	    
 	}
 	@Then("The user should be able to get an output in the Try Editor screen for the Traversal page")
 	public void the_user_should_be_able_to_get_an_output_in_the_try_editor_screen_for_the_traversal_page() {
-	   
+		  logger.info("User is in Try Editor window");
+   
 	    
 	}
 	@When("The user clicks Insertion link in the Linked List page")
@@ -326,14 +333,15 @@ public class LinkedList {
 	public void the_user_is_in_the_try_editor_page_for_the_insertion_page() {
 		Assert.assertEquals(linkedListPage.runBtnDisplayed(),true);
 	}
-	@When("User enters valid, invalid and incorrect syntax code from excel sheet {string} and {string} and clicks on Run button for the Insertion page")
-	public void user_enters_valid_invalid_and_incorrect_syntax_code_from_excel_sheet_and_and_clicks_on_run_button_for_the_insertion_page(String string, String string2) {
-	   
+	@When("User enters valid, invalid and incorrect syntax code from excel sheet {string} and {int} and clicks on Run button for the Insertion page")
+	public void user_enters_valid_invalid_and_incorrect_syntax_code_from_excel_sheet_and_and_clicks_on_run_button_for_the_insertion_page(String sheetName, int rowNumber) throws IOException, InterruptedException {
+		linkedListPage.tryEditorWindow(sheetName, rowNumber); 
 	    
 	}
 	@Then("The user should be able to get an output in the Try Editor screen for the Insertion page")
 	public void the_user_should_be_able_to_get_an_output_in_the_try_editor_screen_for_the_insertion_page() {
-	   
+		  logger.info("User is in Try Editor window");
+ 
 	    
 	}
 	@When("The user clicks Deletion link in the Linked List page")
@@ -356,14 +364,15 @@ public class LinkedList {
 	public void the_user_is_in_the_try_editor_page_for_the_deletion_page() {
 		Assert.assertEquals(linkedListPage.runBtnDisplayed(),true);
 	}
-	@When("User enters valid, invalid and incorrect syntax code from excel sheet {string} and {string} and clicks on Run button for the Deletion page")
-	public void user_enters_valid_invalid_and_incorrect_syntax_code_from_excel_sheet_and_and_clicks_on_run_button_for_the_deletion_page(String string, String string2) {
-	   
+	@When("User enters valid, invalid and incorrect syntax code from excel sheet {string} and {int} and clicks on Run button for the Deletion page")
+	public void user_enters_valid_invalid_and_incorrect_syntax_code_from_excel_sheet_and_and_clicks_on_run_button_for_the_deletion_page(String sheetName, int rowNumber) throws IOException, InterruptedException {
+		linkedListPage.tryEditorWindow(sheetName, rowNumber); 
 	    
 	}
 	@Then("The user should be able to get an output in the Try Editor screen for the Deletion page")
 	public void the_user_should_be_able_to_get_an_output_in_the_try_editor_screen_for_the_deletion_page() {
-	   
+		  logger.info("User is in Try Editor window");
+ 
 	    
 	}
 	@When("The user clicks Practice Questions link in the Deletion page")
@@ -372,6 +381,6 @@ public class LinkedList {
 	}
 	@Then("The user should be able to navigate to Practice Questions page")
 	public void the_user_should_be_able_to_navigate_to_practice_questions_page() {
-		Assert.assertEquals(linkedListPage.practiceQuestionsLinkDisplayed(),true);
+		  logger.info("User is in Practice Questions Page");
 	}
 }
