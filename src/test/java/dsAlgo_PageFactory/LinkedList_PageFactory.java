@@ -6,7 +6,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import org.openqa.selenium.support.ui.WebDriverWait;
 
 import dsAlgo_Reader.TryEditor;
 
@@ -31,14 +30,12 @@ public class LinkedList_PageFactory {
 	@FindBy ( xpath = "//p[text()='Deletion']") WebElement deletionTitle;
 	
 	@FindBy ( xpath = "//a[text()='Try here>>>']") WebElement tryHereBtn;
-	//@FindBy ( xpath = "//div[contains(@class, 'CodeMirror') and contains(@class, 'cm-s-default')]") public WebElement textWindow;
 	@FindBy (className = "CodeMirror-scroll") WebElement textWindow;
 	@FindBy ( xpath = "//button[text()='Run']") WebElement runBtn;
 	@FindBy ( linkText = "Practice Questions") WebElement practiceQuestionsLink;
 	
 WebDriver driver;
 TryEditor readTryEditor = new TryEditor();
-WebDriverWait wait;
 
 	public LinkedList_PageFactory(WebDriver driver) {
 		this.driver = driver;

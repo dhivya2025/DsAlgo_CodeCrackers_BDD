@@ -64,12 +64,11 @@ Examples:
   |TryEditor | 3|
   
   Scenario: Verify that the user is able to navigate to Introduction page after clicking <- in the Try Editor window
-  Given The user is in the Try Editor page
-  When The user clicks <- in the Try Editor screen
+  Given The user is in the Try Editor page for the Linked List page
+  When The user clicks <- in the Try Editor screen for the Linked List page
   Then The user should be able to navigate to Introduction page
   
   Scenario: Verify that the user is able to navigate to Creating Linked List page
-#  Given The user is in the Linked List page after Sign-In
   When The user clicks Creating Linked List link in the Linked List page
   Then The user should be able to navigate to Creating Linked List page
     
@@ -90,8 +89,8 @@ Examples:
   |TryEditor | 3|
 
 Scenario: Verify that the user is able to navigate to Creating Linked List page after clicking <- in the Try Editor window
-  Given The user is in the Try Editor page
-  When The user clicks <- in the Try Editor screen
+  Given The user is in the Try Editor page for the Linked List page
+  When The user clicks <- in the Try Editor screen for the Linked List page
   Then The user should be able to navigate to Creating Linked List page
   
  Scenario: Verify that the user is able to navigate to Types of Linked List page
@@ -115,8 +114,8 @@ Examples:
   |TryEditor | 3|
 
 Scenario: Verify that the user is able to navigate to Types of Linked List page after clicking <- in the Try Editor window
-  Given The user is in the Try Editor page
-  When The user clicks <- in the Try Editor screen
+  Given The user is in the Try Editor page for the Linked List page
+  When The user clicks <- in the Try Editor screen for the Linked List page
   Then The user should be able to navigate to Types of Linked List page 
   
   Scenario: Verify that the user is able to navigate to Implement Linked List in Python page
@@ -140,8 +139,8 @@ Examples:
   |TryEditor | 3|
 
 Scenario: Verify that the user is able to navigate to Implement Linked List in Python page after clicking <- in the Try Editor window
-  Given The user is in the Try Editor page
-  When The user clicks <- in the Try Editor screen
+  Given The user is in the Try Editor page for the Linked List page
+  When The user clicks <- in the Try Editor screen for the Linked List page
   Then The user should be able to navigate to Implement Linked List in Python page
   
   Scenario: Verify that the user is able to navigate to Traversal page
@@ -165,8 +164,8 @@ Examples:
   |TryEditor | 3|
 
 Scenario: Verify that the user is able to navigate to Traversal page after clicking <- in the Try Editor window
-  Given The user is in the Try Editor page
-  When The user clicks <- in the Try Editor screen
+  Given The user is in the Try Editor page for the Linked List page
+  When The user clicks <- in the Try Editor screen for the Linked List page
   Then The user should be able to navigate to Traversal page
 
 Scenario: Verify that the user is able to navigate to Insertion page
@@ -190,8 +189,8 @@ Examples:
   |TryEditor | 3|
 
 Scenario: Verify that the user is able to navigate to Insertion page after clicking <- in the Try Editor window
-  Given The user is in the Try Editor page
-  When The user clicks <- in the Try Editor screen
+  Given The user is in the Try Editor page for the Linked List page
+  When The user clicks <- in the Try Editor screen for the Linked List page
   Then The user should be able to navigate to Insertion page
 
 Scenario: Verify that the user is able to navigate to Deletion page
@@ -215,8 +214,8 @@ Examples:
   |TryEditor | 3|
 
 Scenario: Verify that the user is able to navigate to Deletion page after clicking <- in the Try Editor window
-  Given The user is in the Try Editor page
-  When The user clicks <- in the Try Editor screen
+  Given The user is in the Try Editor page for the Linked List page
+  When The user clicks <- in the Try Editor screen for the Linked List page
   Then The user should be able to navigate to Deletion page
 
 Scenario: Verify whether the user is able to navigate to Practice Questions page after clicking Practice Questions link in the Linked List page

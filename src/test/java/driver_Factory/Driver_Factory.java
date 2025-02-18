@@ -43,7 +43,7 @@ public class Driver_Factory {
                 throw new IllegalArgumentException("Unsupported browser: " + browser);
         }
         logger.info("Initializing WebDriver for browser: " + browser);
-//        driver.manage().window().maximize();
+        driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(2));
 
         setDriver(driver);

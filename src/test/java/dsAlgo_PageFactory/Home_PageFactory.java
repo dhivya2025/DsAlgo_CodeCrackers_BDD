@@ -25,15 +25,7 @@ public class Home_PageFactory {
 	@FindBy ( xpath = "//div[h5[text()='Queue']]//a[text()='Get Started']") WebElement queueGetStartedBtn;
 	@FindBy ( xpath = "//div[h5[text()='Tree']]//a[text()='Get Started']") WebElement treeGetStartedBtn;
 	@FindBy ( xpath = "//div[h5[text()='Graph']]//a[text()='Get Started']") WebElement graphGetStartedBtn;
-	
-	@FindBy ( xpath = "//h4[text()='Data Structures-Introduction']") WebElement dataStructuresTitle;
-	@FindBy (xpath = "//h4[text()='Array']") WebElement arrayTitle;
-	@FindBy (xpath = "//h4[text()='Linked List']") WebElement linkedListTitle;
-	@FindBy (xpath = "//h4[text()='Stack']") WebElement stackTitle;
-	@FindBy (xpath = "//h4[text()='Queue']") WebElement queueTitle;
-	@FindBy (xpath = "//h4[text()='Tree']") WebElement treeTitle;
-	@FindBy (xpath = "//h4[text()='Graph']") WebElement graphTitle;
-	
+
 	WebDriver driver;
 	
 	public Home_PageFactory(WebDriver driver) {
@@ -115,33 +107,5 @@ public class Home_PageFactory {
 	
 	public void graphGetStartedBtnClick() {
 		graphGetStartedBtn.click();
-	}
-	
-	public boolean dataStructuresTitleDisplayed() {
-		return dataStructuresTitle.isDisplayed();
-	}
-	
-	public boolean arrayTitleDisplayed() {
-		return arrayTitle.isDisplayed();
-	}
-	
-	public boolean linkedListTitleDisplayed() {
-		return linkedListTitle.isDisplayed();
-	}
-	
-	public boolean stackTitleDisplayed() {
-		return stackTitle.isDisplayed();
-	}
-	
-	public boolean queueTitleDisplayed() {
-		return queueTitle.isDisplayed();
-	}
-	
-	public boolean treeTitleDisplayed() {
-		return treeTitle.isDisplayed();
-	}
-	
-	public boolean graphTitleDisplayed() {
-		return graphTitle.isDisplayed();
 	}
 }

@@ -17,7 +17,6 @@ public class Login_PageFactory {
 	@FindBy ( xpath = "//div[contains(text(),'successfully')]") WebElement loggedOutMessage;
 	@FindBy ( xpath = "//div[contains(text(),'Invalid')]") WebElement invalidMessage;
 	@FindBy ( xpath = "//a[text()='Sign out']") WebElement signOutBtn;
-	
 		
 	WebDriver driver;
 	
@@ -48,17 +47,17 @@ public class Login_PageFactory {
 	
 	public void LoggedMessageSignIn(String loggedInMsg) {
 		String verifyLogMessage = loggedInMessage.getText();
-		  assertTrue(verifyLogMessage.contains(loggedInMsg));    
+		assertTrue(verifyLogMessage.contains(loggedInMsg));    
 	}
 	
 	public void LoggedMessageSignOut(String loggedOutMsg) {
 		String verifyLogMessage = loggedOutMessage.getText();
-		  assertTrue(verifyLogMessage.contains(loggedOutMsg));    
+		assertTrue(verifyLogMessage.contains(loggedOutMsg));    
 	}
 		
 	public void invalidMessage(String invalidMsg) {
 		String verifyLogMessage = invalidMessage.getText();
-		  assertTrue(verifyLogMessage.contains(invalidMsg));    
+		assertTrue(verifyLogMessage.contains(invalidMsg));    
 	}
 	
 	public String getPopUpMessage() {

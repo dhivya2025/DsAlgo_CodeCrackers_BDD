@@ -156,3 +156,199 @@
 [INFO] 2025-02-13 21:15:52.152 [main] LoggerReader - User is in Practice Questions Page
 [INFO] 2025-02-13 21:16:18.110 [main] LoggerReader - Closing browser after all tests
 [INFO] 2025-02-13 21:16:18.110 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-18 10:07:03.779 [main] LoggerReader - Starting tests on browser: chrome
+[INFO] 2025-02-18 10:07:07.065 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-18 10:07:12.917 [main] LoggerReader - User is in Home Page
+[INFO] 2025-02-18 10:07:16.491 [main] LoggerReader - User is in Home Page
+[INFO] 2025-02-18 10:07:19.545 [main] LoggerReader - User is in Try Editor window
+[INFO] 2025-02-18 10:07:19.824 [main] LoggerReader - User is in Try Editor window
+[INFO] 2025-02-18 10:07:20.135 [main] LoggerReader - User is in Try Editor window
+[INFO] 2025-02-18 10:07:21.649 [main] LoggerReader - User is in Try Editor window
+[INFO] 2025-02-18 10:07:22.100 [main] LoggerReader - User is in Try Editor window
+[INFO] 2025-02-18 10:07:22.481 [main] LoggerReader - User is in Try Editor window
+[INFO] 2025-02-18 10:07:24.061 [main] LoggerReader - User is in Try Editor window
+[INFO] 2025-02-18 10:07:24.442 [main] LoggerReader - User is in Try Editor window
+[INFO] 2025-02-18 10:07:24.829 [main] LoggerReader - User is in Try Editor window
+[INFO] 2025-02-18 10:07:26.587 [main] LoggerReader - User is in Try Editor window
+[INFO] 2025-02-18 10:07:26.974 [main] LoggerReader - User is in Try Editor window
+[INFO] 2025-02-18 10:07:27.389 [main] LoggerReader - User is in Try Editor window
+[INFO] 2025-02-18 10:07:29.356 [main] LoggerReader - User is in Try Editor window
+[INFO] 2025-02-18 10:07:29.720 [main] LoggerReader - User is in Try Editor window
+[INFO] 2025-02-18 10:07:30.070 [main] LoggerReader - User is in Try Editor window
+[INFO] 2025-02-18 10:07:31.585 [main] LoggerReader - User is in Try Editor window
+[INFO] 2025-02-18 10:07:31.954 [main] LoggerReader - User is in Try Editor window
+[INFO] 2025-02-18 10:07:32.286 [main] LoggerReader - User is in Try Editor window
+[INFO] 2025-02-18 10:07:33.989 [main] LoggerReader - User is in Try Editor window
+[INFO] 2025-02-18 10:07:34.341 [main] LoggerReader - User is in Try Editor window
+[INFO] 2025-02-18 10:07:34.671 [main] LoggerReader - User is in Try Editor window
+[INFO] 2025-02-18 10:07:35.394 [main] LoggerReader - User is in Practice Questions Page
+[INFO] 2025-02-18 10:08:03.308 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-18 10:08:03.308 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-18 10:22:42.437 [main] LoggerReader - Starting tests on browser: chrome
+[INFO] 2025-02-18 10:22:44.685 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-18 10:22:50.309 [main] LoggerReader - User is in Home Page
+[INFO] 2025-02-18 10:22:53.699 [main] LoggerReader - User is in Home Page
+[INFO] 2025-02-18 10:22:53.739 [main] LoggerReader - User is in the Sign in page
+[INFO] 2025-02-18 10:22:54.272 [main] LoggerReader - Linked List Title is displayed
+[INFO] 2025-02-18 10:22:55.543 [main] LoggerReader - Introduction Title is displayed
+[INFO] 2025-02-18 10:22:56.194 [main] LoggerReader - Run button is displayed
+[INFO] 2025-02-18 10:22:56.463 [main] LoggerReader - User is in Try Editor window
+[INFO] 2025-02-18 10:22:56.480 [main] LoggerReader - Run button is displayed
+[INFO] 2025-02-18 10:22:56.799 [main] LoggerReader - User is in Try Editor window
+[INFO] 2025-02-18 10:22:56.822 [main] LoggerReader - Run button is displayed
+[INFO] 2025-02-18 10:22:57.164 [main] LoggerReader - User is in Try Editor window
+[INFO] 2025-02-18 10:22:57.175 [main] LoggerReader - Run button is displayed
+[INFO] 2025-02-18 10:22:57.691 [main] LoggerReader - Creating Linked List Title is displayed
+[INFO] 2025-02-18 10:22:58.168 [main] LoggerReader - Run button is displayed
+[INFO] 2025-02-18 10:22:58.495 [main] LoggerReader - User is in Try Editor window
+[INFO] 2025-02-18 10:22:58.517 [main] LoggerReader - Run button is displayed
+[INFO] 2025-02-18 10:22:58.895 [main] LoggerReader - User is in Try Editor window
+[INFO] 2025-02-18 10:22:58.914 [main] LoggerReader - Run button is displayed
+[INFO] 2025-02-18 10:22:59.249 [main] LoggerReader - User is in Try Editor window
+[INFO] 2025-02-18 10:22:59.264 [main] LoggerReader - Run button is displayed
+[INFO] 2025-02-18 10:22:59.982 [main] LoggerReader - Types of Linked List Title is displayed
+[INFO] 2025-02-18 10:23:00.536 [main] LoggerReader - Run button is displayed
+[INFO] 2025-02-18 10:23:00.863 [main] LoggerReader - User is in Try Editor window
+[INFO] 2025-02-18 10:23:00.885 [main] LoggerReader - Run button is displayed
+[INFO] 2025-02-18 10:23:01.171 [main] LoggerReader - User is in Try Editor window
+[INFO] 2025-02-18 10:23:01.187 [main] LoggerReader - Run button is displayed
+[INFO] 2025-02-18 10:23:01.464 [main] LoggerReader - User is in Try Editor window
+[INFO] 2025-02-18 10:23:01.479 [main] LoggerReader - Run button is displayed
+[INFO] 2025-02-18 10:23:02.201 [main] LoggerReader - Implement Linked List Title is displayed
+[INFO] 2025-02-18 10:23:02.774 [main] LoggerReader - Run button is displayed
+[INFO] 2025-02-18 10:23:02.995 [main] LoggerReader - User is in Try Editor window
+[INFO] 2025-02-18 10:23:03.013 [main] LoggerReader - Run button is displayed
+[INFO] 2025-02-18 10:23:03.244 [main] LoggerReader - User is in Try Editor window
+[INFO] 2025-02-18 10:23:03.265 [main] LoggerReader - Run button is displayed
+[INFO] 2025-02-18 10:23:03.539 [main] LoggerReader - User is in Try Editor window
+[INFO] 2025-02-18 10:23:03.558 [main] LoggerReader - Run button is displayed
+[INFO] 2025-02-18 10:23:04.191 [main] LoggerReader - Traversal Title is displayed
+[INFO] 2025-02-18 10:23:04.716 [main] LoggerReader - Run button is displayed
+[INFO] 2025-02-18 10:23:05.009 [main] LoggerReader - User is in Try Editor window
+[INFO] 2025-02-18 10:23:05.028 [main] LoggerReader - Run button is displayed
+[INFO] 2025-02-18 10:23:05.299 [main] LoggerReader - User is in Try Editor window
+[INFO] 2025-02-18 10:23:05.317 [main] LoggerReader - Run button is displayed
+[INFO] 2025-02-18 10:23:05.542 [main] LoggerReader - User is in Try Editor window
+[INFO] 2025-02-18 10:23:05.562 [main] LoggerReader - Run button is displayed
+[INFO] 2025-02-18 10:23:06.330 [main] LoggerReader - Insertion Title is displayed
+[INFO] 2025-02-18 10:23:06.927 [main] LoggerReader - Run button is displayed
+[INFO] 2025-02-18 10:23:07.257 [main] LoggerReader - User is in Try Editor window
+[INFO] 2025-02-18 10:23:07.277 [main] LoggerReader - Run button is displayed
+[INFO] 2025-02-18 10:23:07.566 [main] LoggerReader - User is in Try Editor window
+[INFO] 2025-02-18 10:23:07.579 [main] LoggerReader - Run button is displayed
+[INFO] 2025-02-18 10:23:07.863 [main] LoggerReader - User is in Try Editor window
+[INFO] 2025-02-18 10:23:07.876 [main] LoggerReader - Run button is displayed
+[INFO] 2025-02-18 10:23:08.492 [main] LoggerReader - Deletion Title is displayed
+[INFO] 2025-02-18 10:23:08.906 [main] LoggerReader - Run button is displayed
+[INFO] 2025-02-18 10:23:09.185 [main] LoggerReader - User is in Try Editor window
+[INFO] 2025-02-18 10:23:09.206 [main] LoggerReader - Run button is displayed
+[INFO] 2025-02-18 10:23:09.456 [main] LoggerReader - User is in Try Editor window
+[INFO] 2025-02-18 10:23:09.473 [main] LoggerReader - Run button is displayed
+[INFO] 2025-02-18 10:23:09.758 [main] LoggerReader - User is in Try Editor window
+[INFO] 2025-02-18 10:23:09.776 [main] LoggerReader - Run button is displayed
+[INFO] 2025-02-18 10:23:09.902 [main] LoggerReader - Deletion Title is displayed
+[INFO] 2025-02-18 10:23:10.291 [main] LoggerReader - User is in Practice Questions Page
+[INFO] 2025-02-18 10:23:13.060 [main] LoggerReader - Sign Out link is displayed
+[INFO] 2025-02-18 10:23:13.763 [main] LoggerReader - Sign In link is displayed
+[INFO] 2025-02-18 10:23:14.767 [main] LoggerReader - Sign In link is displayed
+[INFO] 2025-02-18 10:23:18.484 [main] LoggerReader - Register link is displayed
+[INFO] 2025-02-18 10:23:18.906 [main] LoggerReader - Register Button is displayed
+[INFO] 2025-02-18 10:23:19.354 [main] LoggerReader - Register Button is displayed
+[INFO] 2025-02-18 10:23:19.888 [main] LoggerReader - Register Button is displayed
+[INFO] 2025-02-18 10:23:20.476 [main] LoggerReader - Register Button is displayed
+[INFO] 2025-02-18 10:23:21.103 [main] LoggerReader - Register Button is displayed
+[INFO] 2025-02-18 10:23:22.396 [main] LoggerReader - Register Button is displayed
+[INFO] 2025-02-18 10:23:23.468 [main] LoggerReader - Register Button is displayed
+[INFO] 2025-02-18 10:23:24.019 [main] LoggerReader - Register Button is displayed
+[INFO] 2025-02-18 10:23:24.668 [main] LoggerReader - Register Button is displayed
+[INFO] 2025-02-18 10:23:25.260 [main] LoggerReader - Register Button is displayed
+[INFO] 2025-02-18 10:23:25.896 [main] LoggerReader - Register Button is displayed
+[INFO] 2025-02-18 10:23:27.250 [main] LoggerReader - Register Button is displayed
+[INFO] 2025-02-18 10:23:28.465 [main] LoggerReader - Register Button is displayed
+[INFO] 2025-02-18 10:23:33.384 [main] LoggerReader - Register button is displayed
+[INFO] 2025-02-18 10:23:36.626 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-18 10:23:36.626 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-18 12:53:46.026 [main] LoggerReader - Starting tests on browser: chrome
+[INFO] 2025-02-18 12:53:49.841 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-18 12:53:59.388 [main] LoggerReader - User is in Home Page
+[INFO] 2025-02-18 12:54:03.457 [main] LoggerReader - User is in Home Page
+[INFO] 2025-02-18 12:54:03.529 [main] LoggerReader - User is in the Sign in page
+[INFO] 2025-02-18 12:54:04.572 [main] LoggerReader - Linked List Title is displayed
+[INFO] 2025-02-18 12:54:07.563 [main] LoggerReader - Introduction Title is displayed
+[INFO] 2025-02-18 12:54:10.352 [main] LoggerReader - Run button is displayed
+[INFO] 2025-02-18 12:54:10.887 [main] LoggerReader - User is in Try Editor window
+[INFO] 2025-02-18 12:54:10.905 [main] LoggerReader - Run button is displayed
+[INFO] 2025-02-18 12:54:11.330 [main] LoggerReader - User is in Try Editor window
+[INFO] 2025-02-18 12:54:11.351 [main] LoggerReader - Run button is displayed
+[INFO] 2025-02-18 12:54:11.844 [main] LoggerReader - User is in Try Editor window
+[INFO] 2025-02-18 12:54:11.861 [main] LoggerReader - Run button is displayed
+[INFO] 2025-02-18 12:54:12.981 [main] LoggerReader - Creating Linked List Title is displayed
+[INFO] 2025-02-18 12:54:13.931 [main] LoggerReader - Run button is displayed
+[INFO] 2025-02-18 12:54:14.512 [main] LoggerReader - User is in Try Editor window
+[INFO] 2025-02-18 12:54:14.536 [main] LoggerReader - Run button is displayed
+[INFO] 2025-02-18 12:54:15.078 [main] LoggerReader - User is in Try Editor window
+[INFO] 2025-02-18 12:54:15.099 [main] LoggerReader - Run button is displayed
+[INFO] 2025-02-18 12:54:15.568 [main] LoggerReader - User is in Try Editor window
+[INFO] 2025-02-18 12:54:15.587 [main] LoggerReader - Run button is displayed
+[INFO] 2025-02-18 12:54:16.824 [main] LoggerReader - Types of Linked List Title is displayed
+[INFO] 2025-02-18 12:54:17.668 [main] LoggerReader - Run button is displayed
+[INFO] 2025-02-18 12:54:18.196 [main] LoggerReader - User is in Try Editor window
+[INFO] 2025-02-18 12:54:18.221 [main] LoggerReader - Run button is displayed
+[INFO] 2025-02-18 12:54:18.665 [main] LoggerReader - User is in Try Editor window
+[INFO] 2025-02-18 12:54:18.682 [main] LoggerReader - Run button is displayed
+[INFO] 2025-02-18 12:54:19.133 [main] LoggerReader - User is in Try Editor window
+[INFO] 2025-02-18 12:54:19.148 [main] LoggerReader - Run button is displayed
+[INFO] 2025-02-18 12:54:20.129 [main] LoggerReader - Implement Linked List Title is displayed
+[INFO] 2025-02-18 12:54:20.823 [main] LoggerReader - Run button is displayed
+[INFO] 2025-02-18 12:54:21.309 [main] LoggerReader - User is in Try Editor window
+[INFO] 2025-02-18 12:54:21.326 [main] LoggerReader - Run button is displayed
+[INFO] 2025-02-18 12:54:21.755 [main] LoggerReader - User is in Try Editor window
+[INFO] 2025-02-18 12:54:21.773 [main] LoggerReader - Run button is displayed
+[INFO] 2025-02-18 12:54:22.202 [main] LoggerReader - User is in Try Editor window
+[INFO] 2025-02-18 12:54:22.224 [main] LoggerReader - Run button is displayed
+[INFO] 2025-02-18 12:54:23.124 [main] LoggerReader - Traversal Title is displayed
+[INFO] 2025-02-18 12:54:23.940 [main] LoggerReader - Run button is displayed
+[INFO] 2025-02-18 12:54:24.437 [main] LoggerReader - User is in Try Editor window
+[INFO] 2025-02-18 12:54:24.456 [main] LoggerReader - Run button is displayed
+[INFO] 2025-02-18 12:54:24.882 [main] LoggerReader - User is in Try Editor window
+[INFO] 2025-02-18 12:54:24.899 [main] LoggerReader - Run button is displayed
+[INFO] 2025-02-18 12:54:25.271 [main] LoggerReader - User is in Try Editor window
+[INFO] 2025-02-18 12:54:25.292 [main] LoggerReader - Run button is displayed
+[INFO] 2025-02-18 12:54:26.285 [main] LoggerReader - Insertion Title is displayed
+[INFO] 2025-02-18 12:54:27.056 [main] LoggerReader - Run button is displayed
+[INFO] 2025-02-18 12:54:27.557 [main] LoggerReader - User is in Try Editor window
+[INFO] 2025-02-18 12:54:27.574 [main] LoggerReader - Run button is displayed
+[INFO] 2025-02-18 12:54:28.056 [main] LoggerReader - User is in Try Editor window
+[INFO] 2025-02-18 12:54:28.077 [main] LoggerReader - Run button is displayed
+[INFO] 2025-02-18 12:54:28.467 [main] LoggerReader - User is in Try Editor window
+[INFO] 2025-02-18 12:54:28.484 [main] LoggerReader - Run button is displayed
+[INFO] 2025-02-18 12:54:29.511 [main] LoggerReader - Deletion Title is displayed
+[INFO] 2025-02-18 12:54:30.721 [main] LoggerReader - Run button is displayed
+[INFO] 2025-02-18 12:54:31.185 [main] LoggerReader - User is in Try Editor window
+[INFO] 2025-02-18 12:54:31.205 [main] LoggerReader - Run button is displayed
+[INFO] 2025-02-18 12:54:31.748 [main] LoggerReader - User is in Try Editor window
+[INFO] 2025-02-18 12:54:31.765 [main] LoggerReader - Run button is displayed
+[INFO] 2025-02-18 12:54:32.158 [main] LoggerReader - User is in Try Editor window
+[INFO] 2025-02-18 12:54:32.176 [main] LoggerReader - Run button is displayed
+[INFO] 2025-02-18 12:54:32.438 [main] LoggerReader - Deletion Title is displayed
+[INFO] 2025-02-18 12:54:32.998 [main] LoggerReader - User is in Practice Questions Page
+[INFO] 2025-02-18 12:54:36.260 [main] LoggerReader - Sign Out link is displayed
+[INFO] 2025-02-18 12:54:37.034 [main] LoggerReader - Login button is displayed
+[INFO] 2025-02-18 12:54:37.826 [main] LoggerReader - Login button is displayed
+[INFO] 2025-02-18 12:54:41.979 [main] LoggerReader - Register link is displayed
+[INFO] 2025-02-18 12:54:42.791 [main] LoggerReader - Register Button is displayed
+[INFO] 2025-02-18 12:54:43.658 [main] LoggerReader - Register Button is displayed
+[INFO] 2025-02-18 12:54:44.564 [main] LoggerReader - Register Button is displayed
+[INFO] 2025-02-18 12:54:45.717 [main] LoggerReader - Register Button is displayed
+[INFO] 2025-02-18 12:54:46.646 [main] LoggerReader - Register Button is displayed
+[INFO] 2025-02-18 12:54:48.955 [main] LoggerReader - Register Button is displayed
+[INFO] 2025-02-18 12:54:51.134 [main] LoggerReader - Register Button is displayed
+[INFO] 2025-02-18 12:54:51.940 [main] LoggerReader - Register Button is displayed
+[INFO] 2025-02-18 12:54:53.293 [main] LoggerReader - Register Button is displayed
+[INFO] 2025-02-18 12:54:54.315 [main] LoggerReader - Register Button is displayed
+[INFO] 2025-02-18 12:54:55.322 [main] LoggerReader - Register Button is displayed
+[INFO] 2025-02-18 12:54:58.004 [main] LoggerReader - Register Button is displayed
+[INFO] 2025-02-18 12:54:59.979 [main] LoggerReader - Register Button is displayed
+[INFO] 2025-02-18 12:55:09.093 [main] LoggerReader - Register button is displayed
+[INFO] 2025-02-18 12:55:12.779 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-18 12:55:12.779 [main] LoggerReader - Closing WebDriver for current thread.
