@@ -6,7 +6,6 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
-
 import driver_Factory.Driver_Factory;
 import dsAlgo_PageFactory.Home_PageFactory;
 import dsAlgo_PageFactory.Login_PageFactory;
@@ -38,8 +37,7 @@ public class Queue {
     @When("User clicks on the Get Started button under Queue section")
     public void user_clicks_on_the_get_started_button_under_queue_section() throws InterruptedException {
     	queuePage.QueueGetStarted();
-		Thread.sleep(2000);
-    	logger.info("Logging ::::::User clicks on the Get Started button under Queue section");
+		 logger.info("Logging ::::::User clicks on the Get Started button under Queue section");
         
     }
     
@@ -114,8 +112,7 @@ public class Queue {
     @When("The user clicks Implementation of Queue in Python link in the Queue page")
     public void the_user_clicks_implementation_of_queue_in_python_link_in_the_queue_page() throws InterruptedException {
     	queuePage.Implementation_Of_Queue_In_Python_Click();
-    	Thread.sleep(3000);
-    	logger.info("Logging ::::::The user clicks Implementation of Queue in Python link in the Queue page");
+        logger.info("Logging ::::::The user clicks Implementation of Queue in Python link in the Queue page");
         
     }
 
@@ -154,7 +151,6 @@ public class Queue {
 
     @Then("The user should be able to get an output in the Try Editor screen for the Implementation of Queue in Python page")
     public void the_user_should_be_able_to_get_an_output_in_the_try_editor_screen_for_the_implementation_of_queue_in_python_page() {
-    	//Assert.assertEquals(queuePage.Implementation_of_Queue_in_Python_visible(),true);
     	logger.info("Logging ::::::The user should be able to get an output in the Try Editor screen for the Implementation of Queue in Python page");
         
     }
@@ -162,7 +158,6 @@ public class Queue {
     @When("The user clicks Implementation using collections.deque link in the Queue page")
     public void the_user_clicks_implementation_using_collections_deque_link_in_the_queue_page() throws InterruptedException {
     	queuePage.Implementation_Using_Collection_deque_Click();
-    	Thread.sleep(3000);
     	logger.info("Logging ::::::The user clicks Implementation using collections.deque link in the Queue page");
         
     }
@@ -203,7 +198,6 @@ public class Queue {
     @When("The user clicks Implementation using Array link in the Queue page")
     public void the_user_clicks_implementation_using_array_link_in_the_queue_page() throws InterruptedException {
     	queuePage.Implementation_Using_Array_Click();
-    	Thread.sleep(3000);
     	logger.info("Logging ::::::The user clicks Implementation using Array link in the Queue page");
         
     }
@@ -244,7 +238,6 @@ public class Queue {
     @When("The user clicks Queue Operations link in the Queue page")
     public void the_user_clicks_queue_operations_link_in_the_queue_page() throws InterruptedException {
     	queuePage.Queue_Operations_Click();
-    	Thread.sleep(3000);
     	logger.info("Logging ::::::The user clicks Queue Operations link in the Queue page");
         
     }
@@ -285,13 +278,11 @@ public class Queue {
     @When("The User clicks Practice questions link in Queue page")
     public void the_user_clicks_practice_questions_link_in_queue_page() throws InterruptedException {
     	queuePage.Practice_Questions_Click();
-    	Thread.sleep(3000);
-    	logger.info("Logging ::::::User clicks Practice questions link in Queue page");
+       logger.info("Logging ::::::User clicks Practice questions link in Queue page");
     }
     
     @Then("The user should be redirected to Practice page of Queue")
     public void the_user_should_be_redirected_to_practice_page_of_queue() {
-    	//Assert.assertEquals(queuePage.PracticeQuestionsQueueDisplayed(),true);
     	logger.info("Logging ::::::User should be redirected to Practice page of Queue");   
     }
 
