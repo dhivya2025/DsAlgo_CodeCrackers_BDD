@@ -1,4 +1,4 @@
-@Order4
+@Order10
 Feature: Graph Module
 
 Scenario Outline: Verify user enters username and password for SignIn

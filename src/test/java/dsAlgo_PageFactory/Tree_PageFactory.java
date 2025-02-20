@@ -1,12 +1,16 @@
 package dsAlgo_PageFactory;
 	
-	import java.io.IOException;
-
+import java.io.IOException;
+import org.openqa.selenium.Alert;
+import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.NoAlertPresentException;
 import org.openqa.selenium.WebDriver;
-	import org.openqa.selenium.WebElement;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
-	import org.openqa.selenium.support.PageFactory;
-	import dsAlgo_Reader.TryEditor;
+import org.openqa.selenium.support.PageFactory;
+import dsAlgo_Reader.TryEditor;
 
 	public class Tree_PageFactory {
 
@@ -38,12 +42,15 @@ import org.openqa.selenium.support.FindBy;
 		   @FindBy (xpath = "//a[text()='Implementation Of BST']") WebElement implementationofBST;
 		   @FindBy (xpath = "//a[normalize-space()='Implementation Of BST']") WebElement ImplementationOfBST_link;
 		   @FindBy (xpath = "//a[text()='Practice Questions']") WebElement practicequestions;
-		   @FindBy (xpath ="//a[text()='Try here>>>']") WebElement tryhere;
-		   @FindBy (xpath="//button[text()='Run']") WebElement RunButton;
+		   @FindBy (xpath = "//a[text()='Try here>>>']") WebElement tryhere;
+		   @FindBy (xpath = "//button[text()='Run']") WebElement RunButton;
            @FindBy (className = "CodeMirror-scroll") WebElement textWindow;
+           @FindBy (xpath = "//div[contains(@class, 'CodeMirror') and contains(@class, 'cm-s-default')]") WebElement codeMirror;
+           @FindBy (xpath = ".//textarea']") WebElement textArea;
+         
+          
            
-           
-           TryEditor readTryEditor = new TryEditor();
+            TryEditor readTryEditor = new TryEditor();
 		    WebDriver driver;
 		    public Tree_PageFactory(WebDriver driver) {
 		   	this.driver = driver;
@@ -173,10 +180,20 @@ import org.openqa.selenium.support.FindBy;
 	     
            public void tryEditorWindow(String sheetName, int rowNumber) throws IOException, InterruptedException {
 		   String[] editor = readTryEditor.excelTryEditor(sheetName, rowNumber);
-		   System.out.println(editor[0]);
-		   System.out.println(editor[1]);
-		   textWindow.sendKeys(editor[0]);
-		   RunButton(); 
-		   }
+		   Actions actions = new Actions(driver);
+		   actions.moveToElement(codeMirror).click().perform();
+		   WebElement textArea = codeMirror.findElement(By.xpath(".//textarea"));
+		   textArea.sendKeys(Keys.chord(Keys.CONTROL,"a",Keys.DELETE));
+		   textArea.sendKeys(editor[0]);
+		   RunButton();
+		   try {
+	            Alert alert = driver.switchTo().alert();
+	           String get_alert_msg = alert.getText();
+	            alert.accept();
+	            System.out.println("Alert Is:"+ get_alert_msg);
+	        } catch (NoAlertPresentException e) {
+	            System.out.println("No alert present: " + e.getMessage());
+	        }		
+	      }
 }
 
