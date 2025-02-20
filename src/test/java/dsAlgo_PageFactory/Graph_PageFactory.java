@@ -1,9 +1,13 @@
 package dsAlgo_PageFactory;
 
 import java.io.IOException;
-
+import org.openqa.selenium.Alert;
+import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.NoAlertPresentException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import dsAlgo_Reader.TryEditor;
@@ -17,6 +21,8 @@ public class Graph_PageFactory {
 	   @FindBy (xpath ="//a[text()='Try here>>>']") WebElement tryhere;
 	   @FindBy (xpath = "//a[text()='Practice Questions']") WebElement practicequestions;
 	   @FindBy (xpath="//button[text()='Run']") WebElement RunButton;
+	   @FindBy (xpath = "//div[contains(@class, 'CodeMirror') and contains(@class, 'cm-s-default')]") WebElement codeMirror;
+       @FindBy (xpath = ".//textarea']") WebElement textArea;
 
 	   @FindBy (className = "CodeMirror-scroll") WebElement textWindow;
 	   TryEditor readTryEditor = new TryEditor();
@@ -59,10 +65,20 @@ public class Graph_PageFactory {
        }
      
        public void tryEditorWindow(String sheetName, int rowNumber) throws IOException, InterruptedException {
- 	   String[] editor = readTryEditor.excelTryEditor(sheetName, rowNumber);
- 	   System.out.println(editor[0]);
- 	   System.out.println(editor[1]);
- 	   textWindow.sendKeys(editor[0]);
- 	   RunButton();
- 	   }
+		   String[] editor = readTryEditor.excelTryEditor(sheetName, rowNumber);
+		   Actions actions = new Actions(driver);
+		   actions.moveToElement(codeMirror).click().perform();
+		   WebElement textArea = codeMirror.findElement(By.xpath(".//textarea"));
+		   textArea.sendKeys(Keys.chord(Keys.CONTROL,"a",Keys.DELETE));
+		   textArea.sendKeys(editor[0]);
+		   RunButton();
+		   try {
+	            Alert alert = driver.switchTo().alert();
+	           String get_alert_msg = alert.getText();
+	            alert.accept();
+	            System.out.println("Alert Is:"+ get_alert_msg);
+	        } catch (NoAlertPresentException e) {
+	            System.out.println("No alert present: " + e.getMessage());
+	        }		
+	      }
 }
