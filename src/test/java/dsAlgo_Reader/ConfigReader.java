@@ -1,29 +1,58 @@
 package dsAlgo_Reader;
-
+import java.io.BufferedReader;
 import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
 import java.io.IOException;
 import java.util.Properties;
-
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 public class ConfigReader {
 	
 	private static Properties properties;
-	private static final org.apache.logging.log4j.Logger logger = LoggerReader.getLogger();
-	
-    static {
-        try {
-            properties = new Properties();
-            FileInputStream file = new FileInputStream("Utilities/config.properties");
-            properties.load(file);
-            file.close();
-            logger.info("Loaded configuration from config.properties");
-        } catch (IOException e) {
-        	logger.error("Failed to load config.properties file: " + e.getMessage());
-            throw new RuntimeException("Failed to load config.properties file: " + e.getMessage());
-        }
-    }
+	private final static String propertyFilePath = "src/test/resources/config/config.properties";
 
-    public static String getProperty(String key) {
-        return properties.getProperty(key);
-    }
+	
+	public ConfigReader() {
+		BufferedReader reader;
+		try {
+			reader = new BufferedReader(new FileReader(propertyFilePath));
+			properties = new Properties();
+			try {
+				properties.load(reader);
+				reader.close();
+			} catch (IOException e) {
+				e.printStackTrace();
+			}
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+			throw new RuntimeException("Configuration.properties not found at " + propertyFilePath);
+		}
+
+	}
+    public static String getApplicationUrl() {
+		String url = properties.getProperty("url");
+		System.out.println(url);
+		if (url != null)
+			return url;
+		else
+			throw new RuntimeException("url not specified in the Configuration.properties file.");
+	}
+//    public static String excelpath() {
+//		String path = properties.getProperty("path");
+//		System.out.println(path);
+//		if (path != null)
+//			return path;
+//		else
+//			throw new RuntimeException("url not specified in the Configuration.properties file.");
+//	
+//	
+//	}
+
 }
+
+
+
+
+
 

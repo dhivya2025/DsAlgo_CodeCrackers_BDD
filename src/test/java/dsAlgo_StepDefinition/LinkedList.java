@@ -18,19 +18,12 @@ import io.cucumber.java.en.When;
 public class LinkedList {
 	private static final org.apache.logging.log4j.Logger logger = LoggerReader.getLogger();
 
-	WebDriver driver;
     Home_PageFactory homePage;
     Login_PageFactory loginPage;
-    LinkedList_PageFactory linkedListPage;
-    TryEditor readTryEditor;
+    LinkedList_PageFactory linkedListPage = new LinkedList_PageFactory();
+//    TryEditor readTryEditor;
 	
-    public LinkedList() {
-    	this.driver = Driver_Factory.getDriver(); 
-    	homePage = new Home_PageFactory(driver);
-        loginPage = new Login_PageFactory(driver);
-        linkedListPage = new LinkedList_PageFactory(driver);
-        readTryEditor = new TryEditor();
-    }
+
 	
 	@Given("User is on the signIn page")
 	public void user_is_on_the_sign_in_page() {
@@ -164,7 +157,7 @@ public class LinkedList {
 
 	@When("The user clicks <- in the Try Editor screen for the Linked List page")
 	public void the_user_clicks_in_the_try_editor_screen_for_the_Linked_List_page() {
-		driver.navigate().back();
+//		driver.navigate().back();
 	}
 
 	@Then("The user should be able to navigate to Introduction page")

@@ -7,8 +7,14 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import driver_Factory.Driver_Factory;
+import dsAlgo_Reader.ConfigReader;
+
 public class Login_PageFactory {
 
+	WebDriver driver= Driver_Factory.getDriver();
+	ConfigReader configFileReader=Driver_Factory.configReader();
+	
 	@FindBy ( linkText = "Sign in") WebElement signInLoginBtn;
 	@FindBy ( xpath = "//input[@id='id_username']") public WebElement userNameLoginBtn;
 	@FindBy ( xpath = "//input[@id='id_password']") public WebElement passwordLoginBtn;
@@ -17,11 +23,8 @@ public class Login_PageFactory {
 	@FindBy ( xpath = "//div[contains(text(),'successfully')]") WebElement loggedOutMessage;
 	@FindBy ( xpath = "//div[contains(text(),'Invalid')]") WebElement invalidMessage;
 	@FindBy ( xpath = "//a[text()='Sign out']") WebElement signOutBtn;
-		
-	WebDriver driver;
-	
-	public Login_PageFactory(WebDriver driver) {
-		this.driver = driver;
+			
+	public Login_PageFactory() {
 		PageFactory.initElements(driver, this);
 	}
 	

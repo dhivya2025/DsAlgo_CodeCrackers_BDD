@@ -17,20 +17,13 @@ import io.cucumber.java.en.When;
 
 public class Register {
 	
-	WebDriver driver;
     Home_PageFactory homePage;
     Login_PageFactory loginPage;
     Register_PageFactory registerPage;
     ExcelReader readExcel;
+    
 	private static final org.apache.logging.log4j.Logger logger = LoggerReader.getLogger();
 
-    public Register() {
-    	this.driver = Driver_Factory.getDriver(); 
-    	homePage = new Home_PageFactory(driver);
-        loginPage = new Login_PageFactory(driver);
-        registerPage = new Register_PageFactory(driver);
-        readExcel = new ExcelReader();
-    }
 
 	@Given("User is in the home page after launching ds-algo portal page")
 	public void user_is_in_the_home_page_after_launching_ds_algo_portal_page() {
@@ -54,6 +47,7 @@ public class Register {
 
 	@When("User wants to enter data from excel sheet {string} and {int} for the username field")
 	public void user_wants_to_enter_data_from_excel_sheet_and_for_the_username_field(String sheetName, int rowNumber) throws IOException {
+		registerPage.registerLinkClick();
 		String[] credentials = readExcel.excelDataRead(sheetName, rowNumber); 
 		registerPage.userNameRegisterBtn.clear();
 		registerPage.userNameRegisterBtn.sendKeys(credentials[0]);		
@@ -66,6 +60,7 @@ public class Register {
 
 	@When("User enters invalid data from excel sheet {string} and {int} for the username field")
 	public void user_enters_invalid_data_from_excel_sheet_and_for_the_username_field(String sheetName, int rowNumber) throws IOException {
+		registerPage.registerLinkClick();
 		String[] credentials = readExcel.excelDataRead(sheetName, rowNumber); 
 		registerPage.userNameRegisterBtn.clear();
 		registerPage.userNameRegisterBtn.sendKeys(credentials[0]); 
@@ -82,6 +77,8 @@ public class Register {
 
 	@When("User wants to enter data from excel sheet {string} and {int} for the password field")
 	public void user_wants_to_enter_data_from_excel_sheet_and_for_the_password_field(String sheetName, int rowNumber) throws IOException {
+		registerPage.registerLinkClick();
+
 		String[] credentials = readExcel.excelDataRead(sheetName, rowNumber); 
 		registerPage.userNameRegisterBtn.clear();
 		registerPage.userNameRegisterBtn.sendKeys(credentials[1]); 
@@ -94,6 +91,8 @@ public class Register {
 
 	@When("User enters invalid data from excel sheet {string} and {int} for the password field")
 	public void user_enters_invalid_data_from_excel_sheet_and_for_the_password_field(String sheetName, int rowNumber) throws IOException {
+		registerPage.registerLinkClick();
+
 		String[] credentials = readExcel.excelDataRead(sheetName, rowNumber); 
 		registerPage.userNameRegisterBtn.clear();
 		registerPage.userNameRegisterBtn.sendKeys(credentials[0]); 
@@ -112,6 +111,8 @@ public class Register {
 
 	@When("The user enters data from excel sheet {string} and {int} for all the fields to be left blank")
 	public void the_user_enters_data_from_excel_sheet_and_for_all_the_fields_to_be_left_blank(String sheetName, int rowNumber) throws IOException {
+		registerPage.registerLinkClick();
+
 		String[] credentials = readExcel.excelDataRead(sheetName, rowNumber); 
 		registerPage.userNameRegisterBtn.clear();
 		registerPage.userNameRegisterBtn.sendKeys(credentials[0]); 
@@ -135,6 +136,8 @@ public class Register {
 
 	@When("User enters data from excel sheet {string} and {int} for all the fields and click RegisterButton")
 	public void user_enters_data_from_excel_sheet_and_for_all_the_fields_and_click_register_button(String sheetName, int rowNumber) throws IOException {
+		registerPage.registerLinkClick();
+		
 		String[] credentials = readExcel.excelDataRead(sheetName, rowNumber); 
 		registerPage.userNameRegisterBtn.clear();
 		registerPage.userNameRegisterBtn.sendKeys(credentials[0]); 

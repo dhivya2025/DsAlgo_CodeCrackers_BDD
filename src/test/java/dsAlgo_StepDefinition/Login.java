@@ -10,33 +10,47 @@ import dsAlgo_PageFactory.Home_PageFactory;
 import dsAlgo_PageFactory.Login_PageFactory;
 import dsAlgo_Reader.ExcelReader;
 import dsAlgo_Reader.LoggerReader;
+import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
 public class Login {
 	
-	WebDriver driver;
     Home_PageFactory homePage;
-    Login_PageFactory loginPage;
-    ExcelReader readExcel;
-	private static final org.apache.logging.log4j.Logger logger = LoggerReader.getLogger();
+    Login_PageFactory loginPage = new Login_PageFactory();
+   ExcelReader readExcel = new ExcelReader();
 
-    public Login() {
-    	this.driver = Driver_Factory.getDriver(); 
-    	homePage = new Home_PageFactory(driver);
-        loginPage = new Login_PageFactory(driver);
-        readExcel = new ExcelReader();
-    }
-    
-    @When("The user clicks the Sign In link")
+    private static final org.apache.logging.log4j.Logger logger = LoggerReader.getLogger();
+
+	@Given("user is on the DS Algo Sign in Page")
+	public void user_is_on_the_ds_algo_sign_in_page() {
+//		homePage = new Home_PageFactory(); 
+		homePage.launchURL();
+		homePage.getStartedHomeBtnClick();
+
+	}
+	
+//	@When("^The user clicks login button after entering valid (.*) and (.*)$")
+////	@When("^The user clicks login button after entering valid \"([^\"]*)\" and (\\d+)$")
+//
+//	public void the_user_clicks_login_button_after_entering_valid_sheetname_and_row_number(String sheetName, int rowNumber) throws IOException {
+//		loginPage.signInClick();
+//		String[] credentials = readExcel.excelDataRead(sheetName, rowNumber);
+//	    loginPage.userNameLoginBtn.sendKeys(username);
+//		loginPage.passwordLoginBtn.sendKeys(password);
+//		loginPage.LoginBtnClick();   
+//	}
+
+    @Given("The user clicks the Sign In link")
 	public void the_user_clicks_the_sign_in_link() {
+//		homePage.getStartedHomeBtnClick();
 	   loginPage.signInClick();
 	}
     
 	@When("The user gets data from excel sheet {string} and {int} for the login page")
 	public void the_user_gets_data_from_excel_sheet_and_for_the_login_page(String sheetName, int rowNumber) throws IOException {
-		loginPage.signInClick();
+//		loginPage.signInClick();
 		String[] credentials = readExcel.excelDataRead(sheetName, rowNumber);
 	    loginPage.userNameLoginBtn.sendKeys(credentials[0]);
 		loginPage.passwordLoginBtn.sendKeys(credentials[1]);
@@ -48,7 +62,7 @@ public class Login {
 	    logger.info("Sign Out link is displayed");
 	}
 	
-	@When("The user clicks Sign Out")
+	@And("The user clicks Sign Out")
 	public void the_user_clicks_sign_out() { 
 	  loginPage.signOutBtnClick();  
 	}
@@ -87,5 +101,14 @@ public class Login {
 	public void the_user_clicks_the_sign_in_link_from_the_portal() {
 		homePage.launchURL();
 		homePage.getStartedHomeBtnClick();
+	}
+	
+	@When("^login with \"([^\"]*)\" and (\\d+)$")
+	public void login_with_and(String sheetName, int rowNumber) throws IOException {
+		loginPage.signInClick();
+		String[] credentials = readExcel.excelDataRead(sheetName, rowNumber);
+	    loginPage.userNameLoginBtn.sendKeys(credentials[0]);
+		loginPage.passwordLoginBtn.sendKeys(credentials[1]);
+		loginPage.LoginBtnClick();   
 	}
 }

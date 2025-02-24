@@ -1,12 +1,23 @@
 package dsAlgo_PageFactory;
 
+import java.time.Duration;
+
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+import driver_Factory.Driver_Factory;
+import dsAlgo_Reader.ConfigReader;
 
 public class Home_PageFactory {
 		
+	WebDriver driver= Driver_Factory.getDriver();
+	ConfigReader configFileReader=Driver_Factory.configReader();
+	
 	@FindBy ( xpath = "//button[text()='Get Started']")  WebElement getStartedHomeBtn;
 	@FindBy ( xpath = "//h1[text()='Preparing for the Interviews']") WebElement randomClick;
 	@FindBy ( xpath = "//a[text()='Data Structures']") WebElement dataStructureDropDown;
@@ -26,16 +37,23 @@ public class Home_PageFactory {
 	@FindBy ( xpath = "//div[h5[text()='Tree']]//a[text()='Get Started']") WebElement treeGetStartedBtn;
 	@FindBy ( xpath = "//div[h5[text()='Graph']]//a[text()='Get Started']") WebElement graphGetStartedBtn;
 
-	WebDriver driver;
 	
-	public Home_PageFactory(WebDriver driver) {
-		this.driver = driver;
+//	WebDriver driver;
+	
+//	public Home_PageFactory(WebDriver driver) {
+		public Home_PageFactory() {
+//		this.driver = driver;
 		PageFactory.initElements(driver, this);
 	}
 	
 	public void launchURL() {
-		driver.get("https://dsportalapp.herokuapp.com/");
+//        String homePageUrl = ConfigReader.getProperty("Url");
+//        driver.get(homePageUrl);  // Navigate to URL from config
+		configFileReader.getApplicationUrl();
+
+//		driver.get(Url);
 	}
+	
 	
 	public void getStartedHomeBtnClick() {
 		getStartedHomeBtn.click();
@@ -50,7 +68,11 @@ public class Home_PageFactory {
 	}
 	
 	public void dataStructureDropDownClick() {
-		dataStructureDropDown.click();
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+	    WebElement dropdown = wait.until(ExpectedConditions.elementToBeClickable
+	    		(By.xpath("//a[text()='Data Structures']")));
+//		dataStructureDropDown.click();
+	    dropdown.click();
 	}
 	
 	public void arraysBtnClick() {

@@ -7,10 +7,17 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import driver_Factory.Driver_Factory;
+import dsAlgo_Reader.ConfigReader;
 import dsAlgo_Reader.TryEditor;
 
 public class LinkedList_PageFactory {
 
+	WebDriver driver= Driver_Factory.getDriver();
+	ConfigReader configFileReader=Driver_Factory.configReader();
+  TryEditor readTryEditor = new TryEditor();
+
+	
 	@FindBy ( xpath = "//div[h5[text()='Linked List']]//a[text()='Get Started']") WebElement getStartedLinkedListBtn;
 	@FindBy ( xpath = "//h4[text()='Linked List']") WebElement linkedListTitle;
 	@FindBy ( linkText = "Introduction") WebElement introductionLink;
@@ -34,11 +41,8 @@ public class LinkedList_PageFactory {
 	@FindBy ( xpath = "//button[text()='Run']") WebElement runBtn;
 	@FindBy ( linkText = "Practice Questions") WebElement practiceQuestionsLink;
 	
-WebDriver driver;
-TryEditor readTryEditor = new TryEditor();
 
-	public LinkedList_PageFactory(WebDriver driver) {
-		this.driver = driver;
+	public LinkedList_PageFactory() {
 		PageFactory.initElements(driver, this);
 	}
 

@@ -352,3 +352,1357 @@
 [INFO] 2025-02-18 12:55:09.093 [main] LoggerReader - Register button is displayed
 [INFO] 2025-02-18 12:55:12.779 [main] LoggerReader - Closing browser after all tests
 [INFO] 2025-02-18 12:55:12.779 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 11:31:56.995 [main] LoggerReader - Starting tests on browser: chrome
+[INFO] 2025-02-22 11:31:59.987 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 11:32:01.393 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-22 11:32:01.393 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 11:32:01.754 [main] LoggerReader - Starting tests on browser: chrome
+[INFO] 2025-02-22 11:32:03.265 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 11:32:05.378 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-22 11:32:05.378 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 11:32:07.474 [main] LoggerReader - Starting tests on browser: chrome
+[INFO] 2025-02-22 11:32:08.901 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 11:32:11.031 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-22 11:32:11.031 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 11:32:11.237 [main] LoggerReader - Starting tests on browser: chrome
+[INFO] 2025-02-22 11:32:12.675 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 11:32:14.787 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-22 11:32:14.787 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 11:32:15.068 [main] LoggerReader - Starting tests on browser: chrome
+[INFO] 2025-02-22 11:32:16.497 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 11:32:18.607 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-22 11:32:18.607 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 11:32:18.885 [main] LoggerReader - Starting tests on browser: chrome
+[INFO] 2025-02-22 12:15:51.619 [main] LoggerReader - Loaded configuration from config.properties
+[INFO] 2025-02-22 12:15:51.622 [main] LoggerReader - Starting tests on browser: chrome
+[INFO] 2025-02-22 12:15:53.881 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 12:15:55.011 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-22 12:15:55.011 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 12:15:55.371 [main] LoggerReader - Starting tests on browser: chrome
+[INFO] 2025-02-22 12:15:56.912 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 12:15:58.975 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-22 12:15:58.975 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 12:15:59.280 [main] LoggerReader - Starting tests on browser: chrome
+[INFO] 2025-02-22 12:16:00.860 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 12:17:31.865 [main] LoggerReader - Loaded configuration from config.properties
+[INFO] 2025-02-22 12:17:31.869 [main] LoggerReader - Starting tests on browser: chrome
+[INFO] 2025-02-22 12:17:34.094 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 12:17:35.208 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-22 12:17:35.208 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 12:17:35.524 [main] LoggerReader - Starting tests on browser: chrome
+[INFO] 2025-02-22 12:17:37.031 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 12:17:39.086 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-22 12:17:39.086 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 12:17:39.374 [main] LoggerReader - Starting tests on browser: chrome
+[INFO] 2025-02-22 12:17:40.823 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 12:18:15.029 [main] LoggerReader - Loaded configuration from config.properties
+[INFO] 2025-02-22 12:18:15.032 [main] LoggerReader - Starting tests on browser: chrome
+[INFO] 2025-02-22 12:18:17.166 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 12:18:18.232 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-22 12:18:18.232 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 12:18:18.491 [main] LoggerReader - Starting tests on browser: chrome
+[INFO] 2025-02-22 12:18:19.932 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 12:18:22.016 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-22 12:18:22.016 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 12:18:22.275 [main] LoggerReader - Starting tests on browser: chrome
+[INFO] 2025-02-22 12:18:23.666 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 12:18:25.687 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-22 12:18:25.687 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 12:18:26.005 [main] LoggerReader - Starting tests on browser: chrome
+[INFO] 2025-02-22 12:20:02.762 [main] LoggerReader - Loaded configuration from config.properties
+[INFO] 2025-02-22 12:20:02.765 [main] LoggerReader - Starting tests on browser: chrome
+[INFO] 2025-02-22 12:20:04.965 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 12:20:06.060 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-22 12:20:06.061 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 12:20:06.363 [main] LoggerReader - Starting tests on browser: chrome
+[INFO] 2025-02-22 12:20:07.848 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 12:20:09.889 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-22 12:20:09.891 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 12:20:10.169 [main] LoggerReader - Starting tests on browser: chrome
+[INFO] 2025-02-22 12:20:11.548 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 12:21:23.754 [main] LoggerReader - Loaded configuration from config.properties
+[INFO] 2025-02-22 12:21:23.758 [main] LoggerReader - Starting tests on browser: chrome
+[INFO] 2025-02-22 12:21:26.066 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 12:21:27.196 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-22 12:21:27.196 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 12:21:27.514 [main] LoggerReader - Starting tests on browser: chrome
+[INFO] 2025-02-22 12:21:28.938 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 12:21:30.989 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-22 12:21:30.989 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 12:21:31.278 [main] LoggerReader - Starting tests on browser: chrome
+[INFO] 2025-02-22 12:21:32.827 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 12:24:46.841 [main] LoggerReader - Loaded configuration from config.properties
+[INFO] 2025-02-22 12:24:46.843 [main] LoggerReader - Starting tests on browser: chrome
+[INFO] 2025-02-22 12:24:49.018 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 12:24:50.517 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-22 12:24:50.518 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 12:24:50.779 [main] LoggerReader - Starting tests on browser: chrome
+[INFO] 2025-02-22 12:24:52.312 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 12:24:54.982 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-22 12:24:54.982 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 12:24:55.233 [main] LoggerReader - Starting tests on browser: chrome
+[INFO] 2025-02-22 12:24:56.640 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 12:24:59.327 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-22 12:24:59.327 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 12:24:59.662 [main] LoggerReader - Starting tests on browser: chrome
+[INFO] 2025-02-22 12:26:56.950 [main] LoggerReader - Loaded configuration from config.properties
+[INFO] 2025-02-22 12:26:56.953 [main] LoggerReader - Starting tests on browser: chrome
+[INFO] 2025-02-22 12:26:59.125 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 12:27:00.776 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-22 12:27:00.776 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 12:27:01.039 [main] LoggerReader - Starting tests on browser: chrome
+[INFO] 2025-02-22 12:27:02.567 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 12:27:08.145 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-22 12:27:08.145 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 12:27:08.418 [main] LoggerReader - Starting tests on browser: chrome
+[INFO] 2025-02-22 12:27:09.877 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 12:27:43.485 [main] LoggerReader - Loaded configuration from config.properties
+[INFO] 2025-02-22 12:27:43.488 [main] LoggerReader - Starting tests on browser: chrome
+[INFO] 2025-02-22 12:27:45.586 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 12:27:46.714 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-22 12:27:46.714 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 12:27:46.990 [main] LoggerReader - Starting tests on browser: chrome
+[INFO] 2025-02-22 12:27:48.480 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 12:27:54.037 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-22 12:27:54.037 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 12:27:54.321 [main] LoggerReader - Starting tests on browser: chrome
+[INFO] 2025-02-22 12:27:55.743 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 12:29:42.519 [main] LoggerReader - Loaded configuration from config.properties
+[INFO] 2025-02-22 12:29:42.524 [main] LoggerReader - Starting tests on browser: chrome
+[INFO] 2025-02-22 12:29:44.759 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 12:29:45.918 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-22 12:29:45.918 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 12:29:46.175 [main] LoggerReader - Starting tests on browser: chrome
+[INFO] 2025-02-22 12:29:47.559 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 12:29:52.989 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-22 12:29:52.989 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 12:29:53.237 [main] LoggerReader - Starting tests on browser: chrome
+[INFO] 2025-02-22 12:29:54.668 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 12:29:57.096 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-22 12:29:57.096 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 12:29:57.337 [main] LoggerReader - Starting tests on browser: chrome
+[INFO] 2025-02-22 12:29:58.794 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 12:30:01.218 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-22 12:30:01.219 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 12:30:01.452 [main] LoggerReader - Starting tests on browser: chrome
+[INFO] 2025-02-22 12:30:02.935 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 12:30:05.348 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-22 12:30:05.348 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 12:30:05.599 [main] LoggerReader - Starting tests on browser: chrome
+[INFO] 2025-02-22 12:30:07.024 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 12:30:09.457 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-22 12:30:09.457 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 12:30:09.876 [main] LoggerReader - Starting tests on browser: chrome
+[INFO] 2025-02-22 12:30:11.362 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 12:30:13.785 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-22 12:30:13.785 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 12:30:14.043 [main] LoggerReader - Starting tests on browser: chrome
+[INFO] 2025-02-22 12:30:15.510 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 12:30:17.939 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-22 12:30:17.939 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 12:30:18.220 [main] LoggerReader - Starting tests on browser: chrome
+[INFO] 2025-02-22 12:30:19.636 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 12:30:20.352 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-22 12:30:20.352 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 12:30:20.658 [main] LoggerReader - Starting tests on browser: chrome
+[INFO] 2025-02-22 12:30:22.233 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 12:30:22.868 [main] LoggerReader - User is in Home Page
+[INFO] 2025-02-22 12:30:22.869 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-22 12:30:22.869 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 12:32:57.520 [main] LoggerReader - Loaded configuration from config.properties
+[INFO] 2025-02-22 12:32:57.524 [main] LoggerReader - Starting tests on browser: chrome
+[INFO] 2025-02-22 12:33:35.720 [main] LoggerReader - Loaded configuration from config.properties
+[INFO] 2025-02-22 12:33:35.723 [main] LoggerReader - Starting tests on browser: chrome
+[INFO] 2025-02-22 12:33:37.887 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 12:33:39.432 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-22 12:33:39.433 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 12:33:39.734 [main] LoggerReader - Starting tests on browser: chrome
+[INFO] 2025-02-22 12:33:41.215 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 12:33:46.713 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-22 12:33:46.713 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 12:33:47.017 [main] LoggerReader - Starting tests on browser: chrome
+[INFO] 2025-02-22 12:33:48.463 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 12:36:27.671 [main] LoggerReader - Loaded configuration from config.properties
+[INFO] 2025-02-22 12:36:27.675 [main] LoggerReader - Starting tests on browser: chrome
+[INFO] 2025-02-22 12:36:29.886 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 12:36:31.468 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-22 12:36:31.468 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 12:36:34.792 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-22 12:36:34.843 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-22 12:36:34.863 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-22 12:36:34.885 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-22 12:36:34.919 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-22 12:36:34.937 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-22 12:36:34.957 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-22 12:36:34.970 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-22 12:36:34.981 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-22 12:38:54.595 [main] LoggerReader - Global setup completed.
+[INFO] 2025-02-22 12:38:56.999 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 12:38:57.009 [main] LoggerReader - Loaded configuration from config.properties
+[INFO] 2025-02-22 12:38:59.725 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 12:39:06.836 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 12:42:35.063 [main] LoggerReader - Global setup completed.
+[INFO] 2025-02-22 12:42:37.609 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 12:42:37.616 [main] LoggerReader - Loaded configuration from config.properties
+[INFO] 2025-02-22 12:42:40.144 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 12:42:47.196 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 12:49:22.279 [main] LoggerReader - Global setup completed.
+[INFO] 2025-02-22 12:49:22.318 [main] LoggerReader - Loaded configuration from config.properties
+[INFO] 2025-02-22 12:49:22.353 [main] LoggerReader - Global setup completed.
+[INFO] 2025-02-22 12:49:25.418 [main] LoggerReader - Global setup completed.
+[INFO] 2025-02-22 12:49:25.443 [main] LoggerReader - Global setup completed.
+[INFO] 2025-02-22 12:49:25.462 [main] LoggerReader - Global setup completed.
+[INFO] 2025-02-22 12:49:25.481 [main] LoggerReader - Global setup completed.
+[INFO] 2025-02-22 12:49:25.511 [main] LoggerReader - Global setup completed.
+[INFO] 2025-02-22 12:49:25.533 [main] LoggerReader - Global setup completed.
+[INFO] 2025-02-22 12:49:25.547 [main] LoggerReader - Global setup completed.
+[INFO] 2025-02-22 12:49:25.562 [main] LoggerReader - Global setup completed.
+[INFO] 2025-02-22 12:50:02.743 [main] LoggerReader - Global setup completed.
+[INFO] 2025-02-22 12:50:03.047 [main] LoggerReader - Loaded configuration from config.properties
+[INFO] 2025-02-22 12:50:40.323 [main] LoggerReader - Global setup completed.
+[INFO] 2025-02-22 12:50:42.824 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 12:50:42.835 [main] LoggerReader - Loaded configuration from config.properties
+[INFO] 2025-02-22 12:50:45.535 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 12:51:02.650 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 12:51:06.486 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 12:52:21.014 [main] LoggerReader - Global setup completed.
+[INFO] 2025-02-22 12:52:24.671 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 12:52:24.681 [main] LoggerReader - Loaded configuration from config.properties
+[INFO] 2025-02-22 12:52:27.008 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 12:52:43.793 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 12:58:09.033 [main] LoggerReader - Global setup completed.
+[INFO] 2025-02-22 12:58:11.634 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 12:58:11.641 [main] LoggerReader - Loaded configuration from config.properties
+[INFO] 2025-02-22 12:58:13.783 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 12:58:30.769 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 12:58:34.272 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 12:59:46.504 [main] LoggerReader - Global setup completed.
+[INFO] 2025-02-22 12:59:48.996 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 12:59:49.002 [main] LoggerReader - Loaded configuration from config.properties
+[INFO] 2025-02-22 12:59:51.268 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 13:00:07.922 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 13:05:48.109 [main] LoggerReader - Global setup completed.
+[INFO] 2025-02-22 13:05:50.664 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 13:05:50.672 [main] LoggerReader - Loaded configuration from config.properties
+[INFO] 2025-02-22 13:05:57.151 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 13:06:13.785 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 13:08:51.083 [main] LoggerReader - Global setup completed.
+[INFO] 2025-02-22 13:08:53.528 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 13:08:53.537 [main] LoggerReader - Loaded configuration from config.properties
+[INFO] 2025-02-22 13:08:55.643 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 13:09:12.318 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 13:28:04.776 [main] LoggerReader - Global setup completed.
+[INFO] 2025-02-22 13:28:07.379 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 13:28:07.388 [main] LoggerReader - Loaded configuration from config.properties
+[INFO] 2025-02-22 13:28:09.429 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 13:28:31.381 [main] LoggerReader - Global setup completed.
+[INFO] 2025-02-22 13:28:34.089 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 13:28:34.099 [main] LoggerReader - Loaded configuration from config.properties
+[INFO] 2025-02-22 13:28:36.341 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 13:28:53.212 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 13:28:56.711 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 13:31:18.193 [main] LoggerReader - Global setup completed.
+[INFO] 2025-02-22 13:31:20.973 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 13:31:20.979 [main] LoggerReader - Loaded configuration from config.properties
+[INFO] 2025-02-22 13:31:56.977 [main] LoggerReader - Global setup completed.
+[INFO] 2025-02-22 13:31:59.480 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 13:31:59.487 [main] LoggerReader - Loaded configuration from config.properties
+[INFO] 2025-02-22 13:32:01.857 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 13:34:03.554 [main] LoggerReader - Global setup completed.
+[INFO] 2025-02-22 13:34:06.127 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 13:34:06.134 [main] LoggerReader - Loaded configuration from config.properties
+[INFO] 2025-02-22 13:34:08.224 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 13:40:39.791 [main] LoggerReader - Global setup completed.
+[INFO] 2025-02-22 13:40:42.512 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 13:40:42.519 [main] LoggerReader - Loaded configuration from config.properties
+[INFO] 2025-02-22 13:40:45.063 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 13:41:01.808 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 13:41:05.313 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 13:43:03.917 [main] LoggerReader - Global setup completed.
+[INFO] 2025-02-22 13:43:06.416 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 13:43:06.424 [main] LoggerReader - Loaded configuration from config.properties
+[INFO] 2025-02-22 13:44:15.888 [main] LoggerReader - Global setup completed.
+[INFO] 2025-02-22 13:44:18.307 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 13:44:18.315 [main] LoggerReader - Loaded configuration from config.properties
+[INFO] 2025-02-22 13:44:20.675 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 13:45:20.455 [main] LoggerReader - Global setup completed.
+[INFO] 2025-02-22 13:45:22.812 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 13:45:22.822 [main] LoggerReader - Loaded configuration from config.properties
+[INFO] 2025-02-22 13:45:25.363 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 13:45:30.662 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 13:45:34.733 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 13:45:37.698 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 13:45:40.995 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 13:45:44.869 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 13:45:48.108 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 13:45:51.522 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 13:45:54.465 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 13:50:29.867 [main] LoggerReader - Global setup completed.
+[INFO] 2025-02-22 13:50:32.623 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 13:50:32.633 [main] LoggerReader - Loaded configuration from config.properties
+[INFO] 2025-02-22 13:50:35.008 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 13:50:37.521 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 13:50:41.917 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 13:50:44.714 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 13:50:47.673 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 13:50:50.729 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 13:50:53.699 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 13:50:56.738 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 13:50:59.578 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 13:51:44.602 [main] LoggerReader - Global setup completed.
+[INFO] 2025-02-22 13:51:47.201 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 13:51:47.208 [main] LoggerReader - Loaded configuration from config.properties
+[INFO] 2025-02-22 13:51:49.329 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 13:52:03.674 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 13:52:06.963 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 14:03:50.656 [main] LoggerReader - Global setup completed.
+[INFO] 2025-02-22 14:03:54.050 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 14:03:54.059 [main] LoggerReader - Loaded configuration from config.properties
+[INFO] 2025-02-22 14:03:56.263 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 14:04:05.723 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 14:04:09.198 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 14:04:27.186 [main] LoggerReader - Global setup completed.
+[INFO] 2025-02-22 14:04:29.657 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 14:04:29.665 [main] LoggerReader - Loaded configuration from config.properties
+[INFO] 2025-02-22 14:04:32.186 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 14:04:34.418 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 14:04:38.723 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 14:04:41.430 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 14:04:44.323 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 14:04:47.313 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 14:04:50.306 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 14:04:53.429 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 14:04:55.934 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 14:11:44.434 [main] LoggerReader - Global setup completed.
+[INFO] 2025-02-22 14:11:47.205 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 14:11:47.213 [main] LoggerReader - Loaded configuration from config.properties
+[INFO] 2025-02-22 14:11:49.607 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 14:11:51.871 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 14:11:56.110 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 14:11:59.073 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 14:12:01.976 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 14:12:04.836 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 14:12:07.922 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 14:12:10.947 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 14:12:13.545 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 14:16:19.056 [main] LoggerReader - Global setup completed.
+[INFO] 2025-02-22 14:16:21.436 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 14:16:21.444 [main] LoggerReader - Loaded configuration from config.properties
+[INFO] 2025-02-22 14:16:23.994 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 14:16:26.509 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 14:16:30.813 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 14:16:33.735 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 14:16:36.667 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 14:16:39.445 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 14:16:42.304 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 14:16:45.140 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 14:16:47.761 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 14:23:02.338 [main] LoggerReader - Global setup completed.
+[INFO] 2025-02-22 14:23:04.874 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 14:23:04.883 [main] LoggerReader - Loaded configuration from config.properties
+[INFO] 2025-02-22 14:23:06.802 [main] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 14:23:06.803 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 14:23:08.058 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 14:23:09.492 [main] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 14:23:09.493 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 14:23:10.769 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 14:23:13.991 [main] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 14:23:13.991 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 14:23:15.202 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 14:23:16.853 [main] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 14:23:16.854 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 14:23:18.108 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 14:23:19.795 [main] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 14:23:19.795 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 14:23:21.005 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 14:23:22.734 [main] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 14:23:22.735 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 14:23:23.959 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 14:23:25.585 [main] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 14:23:25.586 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 14:23:26.739 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 14:23:28.429 [main] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 14:23:28.429 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 14:23:29.670 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 14:23:31.043 [main] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 14:23:31.043 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 14:23:32.286 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 14:23:35.525 [main] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 14:23:35.525 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 14:23:35.812 [main] LoggerReader - All scenarios completed.
+[INFO] 2025-02-22 14:26:37.303 [main] LoggerReader - Global setup completed.
+[INFO] 2025-02-22 14:26:39.644 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 14:26:39.651 [main] LoggerReader - Loaded configuration from config.properties
+[INFO] 2025-02-22 14:26:41.097 [main] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 14:26:41.098 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 14:26:42.444 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 14:26:43.900 [main] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 14:26:43.900 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 14:26:45.254 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 14:26:51.478 [main] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 14:26:51.479 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 14:26:52.686 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 14:26:54.386 [main] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 14:26:54.386 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 14:26:55.603 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 14:29:26.621 [main] LoggerReader - Global setup completed.
+[INFO] 2025-02-22 14:29:29.247 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 14:29:29.257 [main] LoggerReader - Loaded configuration from config.properties
+[INFO] 2025-02-22 14:29:30.704 [main] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 14:29:30.704 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 14:29:32.013 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 14:29:33.455 [main] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 14:29:33.455 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 14:29:34.803 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 14:29:36.521 [main] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 14:29:36.521 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 14:29:37.699 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 14:29:39.334 [main] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 14:29:39.334 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 14:29:40.502 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 14:29:42.271 [main] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 14:29:42.271 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 14:29:43.385 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 14:29:45.309 [main] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 14:29:45.309 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 14:29:46.600 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 14:29:48.244 [main] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 14:29:48.244 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 14:29:49.318 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 14:29:50.885 [main] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 14:29:50.885 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 14:29:52.100 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 14:29:53.414 [main] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 14:29:53.414 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 14:29:54.652 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 14:29:57.803 [main] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 14:29:57.803 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 14:29:58.067 [main] LoggerReader - All scenarios completed.
+[INFO] 2025-02-22 14:32:20.605 [main] LoggerReader - Global setup completed.
+[INFO] 2025-02-22 14:32:23.056 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 14:32:23.064 [main] LoggerReader - Loaded configuration from config.properties
+[INFO] 2025-02-22 14:32:24.741 [main] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 14:32:24.742 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 14:32:26.025 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 14:32:27.532 [main] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 14:32:27.533 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 14:32:28.826 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 14:32:30.525 [main] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 14:32:30.526 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 14:32:31.724 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 14:32:33.492 [main] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 14:32:33.492 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 14:32:34.701 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 14:32:36.407 [main] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 14:32:36.407 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 14:32:37.651 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 14:32:39.387 [main] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 14:32:39.387 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 14:32:40.880 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 14:32:42.549 [main] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 14:32:42.549 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 14:32:43.910 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 14:32:45.592 [main] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 14:32:45.592 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 14:32:46.816 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 14:32:48.190 [main] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 14:32:48.190 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 14:32:48.488 [main] LoggerReader - All scenarios completed.
+[INFO] 2025-02-22 14:34:14.804 [main] LoggerReader - Global setup completed.
+[INFO] 2025-02-22 14:34:17.105 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 14:34:17.113 [main] LoggerReader - Loaded configuration from config.properties
+[INFO] 2025-02-22 14:34:18.680 [main] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 14:34:18.680 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 14:34:19.945 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 14:34:21.470 [main] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 14:34:21.470 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 14:34:22.884 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 14:34:24.470 [main] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 14:34:24.471 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 14:34:25.681 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 14:34:27.418 [main] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 14:34:27.418 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 14:34:28.605 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 14:34:30.360 [main] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 14:34:30.360 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 14:34:31.546 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 14:34:33.313 [main] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 14:34:33.313 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 14:34:34.506 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 14:34:36.148 [main] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 14:34:36.148 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 14:34:37.358 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 14:34:39.126 [main] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 14:34:39.126 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 14:34:40.281 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 14:34:41.649 [main] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 14:34:41.649 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 14:34:42.949 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 14:34:44.322 [main] LoggerReader - User is in Home Page
+[INFO] 2025-02-22 14:34:44.323 [main] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 14:34:44.323 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 14:34:44.610 [main] LoggerReader - All scenarios completed.
+[INFO] 2025-02-22 16:28:46.146 [main] LoggerReader - Global setup completed.
+[INFO] 2025-02-22 16:28:49.574 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:28:49.582 [main] LoggerReader - Loaded configuration from config.properties
+[INFO] 2025-02-22 16:28:51.113 [main] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 16:28:51.113 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 16:28:52.495 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:28:53.805 [main] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 16:28:53.806 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 16:28:55.112 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:28:56.907 [main] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 16:28:56.907 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 16:28:58.109 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:28:59.750 [main] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 16:28:59.750 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 16:29:01.158 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:29:02.912 [main] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 16:29:02.912 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 16:29:04.226 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:29:05.922 [main] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 16:29:05.922 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 16:29:07.112 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:29:08.729 [main] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 16:29:08.730 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 16:29:09.999 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:29:11.629 [main] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 16:29:11.629 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 16:29:12.941 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:29:14.313 [main] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 16:29:14.313 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 16:29:15.495 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:29:17.002 [main] LoggerReader - User is in Home Page
+[INFO] 2025-02-22 16:29:17.003 [main] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 16:29:17.003 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 16:29:17.318 [main] LoggerReader - All scenarios completed.
+[INFO] 2025-02-22 16:32:18.784 [main] LoggerReader - Global setup completed.
+[INFO] 2025-02-22 16:32:21.279 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:32:21.287 [main] LoggerReader - Loaded configuration from config.properties
+[INFO] 2025-02-22 16:32:22.408 [main] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 16:32:22.408 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 16:32:23.576 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:32:23.893 [main] LoggerReader - Register link is displayed
+[INFO] 2025-02-22 16:32:25.949 [main] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 16:32:25.950 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 16:32:27.148 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:32:27.545 [main] LoggerReader - Register Button is displayed
+[INFO] 2025-02-22 16:35:14.769 [main] LoggerReader - Global setup completed.
+[INFO] 2025-02-22 16:35:17.312 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:35:17.321 [main] LoggerReader - Loaded configuration from config.properties
+[INFO] 2025-02-22 16:35:18.619 [main] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 16:35:18.619 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 16:35:19.952 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:35:21.395 [main] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 16:35:21.395 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 16:35:22.646 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:35:23.643 [main] LoggerReader - Register Button is displayed
+[INFO] 2025-02-22 16:35:26.638 [main] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 16:35:26.638 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 16:35:27.828 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:35:28.957 [main] LoggerReader - Register Button is displayed
+[INFO] 2025-02-22 16:38:19.351 [main] LoggerReader - Global setup completed.
+[INFO] 2025-02-22 16:38:21.808 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:38:21.818 [main] LoggerReader - Loaded configuration from config.properties
+[INFO] 2025-02-22 16:38:22.998 [main] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 16:38:22.999 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 16:38:24.250 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:38:25.619 [main] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 16:38:25.619 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 16:38:27.029 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:38:29.244 [main] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 16:38:29.244 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 16:38:30.464 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:38:32.097 [main] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 16:38:32.097 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 16:38:33.450 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:38:35.055 [main] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 16:38:35.056 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 16:38:36.304 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:38:37.891 [main] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 16:38:37.891 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 16:38:39.077 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:38:40.090 [main] LoggerReader - Register Button is displayed
+[INFO] 2025-02-22 16:38:42.224 [main] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 16:38:42.224 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 16:38:43.294 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:38:44.483 [main] LoggerReader - Register Button is displayed
+[INFO] 2025-02-22 16:38:46.595 [main] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 16:38:46.595 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 16:38:47.669 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:38:48.654 [main] LoggerReader - Register Button is displayed
+[INFO] 2025-02-22 16:38:50.764 [main] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 16:38:50.764 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 16:38:51.803 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:38:52.835 [main] LoggerReader - Register Button is displayed
+[INFO] 2025-02-22 16:38:54.940 [main] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 16:38:54.941 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 16:38:56.079 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:41:03.274 [main] LoggerReader - Global setup completed.
+[INFO] 2025-02-22 16:41:05.669 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:41:05.677 [main] LoggerReader - Loaded configuration from config.properties
+[INFO] 2025-02-22 16:41:06.858 [main] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 16:41:06.858 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 16:41:08.206 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:41:09.780 [main] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 16:41:09.780 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 16:41:11.229 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:41:12.285 [main] LoggerReader - Register Button is displayed
+[INFO] 2025-02-22 16:41:13.693 [main] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 16:41:13.693 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 16:41:14.900 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:41:15.978 [main] LoggerReader - Register Button is displayed
+[INFO] 2025-02-22 16:41:16.662 [main] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 16:41:16.662 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 16:41:17.867 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:41:19.075 [main] LoggerReader - Register Button is displayed
+[INFO] 2025-02-22 16:41:19.680 [main] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 16:41:19.680 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 16:41:20.949 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:41:22.172 [main] LoggerReader - Register Button is displayed
+[INFO] 2025-02-22 16:41:22.839 [main] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 16:41:22.840 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 16:41:23.965 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:41:25.131 [main] LoggerReader - Register Button is displayed
+[INFO] 2025-02-22 16:41:26.097 [main] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 16:41:26.097 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 16:41:27.300 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:41:28.350 [main] LoggerReader - Register Button is displayed
+[INFO] 2025-02-22 16:41:29.212 [main] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 16:41:29.212 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 16:41:30.380 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:41:31.491 [main] LoggerReader - Register Button is displayed
+[INFO] 2025-02-22 16:41:32.046 [main] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 16:41:32.046 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 16:41:33.204 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:41:34.327 [main] LoggerReader - Register Button is displayed
+[INFO] 2025-02-22 16:41:34.936 [main] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 16:41:34.936 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 16:41:36.150 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:41:37.210 [main] LoggerReader - Register Button is displayed
+[INFO] 2025-02-22 16:41:37.806 [main] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 16:41:37.806 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 16:41:39.067 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:41:40.218 [main] LoggerReader - Register Button is displayed
+[INFO] 2025-02-22 16:41:40.837 [main] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 16:41:40.837 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 16:41:41.992 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:41:43.104 [main] LoggerReader - Register Button is displayed
+[INFO] 2025-02-22 16:41:44.237 [main] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 16:41:44.237 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 16:41:45.442 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:41:46.565 [main] LoggerReader - Register Button is displayed
+[INFO] 2025-02-22 16:41:47.568 [main] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 16:41:47.569 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 16:41:48.744 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:41:49.966 [main] LoggerReader - Register Button is displayed
+[INFO] 2025-02-22 16:41:51.331 [main] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 16:41:51.332 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 16:41:52.565 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:41:55.823 [main] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 16:41:55.823 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 16:41:56.904 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:41:59.978 [main] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 16:41:59.978 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 16:42:01.073 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:42:04.271 [main] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 16:42:04.271 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 16:42:05.340 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:43:39.461 [main] LoggerReader - Global setup completed.
+[INFO] 2025-02-22 16:43:41.927 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:43:41.934 [main] LoggerReader - Loaded configuration from config.properties
+[INFO] 2025-02-22 16:43:43.167 [main] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 16:43:43.167 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 16:43:44.468 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:43:45.622 [main] LoggerReader - Register link is displayed
+[INFO] 2025-02-22 16:43:45.913 [main] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 16:43:45.913 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 16:43:47.125 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:43:48.127 [main] LoggerReader - Register Button is displayed
+[INFO] 2025-02-22 16:43:49.460 [main] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 16:43:49.460 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 16:43:50.678 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:43:51.789 [main] LoggerReader - Register Button is displayed
+[INFO] 2025-02-22 16:43:52.345 [main] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 16:43:52.346 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 16:43:53.562 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:43:54.574 [main] LoggerReader - Register Button is displayed
+[INFO] 2025-02-22 16:43:55.207 [main] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 16:43:55.208 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 16:43:56.389 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:43:57.427 [main] LoggerReader - Register Button is displayed
+[INFO] 2025-02-22 16:43:57.955 [main] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 16:43:57.955 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 16:43:59.179 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:44:00.228 [main] LoggerReader - Register Button is displayed
+[INFO] 2025-02-22 16:44:02.347 [main] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 16:44:02.347 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 16:44:03.529 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:44:04.564 [main] LoggerReader - Register Button is displayed
+[INFO] 2025-02-22 16:44:06.628 [main] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 16:44:06.629 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 16:44:07.895 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:45:53.150 [main] LoggerReader - Global setup completed.
+[INFO] 2025-02-22 16:45:55.631 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:45:55.641 [main] LoggerReader - Loaded configuration from config.properties
+[INFO] 2025-02-22 16:45:56.794 [main] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 16:45:56.794 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 16:45:58.026 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:45:59.159 [main] LoggerReader - Register link is displayed
+[INFO] 2025-02-22 16:45:59.502 [main] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 16:45:59.503 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 16:46:00.785 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:46:01.861 [main] LoggerReader - Register Button is displayed
+[INFO] 2025-02-22 16:46:03.349 [main] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 16:46:03.350 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 16:46:04.528 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:46:05.578 [main] LoggerReader - Register Button is displayed
+[INFO] 2025-02-22 16:46:06.256 [main] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 16:46:06.257 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 16:46:07.456 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:46:08.487 [main] LoggerReader - Register Button is displayed
+[INFO] 2025-02-22 16:46:08.997 [main] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 16:46:08.997 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 16:46:10.124 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:46:11.166 [main] LoggerReader - Register Button is displayed
+[INFO] 2025-02-22 16:46:11.791 [main] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 16:46:11.791 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 16:46:13.104 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:46:14.152 [main] LoggerReader - Register Button is displayed
+[INFO] 2025-02-22 16:46:15.028 [main] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 16:46:15.029 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 16:46:16.178 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:46:17.228 [main] LoggerReader - Register Button is displayed
+[INFO] 2025-02-22 16:46:18.574 [main] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 16:46:18.575 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 16:46:19.942 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:46:21.082 [main] LoggerReader - Register Button is displayed
+[INFO] 2025-02-22 16:46:21.677 [main] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 16:46:21.677 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 16:46:22.814 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:46:23.805 [main] LoggerReader - Register Button is displayed
+[INFO] 2025-02-22 16:46:24.554 [main] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 16:46:24.554 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 16:46:25.750 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:46:26.870 [main] LoggerReader - Register Button is displayed
+[INFO] 2025-02-22 16:46:27.453 [main] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 16:46:27.453 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 16:46:28.676 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:46:29.869 [main] LoggerReader - Register Button is displayed
+[INFO] 2025-02-22 16:46:30.431 [main] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 16:46:30.431 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 16:46:31.649 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:46:32.628 [main] LoggerReader - Register Button is displayed
+[INFO] 2025-02-22 16:46:33.668 [main] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 16:46:33.669 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 16:46:34.862 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:46:36.886 [main] LoggerReader - Register Button is displayed
+[INFO] 2025-02-22 16:46:38.285 [main] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 16:46:38.285 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 16:46:39.556 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:46:40.583 [main] LoggerReader - Register Button is displayed
+[INFO] 2025-02-22 16:46:41.976 [main] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 16:46:41.976 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 16:46:43.239 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:46:45.153 [main] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 16:46:45.153 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 16:46:46.406 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:46:48.314 [main] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 16:46:48.315 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 16:46:49.496 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:46:51.227 [main] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 16:46:51.227 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 16:46:52.367 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:46:53.440 [main] LoggerReader - Register button is displayed
+[INFO] 2025-02-22 16:46:56.519 [main] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 16:46:56.519 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 16:46:58.283 [main] LoggerReader - All scenarios completed.
+[INFO] 2025-02-22 16:47:50.815 [main] LoggerReader - Global setup completed.
+[INFO] 2025-02-22 16:47:53.200 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:47:53.208 [main] LoggerReader - Loaded configuration from config.properties
+[INFO] 2025-02-22 16:47:54.765 [main] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 16:47:54.765 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 16:47:55.937 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:47:57.401 [main] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 16:47:57.401 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 16:47:58.607 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:48:00.442 [main] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 16:48:00.442 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 16:48:01.607 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:48:03.241 [main] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 16:48:03.241 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 16:48:04.511 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:48:06.183 [main] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 16:48:06.183 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 16:48:07.322 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:48:08.974 [main] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 16:48:08.975 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 16:48:10.205 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:48:11.868 [main] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 16:48:11.868 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 16:48:13.054 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:48:14.750 [main] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 16:48:14.750 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 16:48:15.930 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:48:17.228 [main] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 16:48:17.228 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 16:48:18.481 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:48:19.939 [main] LoggerReader - User is in Home Page
+[INFO] 2025-02-22 16:48:19.940 [main] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 16:48:19.940 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 16:48:21.142 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:48:22.265 [main] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 16:48:22.265 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 16:48:23.533 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:48:24.533 [main] LoggerReader - Register link is displayed
+[INFO] 2025-02-22 16:48:24.930 [main] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 16:48:24.930 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 16:48:26.146 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:48:27.112 [main] LoggerReader - Register Button is displayed
+[INFO] 2025-02-22 16:48:28.351 [main] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 16:48:28.351 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 16:48:29.651 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:48:30.688 [main] LoggerReader - Register Button is displayed
+[INFO] 2025-02-22 16:48:31.273 [main] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 16:48:31.274 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 16:48:32.444 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:48:33.536 [main] LoggerReader - Register Button is displayed
+[INFO] 2025-02-22 16:48:34.103 [main] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 16:48:34.103 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 16:48:35.301 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:48:36.295 [main] LoggerReader - Register Button is displayed
+[INFO] 2025-02-22 16:48:36.895 [main] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 16:48:36.896 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 16:48:38.023 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:48:39.040 [main] LoggerReader - Register Button is displayed
+[INFO] 2025-02-22 16:48:40.073 [main] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 16:48:40.073 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 16:48:41.287 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:48:42.299 [main] LoggerReader - Register Button is displayed
+[INFO] 2025-02-22 16:48:43.257 [main] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 16:48:43.257 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 16:48:44.399 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:48:45.688 [main] LoggerReader - Register Button is displayed
+[INFO] 2025-02-22 16:48:46.259 [main] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 16:48:46.259 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 16:48:47.460 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:48:48.552 [main] LoggerReader - Register Button is displayed
+[INFO] 2025-02-22 16:48:49.149 [main] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 16:48:49.149 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 16:48:50.269 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:48:51.274 [main] LoggerReader - Register Button is displayed
+[INFO] 2025-02-22 16:48:51.822 [main] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 16:48:51.822 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 16:48:53.135 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:48:54.082 [main] LoggerReader - Register Button is displayed
+[INFO] 2025-02-22 16:48:54.675 [main] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 16:48:54.675 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 16:48:55.818 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:48:56.903 [main] LoggerReader - Register Button is displayed
+[INFO] 2025-02-22 16:48:57.820 [main] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 16:48:57.821 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 16:48:58.920 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:49:00.103 [main] LoggerReader - Register Button is displayed
+[INFO] 2025-02-22 16:49:01.109 [main] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 16:49:01.109 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 16:49:02.238 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:49:03.443 [main] LoggerReader - Register Button is displayed
+[INFO] 2025-02-22 16:49:04.927 [main] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 16:49:04.927 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 16:49:06.130 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:49:08.226 [main] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 16:49:08.226 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 16:49:09.398 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:49:11.348 [main] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 16:49:11.348 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 16:49:12.581 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:49:14.532 [main] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 16:49:14.532 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 16:49:15.733 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:49:16.858 [main] LoggerReader - Register button is displayed
+[INFO] 2025-02-22 16:49:19.835 [main] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 16:49:19.835 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 16:49:20.098 [main] LoggerReader - All scenarios completed.
+[INFO] 2025-02-22 16:50:31.159 [main] LoggerReader - Global setup completed.
+[INFO] 2025-02-22 16:50:37.373 [TestNG-PoolService-6] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:50:37.373 [TestNG-PoolService-9] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:50:37.373 [TestNG-PoolService-5] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:50:37.388 [TestNG-PoolService-6] LoggerReader - Loaded configuration from config.properties
+[INFO] 2025-02-22 16:50:37.397 [TestNG-PoolService-10] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:50:37.452 [TestNG-PoolService-8] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:50:37.625 [TestNG-PoolService-2] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:50:37.656 [TestNG-PoolService-4] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:50:37.656 [TestNG-PoolService-3] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:50:39.267 [TestNG-PoolService-7] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:50:39.312 [TestNG-PoolService-1] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:50:42.318 [TestNG-PoolService-1] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 16:50:42.318 [TestNG-PoolService-1] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 16:50:42.372 [TestNG-PoolService-9] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 16:50:42.372 [TestNG-PoolService-9] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 16:50:43.137 [TestNG-PoolService-10] LoggerReader - User is in Home Page
+[INFO] 2025-02-22 16:50:43.140 [TestNG-PoolService-10] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 16:50:43.140 [TestNG-PoolService-10] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 16:50:43.262 [TestNG-PoolService-7] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 16:50:43.262 [TestNG-PoolService-7] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 16:50:43.263 [TestNG-PoolService-6] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 16:50:43.263 [TestNG-PoolService-6] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 16:50:43.740 [TestNG-PoolService-8] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 16:50:43.740 [TestNG-PoolService-8] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 16:50:44.142 [TestNG-PoolService-3] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 16:50:44.143 [TestNG-PoolService-3] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 16:50:45.016 [TestNG-PoolService-2] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 16:50:45.016 [TestNG-PoolService-2] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 16:50:45.208 [TestNG-PoolService-5] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 16:50:45.208 [TestNG-PoolService-5] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 16:50:45.393 [TestNG-PoolService-4] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 16:50:45.393 [TestNG-PoolService-4] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 16:50:46.748 [TestNG-PoolService-7] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:50:46.995 [TestNG-PoolService-10] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:50:48.329 [TestNG-PoolService-9] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:50:48.538 [TestNG-PoolService-1] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:50:48.749 [TestNG-PoolService-6] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:50:48.956 [TestNG-PoolService-3] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:50:48.974 [TestNG-PoolService-5] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:50:49.121 [TestNG-PoolService-4] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:50:49.158 [TestNG-PoolService-8] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:50:49.697 [TestNG-PoolService-2] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:50:50.322 [TestNG-PoolService-7] LoggerReader - Register link is displayed
+[INFO] 2025-02-22 16:50:50.513 [TestNG-PoolService-10] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 16:50:50.513 [TestNG-PoolService-10] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 16:50:50.769 [TestNG-PoolService-9] LoggerReader - Register Button is displayed
+[INFO] 2025-02-22 16:50:51.037 [TestNG-PoolService-1] LoggerReader - Register Button is displayed
+[INFO] 2025-02-22 16:50:51.070 [TestNG-PoolService-6] LoggerReader - Register Button is displayed
+[INFO] 2025-02-22 16:50:51.291 [TestNG-PoolService-3] LoggerReader - Register Button is displayed
+[INFO] 2025-02-22 16:50:51.577 [TestNG-PoolService-7] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 16:50:51.577 [TestNG-PoolService-7] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 16:50:52.720 [TestNG-PoolService-2] LoggerReader - Register Button is displayed
+[INFO] 2025-02-22 16:50:52.830 [TestNG-PoolService-5] LoggerReader - Register Button is displayed
+[INFO] 2025-02-22 16:50:52.863 [TestNG-PoolService-8] LoggerReader - Register Button is displayed
+[INFO] 2025-02-22 16:50:55.267 [TestNG-PoolService-1] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 16:50:55.267 [TestNG-PoolService-1] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 16:50:55.276 [TestNG-PoolService-6] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 16:50:55.277 [TestNG-PoolService-6] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 16:50:55.280 [TestNG-PoolService-2] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 16:50:55.280 [TestNG-PoolService-2] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 16:50:55.287 [TestNG-PoolService-3] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 16:50:55.287 [TestNG-PoolService-3] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 16:50:55.443 [TestNG-PoolService-9] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 16:50:55.443 [TestNG-PoolService-9] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 16:50:55.905 [TestNG-PoolService-5] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 16:50:55.905 [TestNG-PoolService-5] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 16:50:56.020 [TestNG-PoolService-8] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 16:50:56.020 [TestNG-PoolService-8] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 16:50:57.243 [TestNG-PoolService-4] LoggerReader - Register Button is displayed
+[INFO] 2025-02-22 16:50:58.164 [TestNG-PoolService-4] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 16:50:58.164 [TestNG-PoolService-4] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 16:50:59.568 [TestNG-PoolService-9] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:50:59.959 [TestNG-PoolService-2] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:51:00.086 [TestNG-PoolService-10] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:51:00.091 [TestNG-PoolService-3] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:51:00.158 [TestNG-PoolService-1] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:51:00.448 [TestNG-PoolService-7] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:51:02.075 [TestNG-PoolService-3] LoggerReader - Register Button is displayed
+[INFO] 2025-02-22 16:51:02.704 [TestNG-PoolService-2] LoggerReader - Register Button is displayed
+[INFO] 2025-02-22 16:51:02.829 [TestNG-PoolService-10] LoggerReader - Register Button is displayed
+[INFO] 2025-02-22 16:51:03.732 [TestNG-PoolService-1] LoggerReader - Register Button is displayed
+[INFO] 2025-02-22 16:51:03.853 [TestNG-PoolService-9] LoggerReader - Register Button is displayed
+[INFO] 2025-02-22 16:51:04.050 [TestNG-PoolService-3] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 16:51:04.050 [TestNG-PoolService-3] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 16:51:05.487 [TestNG-PoolService-4] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:51:05.670 [TestNG-PoolService-9] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 16:51:05.670 [TestNG-PoolService-9] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 16:51:06.699 [TestNG-PoolService-10] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 16:51:06.701 [TestNG-PoolService-10] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 16:51:06.711 [TestNG-PoolService-2] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 16:51:06.711 [TestNG-PoolService-2] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 16:51:07.330 [TestNG-PoolService-7] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 16:51:07.330 [TestNG-PoolService-7] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 16:51:07.348 [TestNG-PoolService-5] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:51:07.500 [TestNG-PoolService-8] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:51:08.609 [TestNG-PoolService-1] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 16:51:08.609 [TestNG-PoolService-1] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 16:51:08.934 [TestNG-PoolService-8] LoggerReader - Register button is displayed
+[INFO] 2025-02-22 16:51:09.804 [TestNG-PoolService-4] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 16:51:09.804 [TestNG-PoolService-4] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 16:51:10.438 [TestNG-PoolService-5] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 16:51:10.438 [TestNG-PoolService-5] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 16:51:12.840 [TestNG-PoolService-8] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 16:51:12.841 [TestNG-PoolService-8] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 16:51:14.678 [main] LoggerReader - All scenarios completed.
+[INFO] 2025-02-22 16:56:36.735 [main] LoggerReader - Global setup completed.
+[INFO] 2025-02-22 16:56:43.207 [TestNG-PoolService-5] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:56:43.207 [TestNG-PoolService-8] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:56:43.207 [TestNG-PoolService-6] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:56:43.207 [TestNG-PoolService-4] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:56:43.207 [TestNG-PoolService-9] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:56:43.208 [TestNG-PoolService-3] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:56:43.207 [TestNG-PoolService-7] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:56:43.208 [TestNG-PoolService-2] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:56:43.208 [TestNG-PoolService-10] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:56:43.209 [TestNG-PoolService-1] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:56:43.263 [TestNG-PoolService-10] LoggerReader - Loaded configuration from config.properties
+[INFO] 2025-02-22 16:56:47.562 [TestNG-PoolService-1] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 16:56:47.564 [TestNG-PoolService-1] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 16:56:47.578 [TestNG-PoolService-8] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 16:56:47.579 [TestNG-PoolService-8] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 16:56:47.869 [TestNG-PoolService-9] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 16:56:47.869 [TestNG-PoolService-9] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 16:56:48.416 [TestNG-PoolService-10] LoggerReader - User is in Home Page
+[INFO] 2025-02-22 16:56:48.418 [TestNG-PoolService-10] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 16:56:48.418 [TestNG-PoolService-10] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 16:56:48.628 [TestNG-PoolService-5] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 16:56:48.628 [TestNG-PoolService-5] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 16:56:48.690 [TestNG-PoolService-3] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 16:56:48.690 [TestNG-PoolService-6] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 16:56:48.690 [TestNG-PoolService-3] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 16:56:48.690 [TestNG-PoolService-6] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 16:56:48.829 [TestNG-PoolService-2] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 16:56:48.830 [TestNG-PoolService-2] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 16:56:48.831 [TestNG-PoolService-4] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 16:56:48.831 [TestNG-PoolService-4] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 16:56:48.928 [TestNG-PoolService-7] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 16:56:48.928 [TestNG-PoolService-7] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 16:56:51.298 [TestNG-PoolService-8] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:56:51.613 [TestNG-PoolService-1] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:56:51.701 [TestNG-PoolService-2] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:56:51.716 [TestNG-PoolService-9] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:56:51.723 [TestNG-PoolService-3] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:56:51.748 [TestNG-PoolService-5] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:56:52.508 [TestNG-PoolService-8] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 16:56:52.509 [TestNG-PoolService-8] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 16:56:53.945 [TestNG-PoolService-2] LoggerReader - Register Button is displayed
+[INFO] 2025-02-22 16:56:54.154 [TestNG-PoolService-1] LoggerReader - Register Button is displayed
+[INFO] 2025-02-22 16:56:54.415 [TestNG-PoolService-5] LoggerReader - Register link is displayed
+[INFO] 2025-02-22 16:56:54.543 [TestNG-PoolService-9] LoggerReader - Register Button is displayed
+[INFO] 2025-02-22 16:56:54.744 [TestNG-PoolService-3] LoggerReader - Register Button is displayed
+[INFO] 2025-02-22 16:56:55.176 [TestNG-PoolService-5] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 16:56:55.176 [TestNG-PoolService-5] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 16:56:56.763 [TestNG-PoolService-7] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:56:56.982 [TestNG-PoolService-10] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:56:57.007 [TestNG-PoolService-6] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:56:57.339 [TestNG-PoolService-3] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 16:56:57.341 [TestNG-PoolService-3] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 16:56:57.348 [TestNG-PoolService-1] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 16:56:57.348 [TestNG-PoolService-1] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 16:56:57.422 [TestNG-PoolService-2] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 16:56:57.422 [TestNG-PoolService-2] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 16:56:57.507 [TestNG-PoolService-9] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 16:56:57.508 [TestNG-PoolService-9] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 16:56:58.184 [TestNG-PoolService-6] LoggerReader - Register Button is displayed
+[INFO] 2025-02-22 16:56:58.891 [TestNG-PoolService-10] LoggerReader - Register Button is displayed
+[INFO] 2025-02-22 16:56:58.898 [TestNG-PoolService-7] LoggerReader - Register Button is displayed
+[INFO] 2025-02-22 16:56:59.275 [TestNG-PoolService-6] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 16:56:59.276 [TestNG-PoolService-6] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 16:56:59.352 [TestNG-PoolService-4] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:57:00.436 [TestNG-PoolService-4] LoggerReader - Register Button is displayed
+[INFO] 2025-02-22 16:57:00.438 [TestNG-PoolService-10] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 16:57:00.438 [TestNG-PoolService-10] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 16:57:00.506 [TestNG-PoolService-7] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 16:57:00.506 [TestNG-PoolService-7] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 16:57:01.210 [TestNG-PoolService-4] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 16:57:01.210 [TestNG-PoolService-4] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 16:57:02.804 [TestNG-PoolService-5] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:57:02.827 [TestNG-PoolService-2] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:57:02.855 [TestNG-PoolService-1] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:57:03.120 [TestNG-PoolService-9] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:57:03.184 [TestNG-PoolService-8] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:57:03.269 [TestNG-PoolService-7] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:57:04.701 [TestNG-PoolService-9] LoggerReader - Register Button is displayed
+[INFO] 2025-02-22 16:57:05.111 [TestNG-PoolService-2] LoggerReader - Register Button is displayed
+[INFO] 2025-02-22 16:57:05.122 [TestNG-PoolService-8] LoggerReader - Register Button is displayed
+[INFO] 2025-02-22 16:57:06.200 [TestNG-PoolService-5] LoggerReader - Register Button is displayed
+[INFO] 2025-02-22 16:57:06.629 [TestNG-PoolService-10] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:57:06.938 [TestNG-PoolService-6] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:57:07.431 [TestNG-PoolService-8] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 16:57:07.432 [TestNG-PoolService-8] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 16:57:07.650 [TestNG-PoolService-7] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 16:57:07.650 [TestNG-PoolService-7] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 16:57:07.847 [TestNG-PoolService-5] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 16:57:07.848 [TestNG-PoolService-5] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 16:57:08.156 [TestNG-PoolService-9] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 16:57:08.157 [TestNG-PoolService-9] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 16:57:08.223 [TestNG-PoolService-2] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 16:57:08.223 [TestNG-PoolService-2] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 16:57:08.891 [TestNG-PoolService-1] LoggerReader - Register Button is displayed
+[INFO] 2025-02-22 16:57:09.534 [TestNG-PoolService-3] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-22 16:57:10.247 [TestNG-PoolService-10] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 16:57:10.247 [TestNG-PoolService-10] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 16:57:10.555 [TestNG-PoolService-3] LoggerReader - Register button is displayed
+[INFO] 2025-02-22 16:57:10.691 [TestNG-PoolService-6] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 16:57:10.691 [TestNG-PoolService-6] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 16:57:10.880 [TestNG-PoolService-1] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 16:57:10.880 [TestNG-PoolService-1] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 16:57:13.866 [TestNG-PoolService-3] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-22 16:57:13.867 [TestNG-PoolService-3] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-22 16:57:14.186 [main] LoggerReader - All scenarios completed.
+[INFO] 2025-02-23 15:28:15.057 [main] LoggerReader - Global setup completed.
+[INFO] 2025-02-23 15:28:24.091 [TestNG-PoolService-6] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-23 15:28:24.091 [TestNG-PoolService-8] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-23 15:28:24.091 [TestNG-PoolService-7] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-23 15:28:24.091 [TestNG-PoolService-3] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-23 15:28:24.091 [TestNG-PoolService-4] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-23 15:28:24.091 [TestNG-PoolService-9] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-23 15:28:24.091 [TestNG-PoolService-5] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-23 15:28:24.091 [TestNG-PoolService-2] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-23 15:28:24.110 [TestNG-PoolService-1] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-23 15:28:24.112 [TestNG-PoolService-7] LoggerReader - Loaded configuration from config.properties
+[INFO] 2025-02-23 15:28:24.161 [TestNG-PoolService-10] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-23 15:28:28.468 [TestNG-PoolService-10] LoggerReader - User is in Home Page
+[INFO] 2025-02-23 15:28:28.472 [TestNG-PoolService-10] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-23 15:28:28.472 [TestNG-PoolService-10] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-23 15:28:28.495 [TestNG-PoolService-9] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-23 15:28:28.496 [TestNG-PoolService-9] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-23 15:28:30.120 [TestNG-PoolService-1] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-23 15:28:30.121 [TestNG-PoolService-1] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-23 15:28:37.316 [TestNG-PoolService-3] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-23 15:28:37.316 [TestNG-PoolService-3] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-23 15:28:38.733 [TestNG-PoolService-2] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-23 15:28:38.733 [TestNG-PoolService-2] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-23 15:28:39.977 [TestNG-PoolService-8] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-23 15:28:39.977 [TestNG-PoolService-8] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-23 15:28:40.056 [TestNG-PoolService-5] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-23 15:28:40.056 [TestNG-PoolService-5] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-23 15:28:40.231 [TestNG-PoolService-6] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-23 15:28:40.231 [TestNG-PoolService-6] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-23 15:28:40.422 [TestNG-PoolService-4] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-23 15:28:40.422 [TestNG-PoolService-4] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-23 15:28:41.570 [TestNG-PoolService-7] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-23 15:28:41.571 [TestNG-PoolService-7] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-23 15:28:42.065 [main] LoggerReader - All scenarios completed.
+[INFO] 2025-02-23 15:29:39.908 [main] LoggerReader - Global setup completed.
+[INFO] 2025-02-23 15:29:42.718 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-23 15:29:42.727 [main] LoggerReader - Loaded configuration from config.properties
+[INFO] 2025-02-23 15:29:44.577 [main] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-23 15:29:44.579 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-23 15:29:46.244 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-23 15:29:59.113 [main] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-23 15:29:59.113 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-23 15:31:05.485 [main] LoggerReader - Global setup completed.
+[INFO] 2025-02-23 15:31:08.136 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-23 15:31:08.149 [main] LoggerReader - Loaded configuration from config.properties
+[INFO] 2025-02-23 15:31:09.806 [main] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-23 15:31:09.806 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-23 15:31:11.500 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-23 15:31:13.080 [main] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-23 15:31:13.080 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-23 15:31:14.646 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-23 15:31:17.132 [main] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-23 15:31:17.132 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-23 15:31:18.681 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-23 15:40:01.500 [main] LoggerReader - Global setup completed.
+[INFO] 2025-02-23 15:40:04.293 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-23 15:40:04.303 [main] LoggerReader - Loaded configuration from config.properties
+[INFO] 2025-02-23 15:40:05.715 [main] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-23 15:40:05.715 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-23 15:40:07.316 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-23 15:40:20.142 [main] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-23 15:40:20.142 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-23 15:40:34.633 [main] LoggerReader - Global setup completed.
+[INFO] 2025-02-23 15:40:37.586 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-23 15:40:37.597 [main] LoggerReader - Loaded configuration from config.properties
+[INFO] 2025-02-23 15:40:39.079 [main] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-23 15:40:39.079 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-23 15:40:40.643 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-23 15:40:42.232 [main] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-23 15:40:42.232 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-23 15:40:43.799 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-23 15:40:47.092 [main] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-23 15:40:47.092 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-23 15:40:48.379 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-23 15:40:51.723 [main] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-23 15:40:51.723 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-23 15:40:53.002 [main] LoggerReader - Initializing WebDriver for browser: chrome
+[INFO] 2025-02-23 15:40:54.994 [main] LoggerReader - Closing browser after scenario.
+[INFO] 2025-02-23 15:40:54.994 [main] LoggerReader - Closing WebDriver for current thread.
+[INFO] 2025-02-23 16:17:13.830 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 16:18:22.706 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 16:18:26.307 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 16:18:30.307 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 16:18:34.142 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 16:18:38.074 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 16:18:41.855 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 16:18:45.646 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 16:18:49.811 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 16:19:03.332 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 16:19:16.459 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 16:26:16.382 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 16:26:29.065 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 16:31:50.278 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 16:32:03.057 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 16:34:52.638 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 16:34:56.812 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 16:35:01.473 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 16:35:05.830 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 16:35:10.283 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 16:35:13.951 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 16:35:18.893 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 16:35:23.433 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 16:35:37.266 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 16:35:51.342 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 16:35:54.267 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 16:35:57.139 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 16:35:59.806 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 16:36:02.437 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 16:36:05.084 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 16:36:07.627 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 16:36:10.220 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 16:36:12.750 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 16:36:16.182 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 16:36:19.026 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 16:36:21.797 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 16:36:24.368 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 16:36:27.040 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 16:36:29.603 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 16:36:32.302 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 16:36:34.773 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 16:36:37.322 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 16:36:40.267 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 16:36:42.835 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 16:58:03.375 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 16:58:05.466 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 16:58:07.646 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 16:58:09.840 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 17:01:02.046 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 17:01:05.020 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 17:01:07.511 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 17:01:10.302 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 17:01:13.188 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 17:01:16.531 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 17:06:16.490 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 17:06:19.788 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 17:07:17.258 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 17:07:20.033 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 17:07:22.941 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 17:07:25.640 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 17:07:28.608 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 17:07:31.444 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 17:16:41.406 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 17:16:43.387 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 17:16:45.579 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 17:16:47.601 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 17:16:49.852 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 17:16:52.053 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 17:24:09.802 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 17:24:12.286 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 17:24:14.439 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 17:24:16.567 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 17:24:18.942 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 17:24:21.036 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 17:27:22.083 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 17:27:24.006 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 17:27:26.456 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 17:28:14.953 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 17:28:17.259 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 17:28:19.292 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 17:31:16.207 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 17:31:18.344 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 17:31:20.670 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 17:47:07.267 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 17:47:08.813 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 17:47:10.315 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 17:47:11.747 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 17:47:13.199 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 17:47:14.652 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 17:47:48.090 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 17:47:49.986 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 17:47:52.082 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 17:47:54.215 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 17:47:56.315 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 17:47:58.398 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 17:48:00.515 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 17:48:02.633 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 17:48:14.529 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 17:48:27.947 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 17:49:50.014 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 17:53:55.204 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 17:53:57.051 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 18:18:24.979 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 18:19:12.687 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 18:19:20.222 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 18:19:22.666 [main] LoggerReader - Sign Out link is displayed
+[INFO] 2025-02-23 18:19:23.871 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 18:24:11.730 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 18:24:14.191 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 18:24:16.639 [main] LoggerReader - Sign Out link is displayed
+[INFO] 2025-02-23 18:26:12.390 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 18:26:14.662 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 18:26:17.019 [main] LoggerReader - Sign Out link is displayed
+[INFO] 2025-02-23 18:28:55.435 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 18:28:58.076 [main] LoggerReader - Sign Out link is displayed
+[INFO] 2025-02-23 18:29:43.341 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 18:29:46.224 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 18:31:14.382 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 18:31:17.206 [main] LoggerReader - Sign Out link is displayed
+[INFO] 2025-02-23 18:33:06.227 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 18:33:09.323 [main] LoggerReader - Sign Out link is displayed
+[INFO] 2025-02-23 18:33:36.370 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 18:33:39.818 [main] LoggerReader - Sign Out link is displayed
+[INFO] 2025-02-23 18:34:41.290 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 18:34:44.474 [main] LoggerReader - Sign Out link is displayed
+[INFO] 2025-02-23 18:42:49.046 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 18:42:52.072 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 18:43:19.462 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 18:43:22.934 [main] LoggerReader - Sign Out link is displayed
+[INFO] 2025-02-23 18:43:28.196 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 18:45:01.351 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 18:45:06.782 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 18:45:11.177 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 18:45:15.599 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 18:45:20.064 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 18:45:23.264 [main] LoggerReader - Sign Out link is displayed
+[INFO] 2025-02-23 18:45:31.806 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 18:56:07.548 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 18:56:11.472 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 18:56:15.198 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 18:56:19.444 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 18:56:23.774 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 19:07:50.597 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 19:07:52.676 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 19:07:54.897 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 19:07:57.366 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 19:07:59.478 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 19:08:31.204 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 19:13:57.914 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 19:14:00.560 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 19:14:03.069 [main] LoggerReader - Linked List Title is displayed
+[INFO] 2025-02-23 19:14:19.537 [main] LoggerReader - User is in the Sign in page
+[INFO] 2025-02-23 19:14:29.584 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 19:16:26.732 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 19:21:57.469 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 19:22:22.895 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 19:22:24.986 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 19:22:26.924 [main] LoggerReader - Linked List Title is displayed
+[INFO] 2025-02-23 19:23:12.601 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 19:29:36.293 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 19:31:29.446 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 19:31:32.911 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 19:31:36.595 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 19:31:40.106 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 19:31:43.780 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 19:31:47.247 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 19:31:51.127 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 19:31:54.714 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 19:32:08.249 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 19:32:21.188 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 19:32:27.374 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 19:32:32.727 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 19:32:36.392 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 19:32:40.193 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 19:32:44.646 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 19:32:49.069 [main] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 19:33:58.296 [TestNG-PoolService-2] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 19:34:04.420 [TestNG-PoolService-3] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 19:34:04.453 [TestNG-PoolService-6] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 19:34:04.692 [TestNG-PoolService-7] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 19:34:04.701 [TestNG-PoolService-4] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 19:34:04.787 [TestNG-PoolService-8] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 19:34:05.641 [TestNG-PoolService-1] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 19:34:06.692 [TestNG-PoolService-5] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 19:34:07.568 [TestNG-PoolService-9] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 19:34:09.924 [TestNG-PoolService-10] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 19:34:33.188 [TestNG-PoolService-8] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 19:34:33.911 [TestNG-PoolService-5] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 19:34:35.794 [TestNG-PoolService-6] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 19:34:36.595 [TestNG-PoolService-7] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 19:34:37.635 [TestNG-PoolService-9] LoggerReader - Closing browser after all tests
+[INFO] 2025-02-23 19:34:41.356 [TestNG-PoolService-2] LoggerReader - Closing browser after all tests

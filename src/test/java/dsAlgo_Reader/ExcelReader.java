@@ -11,7 +11,8 @@ import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 public class ExcelReader {
-	
+//    ExcelReader readExcel = new ExcelReader();
+
 	public String[] excelDataRead(String sheetName, int rowNumber) throws IOException {
 	String path = System.getProperty("user.dir") + "/src/test/resources/TestData/DsAlgo_TestData.xlsx";
 	File excelFile = new File(path);

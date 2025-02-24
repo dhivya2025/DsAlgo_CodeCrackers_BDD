@@ -1,20 +1,24 @@
 Feature: Linked List Functionality
+Background: The user is on the sign-in page with login credentials
 
-  Scenario Outline: Verify user enters username and password for SignIn 
-  Given The user clicks the Sign In link from the portal
-  When The user gets data from excel sheet '<Sheetname>' and <RowNumber> for the login page
-  Then The user is in Home Page
-  
-Examples: 
-      |Sheetname |RowNumber |
-      |Login | 5|
+Given User is in the ds-algo launch page
+    When User clicks the Get Started button
+    And login with "Login_Valid" and 1
+    
+  #Scenario Outline: Verify user enters username and password for SignIn 
+  #Given The user clicks the Sign In link from the portal
+  #When The user gets data from excel sheet '<Sheetname>' and <RowNumber> for the login page
+  #Then The user is in Home Page
+  #
+#Examples: 
+      #|Sheetname |RowNumber |
+      #|Login | 5|
       
 Scenario: Verify that the user is able to click on Get Started button under Linked List section
- Given User is on the signIn page
   When User clicks on the Get Started button under Linked List section
   Then User is navigated to Linked List page
 
-Scenario: Verify that the Introduction link is enabled in the Linked List page
+  Scenario: Verify that the Introduction link is enabled in the Linked List page
   Given The user is in the Linked List page after Sign-In
   When The user checks whether the Introduction link is enabled
   Then The user should be able to see Introduction link enabled in the Linked List page
